@@ -1,0 +1,8 @@
+Title: Live Search Maps for Firefox
+Published: 4/18/2007
+Tags:
+    - New Technology
+---
+The Microsoft Live Search Maps update to include Firefox support that I blogged about a couple of weeks ago was released sooner than I expected. The updated maps API supporting Firefox has not yet been released but word has it that this is imminent as well. I’ve put together a brief screencast of Live Search Maps running in Firefox. Omitted from the screencast are the features that have been available in Firefox for a while, like bird’s eye view. Focus is given explicitly to navigating with the 3D control.
+
+When running the 3D control, you can turn detailed building rendering on or off from the options link in the upper right corner of the screen. Detailed rendering chews up more space but looks a whole lot better. It looks like Microsoft is definitely taking the geospatial market seriously and is out-innovating Google in this area. Cross browser 3D support (albeit limited to Windows), bird’s eye views, and other features are real eye catchers. In the 3D realm, I like Microsoft’s approach to creating the 3D space on their own. Google might have overextended the community participation concept with Google Earth’s philosophy of user-created 3d models. Do we really need 60 different virtual models of the Empire State Building? That seems just a bit too confusing. Still, if you look at the [number of mashups built](https://www.programmableweb.com/apis/directory) using the respective mapping APIs, Microsoft still has a lot of catching up to do. Either that or folks just aren’t willing to admit that Microsoft might actually have something here.

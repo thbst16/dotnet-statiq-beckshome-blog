@@ -1,0 +1,8 @@
+Title: Fiddler Demo - Camtasia for Mac
+Published: 4/17/2010
+Tags:
+    - New Technology
+---
+I was up at [Penn State IST school](https://ist.psu.edu/) this past week giving a lecture to a class as part of our recruiting. As part of the class, which was about application integration, I touched on the HTTP protocol. I believe that it’s extremely important that everyone starting out in web application programming or web-based integration have a deep knowledge of the HTTP protocol. Although you should eventually read a book about HTTP and ultimately read the protocol itself, sometimes it’s easier to learn by tinkering. Along these lines, I thought it would be interesting to provide a quick demo of using [Fiddler](https://www.telerik.com/download/fiddler) to inspect the HTTP protocol. I’ve included the screencast here. My apologies for the speed of the screencast. I was in a hurry to get it done and it sounds like I had an energy drink of five too many when I did the voice-over.
+
+I used [Camtasia for Mac](https://www.techsmith.com/video-editor.html) to record the screencast. Camtasia for Mac is a relatively new entrant to the marketplace and is priced at $99 to compete directly with [Screenflow](http://www.telestream.net/screenflow/overview.htm), the long time incumbent in the Mac screencast market. The tool couldn't be easier to use. It took no time at all to capture the screencast and post-capture editing, an area where Camtasia has always shined, is both powerful yet incredibly intuitive. If you're in the market for a Mac screencasting tool, I can only recommend Camtasia. You can pick up a free 30 day trial and, after that, $99 introductory pricing will get you the full product.

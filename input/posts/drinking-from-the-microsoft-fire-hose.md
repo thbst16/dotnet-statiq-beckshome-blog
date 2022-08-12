@@ -1,0 +1,12 @@
+Title: Drinking from the Microsoft Fire Hose
+Published: 1/1/2007
+Tags:
+    - Legacy Blog
+---
+What [Tad Anderson said](https://realworldsa.blogspot.com/2006/12/microsoft-has-become-abstraction.html) in a recent post about Microsoft as a “technology factory” really got me thinking. I particularly identified with his quote that “Microsoft has buried the average learner, and presented quite the challenge for the best workaholic out there.” With all of the things that he mentioned in his post plus the release of Vista, the coming release of Enterprise Library 3.0, software factory work from the Patterns and Practices group, not to mention C# 3.0, Lambda expressions, and… oh yeah, [F#](https://www.microsoft.com/en-us/research/project/f-at-microsoft-research/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fcambridge%2Fprojects%2Ffsharp%2Fdefault.aspx), it’s hard keeping your head above water as a Microsoft application development technology specialist these days.
+
+![Drinking From The Microsoft Firehose](http://s3.beckshome.com/20070101-Drinking-From-The-Microsoft-Firehose.png)
+
+Personally, my problems are compounded by trying to track both .NET and Java. Don’t get me wrong, there are a lot of great things going on in both of these camps and the opportunity to intelligently compare and contrast the technologies makes me a more valuable technologist, I think. However, it pains me to see my knowledge getting broader and shallower rather than targeted and deeper as I try to take a sip from the veritable technology fire hose.
+
+In what little free time remains for me, I’ve been familiarizing myself with Ruby on Rails (RoR) over the past year. This language / framework is intuitive, well-designed, and has this uncanny ability to work the way you’d expect it to. What’s impressed me the most about the Ruby on Rails community is the strong benevolent dictatorship of their core development group, lead by David Heinemeier Hansson. They have repeatedly set clearly defined, realistic expectations for what RoR is, and [more importantly, what it is not](https://www.martinfowler.com/bliki/EnterpriseRails.html). It’s refreshing to hear technologists say “sorry, our stack was never intended to do this and will not be modified to do this” and then come out and defend this stance against a slew of criticism. If this is an hour less spent learning the “latest and greatest” and an hour more spent solving real business issues; I’m sure my employer, my clients, and my family will all appreciate it.

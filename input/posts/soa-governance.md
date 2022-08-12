@@ -1,0 +1,16 @@
+Title: SOA Governance
+Published: 3/1/2007
+Tags:
+    - Legacy Blog
+---
+If you work in the IT world today, you have a greater chance of not finding a Starbucks on a randomly selected block in Manhattan than you do of not hearing the term “SOA” during your daily workday. It’s unfortunately not nearly as often that I hear or read something about SOA that sounds reasonable, practicable, and overcomes my otherwise skeptic view of all the hype that so often masquerades as SOA. The [recent ITConverations Podcast](http://web.archive.org/web/20130729204851id_/http://itc.conversationsnetwork.org/shows/detail1730.html) with Todd Biske and Ed Vasquez from MomentumSI is just the sort of real-world advice that avoids the hype and gives a heavy dose of ground truth reality.
+
+![SOA Governance](http://s3.beckshome.com/20070301-SOA-Governance.png)
+
+Todd and Ed offer some pragmatic advice with respect to SOA and highlight challenges that really resonate with me based upon my experiences. Amongst these are the lack of a single design time and run time governance toolset and the importance of the mindshift from developing enterprise applications to developing reusable enterprise functionality that can be leveraged by different applications. Most importantly, however, is their insight in the importance of thinking of services as products. I have found this to be one of the single largest hurdles to achieving reuse – be it component-based or service-based reuse. Proficiency in application development in no way guarantees proficiency in product-based service development. In fact, most application development organizations that I have dealt with have little or no experience with product-based development. I couldn’t possibly cover all of the disciplines needed to master product-based development in this short post but I’ll refer you to a couple of sources that I feel give more than an adequate introduction.
+
+* [Beyond Software Architecture: Creating and Sustaining Winning Solutions](https://www.amazon.com/Beyond-Software-Architecture-Sustaining-Solutions/dp/0201775948/sr=8-1) – Despite the fact that I only gave it 3 stars in my Amazon review, this is the definitive read on product-based development.
+* Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NET Libraries](https://www.amazon.com/Framework-Design-Guidelines-Conventions-Development/dp/0321246756/sr=1-1/) – Although ostensively a book on framework design, this book gives some great guidance on developing an API to meet the needs of its users, not the needs of its designers.
+* [Enabling the Service Oriented Enterprise](https://docs.microsoft.com/en-us/previous-versions/bb245664(v=msdn.10)?redirectedfrom=MSDN) – Not much product development here. This article, however, fills in the missing pieces of product development that are exclusive to services.
+
+I plan on recommending this Podcast to a number of people that I work with or have worked with in the past. I can’t expect everyone that I deal with to spend time digesting countless books and articles on the topic of SOA. As a matter of fact, given some of the materials out there, this might just prove more confusing than useful. An hour of time to listen to a Podcast (especially this one) isn’t too much to ask though. You’ll learn an awful lot in this hour.

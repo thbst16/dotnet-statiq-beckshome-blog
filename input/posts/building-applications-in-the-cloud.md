@@ -1,0 +1,15 @@
+Title: Building Applications in the Cloud
+Published: 3/1/2007
+Tags:
+    - Legacy Blog
+---
+In the first of my beginning-of-the-month speed blogs, I’d like to start with the topic that I’ve been putting off longest, building applications on top of Amazon’s Web services. For those of you that think of Amazon.com as just a book store, or an e-commerce platform, or [add your assumption here], think again. In the last year or so, Amazon has released a number of services that have not only established them as a first-class platform, but have pushed the envelope considerably on the idea of virtualization.
+
+![Building Applications in the Cloud](http://s3.beckshome.com/20070301-Building-Applications-In-The-Cloud.gif)
+
+This trend started with Amazon’s [Simple Storage Service (S3)](https://aws.amazon.com/s3/) and was expanded on with their [Simple Queue Service (SQS)](https://aws.amazon.com/sqs/). Late last year, Amazon blew the roof off with the limited release of their [Elastic Compute Cloud (EC2) service](https://aws.amazon.com/ec2/). EC2 is a configurable computing environment where you can load up virtual instances (roughly equivalent to your average Linux server) – on demand. You can load or unload these instances to meet cyclical demand and you only get charged for the computing time that you use. Couple this grid computing potential with S3 for storage and SQS for queuing and let your imagination be the limit.
+
+Doug Kaye’s architecture for GigaVox Audio Lite[](https://blogarithms.com/2007/02/03/amazon-for-infrastructure-on-demand/), an audio file transcoder, might give you some ideas about what can be done with these services. The related [ITConversations podcast](http://web.archive.org/web/20130729204901id_/http://itc.conversationsnetwork.org/shows/detail1728.html) contains plenty of details, with both Kaye and Jeff Barr, from Amazon, on the wire with Phil Windley. This podcast does a good job of conveying the vision and the realities of using these services. Some of the discussions, like managing and developing on top of a globally distributed queuing system where a call like size = MyQueue.size doesn’t really make any sense, will cause you to stop and think.
+
+The final new Amazon service that I didn’t mention is [Mechanical Turk](https://www.mturk.com/), which is, simply put, a computer interface onto human services. This one has been around for a while and never got much attention from me until I heard the Podcast. Interestingly, the site [castingwords.com](https://castingwords.com/), which produces Podcast transcriptions, farms out their work via Mechanical Turk. The combination – digital input in (MP3); digital input out (electronic transcript); virtual computing; virtual workforce – that’s pretty radical. There are some other great uses for this service mentioned on the Podcast as well.
+The Podcast is absolutely worth a listen. And if this sort of thing piques your interest, you’re not alone. The queue to get into the EC2 beta program is a few months long. If you’re even remotely interested, get in line now.

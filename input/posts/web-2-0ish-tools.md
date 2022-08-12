@@ -1,0 +1,15 @@
+Title: "Web 2.0'ish Tools"
+Published: 11/30/2006
+Tags:
+    - Legacy Blog
+---
+Following up on my This Digital Life post last month, a couple of folks have sent me emails asking if I had some recommendations around other Web 2.0 tools. In the sprit of a recent podcast that defined Web 2.0 as “really anything that’s cool online nowadays”, I decided to post some Web 2.0’ish tools that I highly recommend. Some of these tools I’ve been using for a year or more (a mighty long time in the Web 2.0 world) and some I’ve been using for just a couple of weeks. Most are, with the exception of Central Desktop, free services. Enjoy and let me know if you find these useful.
+
+![Web-2-0-ish-Tools](http://s3.beckshome.com/20061130-Web-2-0-ish-Tools.png)
+
+* **scanR** – Snap digital pictures of whiteboards or paper documents and upload them for processing to scanR. The images are cleaned up, PDFed, and sent back to you in an email. You can also upload images of business cards, which are then converted into vCards that can be imported into your favorite contact management program.
+* **Vyew** – I’m a recent convert to Vyew and have been nothing but impressed with its features and ease of use. Think WebEx; but it’s better and it’s free.
+* [Zamzar](https://www.zamzar.com/) – File conversion online. Format… you name it. Upload a file, identify the type of conversion you’re looking for and Zamzar quickly converts the file; returning the finished product to you via email. Zamzar supports over 200 conversion types. Some of my favorites are doc-to-pdf, ac3-to-mp3, and avi-to-flv.
+* **Mediamax** – So now that you have all of this digital media, what do you do with it? Enter Mediamax. You get a whopping 25GB of storage for free and the pricing plans for more space are very reasonable. This includes sharing and hosting of digital audio and video and a Windows-based tool for file synchronization and automated backup.
+* [Google Calendar](https://calendar.google.com/) / [Remember the Milk](https://www.rememberthemilk.com/) – With some recent integration efforts, this is a tool match made in heaven. The best calendaring tool combined with the best to-do list manager, all in one very intuitive UI. Although not combined, these tools both have great browser-based PDA versions as well.
+* [Central Desktop](http://www.centraldesktop.com/) – The Cadillac of the tools listed here and, as mentioned earlier, the only one that does not have a perma-free option. This tool is simply so awesome that it warrants mention. Central Desktop is software as a service at its finest. Portal based functionality, project management, full text indexing and search of uploaded documents, Web meeting and audio conferencing capabilities, IM and Skype integration, version control, and the list goes on. It’s not as lightweight as Basecamp but it has all the features you wish for in Basecamp and is even more intuitive.

@@ -1,0 +1,20 @@
+Title: "User-Generated Content"
+Published: 7/27/2006
+Tags:
+    - Legacy Blog
+---
+For some time I’ve been giving thought to user-generated content on the Internet. In particular, I’ve been interested in audio and video content. A [recent post by Dion Hinchcliffe](https://web2.socialcomputingjournal.com/user-generated-content-and-youtube/) drove me to put a bit more structure around my ideas and put pen to paper, figuratively speaking.
+
+I’ve been following Dion’s blog for nearly a year now and his writing helped shape my thinking about Web 2.0. Although I strongly agree with his statement that user-generated content is one of the pillars of Web 2.0, it appears that we disagree somewhat with respect to the limits of its potential. I can honestly say that user-generated content on sites such as Amazon.com, Wikipedia, and del.icio.us has added tangible value to my online experience. In many ways, there is no way to even emulate these services in the world outside of the Web. I don’t think, however, that I will ever be able to make a similar assertion about video and YouTube, in its current incarnation.
+
+![YouTube User Generated Content](http://s3.beckshome.com/20060727-YouTube-User-Generated-Content.gif)
+
+Call it frivolous, but I’d rather spend a couple of dollars to download the latest version of Lost or 24 onto my iPod than watch any number of the best of the best YouTube clips. Creating quality programming usually involves capital expenditures beyond most individuals’ means; casting and directing a team of professionals – be it actors, animators or otherwise; leveraging a professional production staff; and having a mechanism for distributing this programming. YouTube only addresses one facet in the programming production chain – distribution.
+
+The fact that YouTube represents such a radical departure from traditional video content distribution channels has lead many to attribute much more disruptive potential to YouTube than might ever be realized. In my opinion, creating video content that will compel a potential audience to pay to be entertained still requires a talented team and some degree of financial backing. The existing TV networks, their content acquisition pipelines, and advertising revenues continue to be the driving force in enabling the creation of programming with sufficient mass market appeal to justify its creation.
+
+In many cases, the existing networks churn out content of questionable artistic, societal, and intellectual value. In some cases, however, they hit a home run. Will a Seinfeld or 24 ever emerge from YouTube directly? I consider this highly unlikely. In this sense, I believe that the true power of YouTube and its Web 2.0 brethren is the way they can shift the balance of power in the way that quality media is identified and consumed.
+
+The trend towards on-demand and pay-per-view programming is already well underway. Leveraging Internet technologies, YouTube can compound this trend by decoupling us from conventional viewing medium (the television) and making video consumption location independent. It also provides a channel for aspiring actors, directors, and producers to create and distribute content of real artistic, societal, and intellectual value that they might otherwise never have had. This channel could also serve as a feeder for obtaining lucrative financial backing and making a trip to “the big league”.
+
+Most importantly however, is the fact that on-demand, Internet-based video like that provided by YouTube enables an Athenian (some might read Orwellian) type democracy in which the world’s 5 billion viewers can let those responsible for supporting the production of content know what they’d really like to see. The age of the statistically representative U.S. Nielsen family will be gone forever and, for better or worse, the power to generate, identify, and consume content will be put in the hands of the people. Therein lies the true potential of YouTube.

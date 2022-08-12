@@ -1,0 +1,16 @@
+Title: "Value == Services + Device"
+Published: 1/16/2007
+Tags:
+    - Legacy Blog
+---
+The [<i>Technology and Venture Capitalism Podcast</i>](http://web.archive.org/web/20130729204959id_/http://itc.conversationsnetwork.org/shows/detail1693.html) on IT Conversations featured some interesting guests who brought a lot of good ideas to the table. Phil Windley, the moderator, got the guests to kick around the concept of patterns for applications that are good prospective candidates for funding in the VC world. The discussion started with the simple advertising-only model (a’la Google) and the group then moved onto the Apple iTunes / iPod model.
+
+The premise of the Apple discussion was that the combination of offering digital media services (iTunes Store), a rich user management interface (iTunes), and a non-traditional computing device offered a model that might be increasingly followed in the future. The group referred to Tim O’Reilly’s O’Reilly Radar presentation, in which Tim cited hardware hacks as an important trend to watch in the future. They also chatted a bit about the [Chumby](http://www.chumby.com/), a much-hyped hardware hack that is available is being circulated in prototype mode to über-Alpha-geeks.
+
+All of this talk got me thinking and putting together a mental model. It brought me back to a McKinsey interview I had in the late dot-com era where the interviewer asked me to draw out a value map for several emerging digital media technologies. Granted, there were no iPods or Chumbies back then but the value map visual seems to work just as well for these newer technologies too. I’ve included a simple map of some representative technologies (circa 2006-2007) below.
+
+![Value == Services + Device](http://s3.beckshome.com/20070116-Value-Equals-Services-Plus-Device.png)
+
+In the diagram, the dollar signs [<span style="color:red">$$$</span>] represent where the primary value derivation occurs in the chain. If you buy into the Value == Services + Device equation, TiVo and Apple are set to come out on top since they control both services and devices. Brings to mind all types of questions around potential commoditization of the services and devices as well as to what strategic leverage (aside from high switching costs) these companies enjoy. Audible and MySpace own only the services, having to rely upon complimentary products (MP3 players and the browser, respectively) to deliver their services. The Chumby is in an interestingly unique position, controlling only the device but not the services. This makes me wonder what the long term value potential is for this product. It would seem that, without very strong branding and product loyalty, the Chumby would be exposed to all sorts of knock-offs. I guess time will tell.
+
+All of this makes devices like the [iPhone](https://www.apple.com/iphone/) very interesting in the future. With the combination of very strong branding and the ability to integrate content from all of the major media channels, it would seem that the iPhone is a market killer in an increasingly mobile society. With all of that power in one place, you might want to keep an extra one or two handy, just in case…
