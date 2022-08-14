@@ -5,11 +5,26 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+stages:
+- stage: Build
+  displayName: Build image
+  jobs:
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  - job: Transform
+    displayName: Transform markdown content to Statiq output
+    variables:
+      project: "statiq-site.csproj"
+    steps:
+    - task: DotNetCoreCLI@2
+      displayName: Build
+      inputs:
+        command: "build"
+        projects: $(project)
+        workingDirectory: "src"
+
+    - task: DotNetCoreCLI@2
+      displayName: Generate
+      inputs:
+        command: "run"
+        projects: $(project)
+        workingDirectory: "src"
