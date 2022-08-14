@@ -4,6 +4,9 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  
+variables:
+  ARTIFACT_NAME: BeckshomeBlog
 
 stages:
 - stage: Build
