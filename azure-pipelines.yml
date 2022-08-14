@@ -26,3 +26,10 @@ stages:
       inputs:
         command: "run"
         projects: $(project)
+        
+    - task: CopyFiles@2
+      displayName: Copy
+      inputs:
+        SourceFolder: "$(Build.SourcesDirectory)/output"
+        Contents: "**"
+        TargetFolder: "$(Build.ArtifactStagingDirectory)/output"
