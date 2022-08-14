@@ -20,11 +20,9 @@ stages:
       inputs:
         command: "build"
         projects: $(project)
-        workingDirectory: "src"
 
     - task: DotNetCoreCLI@2
       displayName: Generate
       inputs:
         command: "run"
         projects: $(project)
-        workingDirectory: "src"
