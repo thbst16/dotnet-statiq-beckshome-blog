@@ -33,3 +33,10 @@ stages:
         SourceFolder: "$(Build.SourcesDirectory)/output"
         Contents: "**"
         TargetFolder: "$(Build.ArtifactStagingDirectory)/output"
+        
+    - task: PublishPipelineArtifact@1
+      displayName: Share
+      inputs:
+        targetPath: "$(Build.ArtifactStagingDirectory)/output"
+        artifact: "$(ARTIFACT_NAME)"
+        publishLocation: "pipeline"
