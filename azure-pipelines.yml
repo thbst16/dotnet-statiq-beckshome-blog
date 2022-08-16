@@ -60,8 +60,9 @@ stages:
           steps:
           
             - task: AzureCLI@2
+              displayName: PublishToBlob
               inputs:
                 azureSubscription: 'beckshome-static'
-                scriptType: 'ps'
+                scriptType: 'pscore'
                 scriptLocation: 'inlineScript'
                 inlineScript: 'az storage blob upload-batch -d `$web --account-name $(AZURE_STORAGE_ACCOUNT) -s "$(Pipeline.Workspace)/$(ARTIFACT_NAME)/"'
