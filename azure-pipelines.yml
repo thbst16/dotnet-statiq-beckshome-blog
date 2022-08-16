@@ -58,11 +58,10 @@ stages:
       runOnce:
         deploy:
           steps:
-            - task: AzureFileCopy@4
-              displayName: 'Copy Files to Storage'
+          
+            - task: AzureCLI@2
               inputs:
                 azureSubscription: 'beckshome-static'
-                SourcePath: '$(Pipeline.Workspace)/$(ARTIFACT_NAME)/*'
-                Destination: 'AzureBlob'
-                storage: '$(AZURE_STORAGE_ACCOUNT)'
-                ContainerName: '$web'
+                scriptType: 'ps'
+                scriptLocation: 'inlineScript'
+                inlineScript: 'az storage blob upload-batch -d `$web --account-name $(AZURE_STORAGE_ACCOUNT) -s "$(Pipeline.Workspace)/$(ARTIFACT_NAME)/"'
