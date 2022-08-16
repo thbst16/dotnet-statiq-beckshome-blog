@@ -44,7 +44,7 @@ stages:
         artifact: "$(ARTIFACT_NAME)"
         publishLocation: "pipeline"
       
-  stage: Release
+- stage: Release
   displayName: Deploy static content to Azure
   jobs:
   - deployment: DeployToStorage
