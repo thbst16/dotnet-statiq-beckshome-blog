@@ -51,6 +51,9 @@ stages:
     displayName: Deploy to Azure Storage
     environment: developmomentum-production
 
+    variables:
+      AZURE_STORAGE_ACCOUNT: beckshomestorage
+
     strategy:
       runOnce:
         deploy:
@@ -58,7 +61,7 @@ stages:
             - task: AzureFileCopy@4
               displayName: 'Copy Files to Storage'
               inputs:
-                azureSubscription: 'add-azure-subscription'
+                azureSubscription: 'beckshome-static'
                 SourcePath: '$(Pipeline.Workspace)/$(ARTIFACT_NAME)/*'
                 Destination: 'AzureBlob'
                 storage: '$(AZURE_STORAGE_ACCOUNT)'
