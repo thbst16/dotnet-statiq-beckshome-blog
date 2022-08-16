@@ -43,3 +43,23 @@ stages:
         targetPath: "$(Build.ArtifactStagingDirectory)/output"
         artifact: "$(ARTIFACT_NAME)"
         publishLocation: "pipeline"
+      
+  stage: Release
+  displayName: Deploy static content to Azure
+  jobs:
+  - deployment: DeployToStorage
+    displayName: Deploy to Azure Storage
+    environment: developmomentum-production
+
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+            - task: AzureFileCopy@4
+              displayName: 'Copy Files to Storage'
+              inputs:
+                azureSubscription: 'add-azure-subscription'
+                SourcePath: '$(Pipeline.Workspace)/$(ARTIFACT_NAME)/*'
+                Destination: 'AzureBlob'
+                storage: '$(AZURE_STORAGE_ACCOUNT)'
+                ContainerName: '$web'
