@@ -65,7 +65,7 @@ stages:
                 azureSubscription: 'beckshome-static'
                 scriptType: 'pscore'
                 scriptLocation: 'inlineScript'
-                inlineScript: 'az storage blob delete-batch -s `$web --account-name $(AZURE_STORAGE_ACCOUNT) --auth-mode login'
+                inlineScript: 'az storage blob delete-batch -s `$web --account-name $(AZURE_STORAGE_ACCOUNT)'
             - task: AzureCLI@2
               displayName: 'Copy Files to Storage'
               inputs:
