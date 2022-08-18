@@ -4,6 +4,9 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  
+variables:
+  ARTIFACT_NAME: BeckshomeBlog
 
 stages:
 - stage: Build
@@ -33,3 +36,40 @@ stages:
         SourceFolder: "$(Build.SourcesDirectory)/output"
         Contents: "**"
         TargetFolder: "$(Build.ArtifactStagingDirectory)/output"
+        
+    - task: PublishPipelineArtifact@1
+      displayName: Share
+      inputs:
+        targetPath: "$(Build.ArtifactStagingDirectory)/output"
+        artifact: "$(ARTIFACT_NAME)"
+        publishLocation: "pipeline"
+      
+- stage: Release
+  displayName: Deploy static content to Azure
+  jobs:
+  - deployment: DeployToStorage
+    displayName: Deploy to Azure Storage
+    environment: developmomentum-production
+
+    variables:
+      AZURE_STORAGE_ACCOUNT: beckshomestorage
+
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          
+            - task: AzureCLI@2
+              displayName: 'Delete Existing Files'
+              inputs:
+                azureSubscription: 'beckshome-static'
+                scriptType: 'pscore'
+                scriptLocation: 'inlineScript'
+                inlineScript: 'az storage blob delete-batch -s `$web --account-name $(AZURE_STORAGE_ACCOUNT)'
+            - task: AzureCLI@2
+              displayName: 'Copy Files to Storage'
+              inputs:
+                azureSubscription: 'beckshome-static'
+                scriptType: 'pscore'
+                scriptLocation: 'inlineScript'
+                inlineScript: 'az storage blob upload-batch -d `$web --account-name $(AZURE_STORAGE_ACCOUNT) -s "$(Pipeline.Workspace)/$(ARTIFACT_NAME)/"'
