@@ -1,4 +1,5 @@
 ﻿using Statiq.App;
+using Statiq.Common;
 using Statiq.Web;
 
 namespace StatiqBlog
@@ -9,6 +10,11 @@ namespace StatiqBlog
       await Bootstrapper
         .Factory
         .CreateWeb(args)
+        .DeployToAzureAppService(
+          "beckshome-blog",
+          "$beckshome-blog",
+          Config.FromSetting<string>("AzureAppServicePassword")
+        )
         .RunAsync();
   }
 }
