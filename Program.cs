@@ -11,8 +11,8 @@ namespace StatiqBlog
         .Factory
         .CreateWeb(args)
         .DeployToAzureAppService(
-          "beckshome-blog",
-          "$beckshome-blog",
+          "dotnet-statiq-beckshome-blog",
+          "$dotnet-statiq-beckshome-blog",
           Config.FromSetting<string>("AzureAppServicePassword")
         )
         .RunAsync();
