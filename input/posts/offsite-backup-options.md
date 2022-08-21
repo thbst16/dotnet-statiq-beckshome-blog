@@ -5,7 +5,7 @@ Tags:
 ---
 I’ve been sitting on my offsite backup upgrade for a long while now and finally decided to pull the trigger this week. I’ve used MozyHome for many years but the Mozy rate hike 6 months back agitated me. Combine this with the fact that, for more money, I’m not even getting the amount of backup I used to get and it was clearly time to move on, even though I’m nowhere near the 18 billion Gigabytes of storage Mozy claims I’m using.
 
-![Mozy Backup Error](http://s3.beckshome.com/20110909-Mozy-Error.png)
+![Mozy Backup Error](https://s3.amazonaws.com/s3.beckshome.com/20110909-Mozy-Error.png)
 
 I looked at some side-by-side reviews of home backup products and found that gigaom had the most useful reviews. Their original review, which was done in 2009, compared the two top contenders at that point in time: MozyHome and Carbonite. I’ve included the link more for completeness at this point since these I wasn’t really interested in these two players. Gigaom’s review of upstart providers Backblaze and Crashplan was much more interesting and convinced me to go with Crashplan as my new backup provider (bye, bye Mozy). I’ve always been interested in Crashplan’s unique peer-to-peer backup option. With their unlimited offsite backup now being extremely price competitive and with an optional family plan, Crashplan has all the features I’m looking for.
 

@@ -9,4 +9,4 @@ I was hoping that TFS 2008 had built in functionality to manage project archivin
 
 The good news is that, if you’re willing to make the move, TFS 2010 has functionality to explicitly address the requirement for TFS archiving and history management. TFS 2010 Team Project Collections allow you to organize similar projects into collections and, most importantly for our needs, allocate a different set of hardware resources for each team project collection. The benefit of this setup and applicability to the intent of this blog post should be immediately obvious. The downside of this approach is that you can’t work (link work items, branch & merge, etc.) across project collections. An annotated version of a diagram from the [MSDN Team Project Collections documentation](https://docs.microsoft.com/en-us/azure/devops/server/admin/manage-project-collections?view=azure-devops-2020&viewFallbackFrom=azure-devops) can be found below.
 
-![Team Project Collections](http://s3.beckshome.com/20100502-Team-Project-Collections.png)
+![Team Project Collections](https://s3.amazonaws.com/s3.beckshome.com/20100502-Team-Project-Collections.png)

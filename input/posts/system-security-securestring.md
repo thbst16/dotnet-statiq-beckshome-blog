@@ -7,7 +7,7 @@ I recently had the opportunity to look into and make use of the Microsoft [Syste
 
 The diagram below shows that, in the case of System.String, what you get is an unencrypted string located in managed memory. Due to the immutability of String objects and the nondeterministic nature of the .NET Garbage Collector, the need for one string may result in multiple string objects scattered across managed memory, waiting to be compromised.
 
-![.NET Secure String](http://s3.beckshome.com/20110911-Secure-String.jpg)
+![.NET Secure String](https://s3.amazonaws.com/s3.beckshome.com/20110911-Secure-String.jpg)
 
 In the case of a SecureString, you don’t have an unsecure String in managed memory. Instead, you get a [DPAPI](https://en.wikipedia.org/wiki/Data_Protection_API) encrypted array of characters in unmanaged memory. And, since SecureString implements the IDisposable interface, it’s easy to deterministically destroy the string’s secure contents. There are some limited .NET 4.0 Framework classes that accept SecureStrings as parameters, including the cryptographic service provider (CSP), X.509 certificate classes and several other security related classes. But what if you want to create your own classes that accept and deal with secure strings? How do you deal with the SecureString from managed .NET code and how do you ensure that you don’t defeat the purpose of the SecureString by leaving intermediate strings unsecure in memory buffers?
 
