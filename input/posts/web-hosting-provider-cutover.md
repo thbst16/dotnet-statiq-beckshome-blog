@@ -11,7 +11,7 @@ I have three requirements of a hosting provider. Once they could fulfill these 3
 * Provide Subversion source control services.
 * Support [OSQA](https://www.osqa.net/), which essentially means running Python and Django
 
-![Dreamhost Cutover](http://s3.beckshome.com/20110925-Dreamhost-Cutover.jpg)
+![Dreamhost Cutover](https://s3.amazonaws.com/s3.beckshome.com/20110925-Dreamhost-Cutover.jpg)
 
 Both my ex-provider and my new provider met these three requirements – my ex-provider at the high cost side and my new provider at the low cost side. At both ends of the price extremes, they still have similar architectures though – a single server that can host PHP, Python and MySQL. Despite the fact that one is Windows and one is Linux, they’re still both standard hosting stacks.
 
