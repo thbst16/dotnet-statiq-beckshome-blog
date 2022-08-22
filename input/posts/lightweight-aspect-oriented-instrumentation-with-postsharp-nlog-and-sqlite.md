@@ -5,11 +5,11 @@ Tags:
 ---
 How would you like to achieve detailed exception and trace logging, including method timing and correlation all within a lightweight in-memory database that you can easily manage and query, as exhibited below?
 
-![.NET Logging Output](http://s3.beckshome.com/20100407-Logging-Output.png)
+![.NET Logging Output](https://s3.amazonaws.com/s3.beckshome.com/20100407-Logging-Output.png)
 
 All of this requiring nothing more of you than simply decorating your methods with a very simple attribute, as highlighted below.
 
-![.NET Attribute Usage](http://s3.beckshome.com/20100407-Attribute-Usage.png)
+![.NET Attribute Usage](https://s3.amazonaws.com/s3.beckshome.com/20100407-Attribute-Usage.png)
 
 In this post, I’m going to demonstrate how to configure [PostSharp](https://www.postsharp.net/), an aspect-oriented framework, along with NLog and SQLite to achieve the benefits highlighted above. Before I get into the details of the configuration and aspect source code, I’ll provide a bit of background on PostSharp.
 
@@ -23,11 +23,11 @@ What makes PostSharp stand out among competing aspect-oriented frameworks is how
 
 **Before PostSharp Attribute Applied to About() Method**
 
-![Disassembly Before Postsharp](http://s3.beckshome.com/20100407-Disassembled-Before-Postsharp.png)
+![Disassembly Before Postsharp](https://s3.amazonaws.com/s3.beckshome.com/20100407-Disassembled-Before-Postsharp.png)
 
 **After PostSharp Attribute Applied to About() Method**
 
-![Disassembly After Postsharp](http://s3.beckshome.com/20100407-Disassembled-After-Postsharp.png)
+![Disassembly After Postsharp](https://s3.amazonaws.com/s3.beckshome.com/20100407-Disassembled-After-Postsharp.png)
 
 What this means is that you get very good performance of aspects but will need to pay a higher price at build/compile time. [Ayende provides a good overview of various AOP approaches](https://ayende.com/blog/2615/7-approaches-for-aop-in-net), including the one that PostSharp uses. Don’t be concerned by his “hard to implement” comment. The hard part was done by the creators of PostSharp, who have made it easy for you.
 
@@ -35,7 +35,7 @@ What this means is that you get very good performance of aspects but will need t
 
 The remainder of this post will focus on the actual implementation of the solution. Much of the code I have here was cobbled together from a blog post I archived long ago from an unknown author. I’d love to provide attribution but, like many blogs out there, it seemed to have disappeared over time. I’ll start off first with the SQLite table structure, which can be found below.
 
-![Loggong to SQLite Table](http://s3.beckshome.com/20100407-Logging-SQLite-Table.png)
+![Loggong to SQLite Table](https://s3.amazonaws.com/s3.beckshome.com/20100407-Logging-SQLite-Table.png)
 
 The logging configuration file is very similar to [my post on logging with SQLite and NLog](http://blog.beckshome.com/index.php/2010/03/logging-to-sqlite-with-nlog/2010/03/logging-to-sqlite-with-nlog/) with minor changes to the SQLite provider version.
 

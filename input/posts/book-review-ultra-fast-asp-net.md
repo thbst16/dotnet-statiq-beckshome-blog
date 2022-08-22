@@ -6,7 +6,7 @@ Tags:
 ---
 I picked up [this gem of a book](https://www.amazon.com/Ultra-Fast-ASP-NET-Build-Ultra-Scalable-Server/dp/1430223839/) when it first came out in eBook format during the PDC. I sent it over to my Kindle and got through the entire book during session downtimes. I planned on being the first to post a review of this book on Amazon but I’ve sat it out too long and will now be the fifth review.
 
-![Ultra-Fast ASP.NET](http://s3.beckshome.com/20100401-Ultra-Fast-ASP-Net.jpg)
+![Ultra-Fast ASP.NET](https://s3.amazonaws.com/s3.beckshome.com/20100401-Ultra-Fast-ASP-Net.jpg)
 
 The first four reviewers did a pretty respectable job of providing and overview of Mr. Kiessig’s qualifications and the book content and have all awarded the book the entirely deserved 5 start rating. Rather than pile on more information about Rick Kiessig or what’s in the book, I’m going to tell you why, as a person who has spent a good amount of time looking at .NET application performance, I recommend this book to every person I work with as mandatory reading:
 
