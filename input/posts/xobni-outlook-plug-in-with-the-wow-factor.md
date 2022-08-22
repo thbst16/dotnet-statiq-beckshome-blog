@@ -15,7 +15,7 @@ I was surprised to find that there is a relatively small offering of Microsoft O
 
 Xobni is available as a free plug-in from xobni.com. Once you get hooked on the free plug-in, you can opt for Xobni Plus, which will set you back about $30. The plug-in offers a bunch of very cool features. I’ve provided some color commentary and screenshots of the things that have impressed me over the last several weeks. Try Xobni out. I think you’ll find yourself saying “Wow” too.
 
-![Xobni Main Page](http://s3.beckshome.com/20100310-Xobni-Main.png)
+![Xobni Main Page](https://s3.amazonaws.com/s3.beckshome.com/20100310-Xobni-Main.png)
 
 * **Search.** Xobni indexes all of your emails and provides screaming fast full text search. Once you use Xobni’s search, you will never go back to Outlook’s built-in search.
 * **Automatic Address Book.** Even if you limit your Outlook contact list to a sane number of contacts, Xobni will go make an “automatic address book” that includes everyone you’ve ever communicated with. It automatically extracts phone numbers from the emails and adds them to the address book for you and, if you’re using Xobni Plus, Xobni will use your Automatic Address Book for email address autosuggest so you’ll never have to look up an email again.
@@ -23,4 +23,4 @@ Xobni is available as a free plug-in from xobni.com. Once you get hooked on the 
 * **Threaded Conversations with Zoom.** You just have to see this one to believe it. Xobni creates threaded conversations for all of your interactions with a particular person. If you hover over the thread, you can see the entire conversation, along with the pictures of the people in the conversation (as available).
 * **Time Scheduling Feature.** I just love this one and wonder why Microsoft didn’t think of this 10 years ago. Xobni generates an email with your availability for the next week and sends it to the person in question. Very convenient way to schedule meetings, especially across organizations that don’t share Exchange servers.
 * **Email Analytics.** This is less on the really useful side and more on the “cool and interesting” side. Xobni’s analytics range from person-by-person rankings of your most important contacts to detailed statistics and graphs that are generated outside of the plug-in in a separate analytics module. Xobni  also offers up “fun facts” about who responds to you the fastest, who you respond to the fastest, etc. so that you can follow up to these contacts with emails (with links to the Xobni product, of course).
-![Xobni Analytics](http://s3.beckshome.com/20100310-Xobni-Analytics.png)
+![Xobni Analytics](https://s3.amazonaws.com/s3.beckshome.com/20100310-Xobni-Analytics.png)

@@ -9,4 +9,4 @@ I thought the table was in Lowy’s Programming WCF Services. Full attribution t
 
 The table is awesome because it shows you the results of the different ways of combining these two important WCF concurrency settings, including the default combination.  Without some trial and error, it’s not always easy to intuit what the combination of these settings means. This table makes it easy.
 
-![WCF Context and Concurrency](http://s3.beckshome.com/20100323-WCF-Context-and-Concurrency.png)
+![WCF Context and Concurrency](https://s3.amazonaws.com/s3.beckshome.com/20100323-WCF-Context-and-Concurrency.png)

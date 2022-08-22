@@ -5,7 +5,7 @@ Tags:
 ---
 Facebook has long been for me one of the last unexplored realms of social networking. Finally, when trying to convince new recruits to join me in using Twitter, I realized that so many of my friends, acquaintances, and colleagues were hooked on Facebook, I stood little chance of winning them over to Twitter without a deeper understanding of where Facebook fits in the social networking mix. I turned to the book [“Facebook Me!”](https://www.amazon.com/gp/product/032159195X/) by Dave Awl to provide a solid background in how Facebook might work best for me and to help me understand how to integrate Facebook with the rest of the Web 2.0 applications I use. My review of this book from Amazon.com can be found below.
 
-![Facebook Me](http://s3.beckshome.com/20090714-Facebook-Me.jpg)
+![Facebook Me](https://s3.amazonaws.com/s3.beckshome.com/20090714-Facebook-Me.jpg)
 
 <i>This book provides the ideal balance between introduction to the Facebook application and reference manual for the more experienced user. The first few chapters will prove a bit superfluous to all but the greenest of newbies. After that, you can count on some pretty solid information on using Facebook to enhance your online social communications leveraging the breadth of Facebook’s communication features. Several elements of the book appealed to me particularly:
 

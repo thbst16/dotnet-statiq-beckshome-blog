@@ -5,7 +5,7 @@ Tags:
 ---
 Three months after the PDC conference and I’m finally catching up on the reading materials I collected in LA. One of the books I picked up was a copy of the Patterns and Practices Group’s <i>A Guide to Claims Based Identity and Access Control</i>. It turns out that this book just RTM’ed and is now available online in PDF and HTML formats.
 
-![Claims Based Identity and Access Control](http://s3.beckshome.com/20100311-Claims-Based-Identity-and-Access-Control.png)
+![Claims Based Identity and Access Control](https://s3.amazonaws.com/s3.beckshome.com/20100311-Claims-Based-Identity-and-Access-Control.png)
 
 This book is unique in the Microsoft world. You can find all kinds of books that scratch the surface of application and web service security. If you’re looking to dive deep and understand Claims-based identify and federated security, you were relegated to piecing bits of information from blogs, MSDN, and other sources – until this book arrived. The books takes a topic that is complex and difficult to comprehend and approaches it from the perspective of several personas: a security specialist, software architect, developer, and operations manager. While this is by no means an O’Reilly Heads-First style book, the persona approach, professional illustrations, simple metaphors, and meaningful examples go a long way towards making the material much more digestible.
 
