@@ -1,11 +1,11 @@
-Title: WordPRess on IIS7
+Title: WordPress on IIS7
 Published: 7/3/2009
 Tags:
     - New Technology
 ---
 I had long planned the move from the .NET-based [DasBlog blogging engine](http://blog.beckshome.com/index.php/2006/06/dasblog-installation/2006/06/dasblog-installation/) to WordPress but just couldn’t seem to make the time to complete the move. I finally pulled the trigger and cutover to WordPress a couple of weeks ago. The process was not nearly as painful as I imagined and I’m now beginning to reap the rewards of working on a blogging platform that’s more broadly integrated into the Web ecosystem. This blog entry is a collection of the key technical takeaways from my migration. Hopefully they will be helpful for other people looking to migrate to WordPress, especially on the Microsoft IIS platform.
 
-![Wordpress on IIS 7](http://s3.beckshome.com/20090703-Wordpress-On-IIS7.jpg)
+![Wordpress on IIS 7](https://s3.amazonaws.com/s3.beckshome.com/20090703-Wordpress-On-IIS7.jpg)
 
 * **Getting WordPress Up and Running on IIS is Very Easy** – I was surprised how easy it was to get WordPress running on IIS 7. The entire process took me no longer than 30 minutes to complete once I had the correct guidance in place. The items that were of the utmost help to me here were as follows:
     * [Webpage – Using FastCGI to Host PHP Applications on IIS 7.0](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis) – A great introductory background and overview document on FastCGI on IIS 7. A good first read but shouldn’t be used as an installation guide.

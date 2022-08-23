@@ -5,7 +5,7 @@ Tags:
 ---
 A review long overdue for a Jolt Award winner and one of the best architecture books on my bookshelf, [Release-It!](https://www.amazon.com/Release-Production-Ready-Software-Pragmatic-Programmers/dp/0978739213/)
 
-![Release-It](http://s3.beckshome.com/20090627-Release-It.jpg)
+![Release-It](https://s3.amazonaws.com/s3.beckshome.com/20090627-Release-It.jpg)
 
 I’ve recommended this book to many colleagues of mine and haven’t heard a disappointing review to date. I’ve heard the terms ‘pessimistic’ and ‘realistic’ used with equal frequency to describe this book. Having just completed my second reading, I can affirm that these terms are both representative take-aways. Nygard openly admits to being more than a bit paranoid about the way he approaches enterprise application architecture. Although this may seem alarming to many new to the IT field, those of us who have been around for a while recognize this as a necessary, at times life saving, defense mechanism.
 

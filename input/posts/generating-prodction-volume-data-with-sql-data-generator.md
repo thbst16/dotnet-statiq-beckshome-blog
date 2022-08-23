@@ -23,7 +23,7 @@ This entry deals with the use of Red Gate Software’s [SQL Data Generator](http
 
 Our data model is simple enough to be readily understandable while still presenting a couple of challenges that will illustrate some of the features of the SQL Data Generator tool. The data model serves as the backend for an online travelling site that collects and manages community-driven travel recommendations. Think about the book [1000 Places to See Before You Die](https://www.amazon.com/000-Places-See-Before-You/dp/0761104844/) as a Web2.0’ish site. Users can enter new tours / places, bundle similar or geographically close tours into tour packages, and provide user-specific tags for both tours and packages.
 
-![Generating Data - Data Model](http://s3.beckshome.com/20090704-Generating-Data-Datamodel.png)
+![Generating Data - Data Model](https://s3.amazonaws.com/s3.beckshome.com/20090704-Generating-Data-Datamodel.png)
 
 There are several characteristics of this data model that are somewhat challenging and provide an opportunity to illustrate some of SQL Data Generator’s more advanced options. These features are:
 
@@ -38,27 +38,27 @@ There are several characteristics of this data model that are somewhat challengi
 
 Creating a project with SQL Data Generator is as easy as selecting the database you wish to generate data into.
 
-![Generating Production Data - Project Configuration](http://s3.beckshome.com/20090704-Generating-Data-Project-Configuration.png)
+![Generating Production Data - Project Configuration](https://s3.amazonaws.com/s3.beckshome.com/20090704-Generating-Data-Project-Configuration.png)
 
 Once the project is created, SQL generator will infer information about the data based upon the column types and other characteristics. You can then review sample data and tweak the configuration options to meet your needs.
 
-![Generating Data - Column Generation Settings](http://s3.beckshome.com/20090704-Generating-Data-Column-Generation-Settings.png)
+![Generating Data - Column Generation Settings](https://s3.amazonaws.com/s3.beckshome.com/20090704-Generating-Data-Column-Generation-Settings.png)
 
 Specifying valid values for the Tour table’s longitude column. Changes to the generator settings are immediately reflected in the sample data set, providing the opportunity to validate the impacts of the changes.
 
-![Generating Data - Previewing Generated Data](http://s3.beckshome.com/20090704-Generating-Data-Previewing-Generated-Data.png)
+![Generating Data - Previewing Generated Data](https://s3.amazonaws.com/s3.beckshome.com/20090704-Generating-Data-Previewing-Generated-Data.png)
 
 **Intermediate SQL Data Generator Capabilities**
 
 Specifying the mechanism to determine how many rows to generate is made easy within SQL Data Generator. This enables the data to be generated in proportion to production ratios, as stipulated in our requirements.
 
-![Generating Data - Specifying Counts and Ratios](http://s3.beckshome.com/20090704-Generating-Data-Specifying-Counts-And-Ratios.png)
+![Generating Data - Specifying Counts and Ratios](https://s3.amazonaws.com/s3.beckshome.com/20090704-Generating-Data-Specifying-Counts-And-Ratios.png)
 
 These same capabilities allow us to address the requirements around TourPackage sequence numbers by letting SQL Data Generator handle the generation of combinations within the TourId / Package Id composite key space.
 
 Lastly, SQL Data Generator can use alternate generator sources, such as the output of SQL statements or direct input from a CSV file. In our case, this allows us to specify a SQL statement to pull the appropriate Ids from the Tour and Package tables for the reference Id values in the Tag table even though no explicit foreign key relationship is present.
 
-![Generating Data - Using a SQL Generator](http://s3.beckshome.com/20090704-Generating-Data-Using-A-SQL-Generator.png)
+![Generating Data - Using a SQL Generator](https://s3.amazonaws.com/s3.beckshome.com/20090704-Generating-Data-Using-A-SQL-Generator.png)
 
 **Advanced SQL Data Generator Capabilities**
 
@@ -68,11 +68,11 @@ Custom generators can be created for use with the SQL Data Generator. This enabl
 
 Once the generation options are specified in accordance with the requirements, the only thing left to do is generate the data. The data population action plan gives you an idea of what data will be going where.
 
-![Generating Data - Population Action Plan](http://s3.beckshome.com/20090704-Generating-Data-Popualtion-Action-Plan.png)
+![Generating Data - Population Action Plan](https://s3.amazonaws.com/s3.beckshome.com/20090704-Generating-Data-Popualtion-Action-Plan.png)
 
 Running the generation script against a local SQL Server Express installation on a small (one processor, 2 GB RAM) VMWare machine, SQL Data Generator was able to generate 420,000 records across 5 tables in less than 1 minute, yielding a total database size of about 400 MB.
 
-![Generating Data - Data Report](http://s3.beckshome.com/20090704-Generating-Data-Generation-Report.png)
+![Generating Data - Data Report](https://s3.amazonaws.com/s3.beckshome.com/20090704-Generating-Data-Generation-Report.png)
 
 **Other SQL Data Generator Capabilities**
 
