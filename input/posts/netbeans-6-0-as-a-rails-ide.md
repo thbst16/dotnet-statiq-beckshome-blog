@@ -7,11 +7,11 @@ I’ve posted about how impressed I was with NetBeans as a Java IDE and the incr
 
 George Cook does an excellent Job of running through the new features with lots of nice pretty screenshots. If you’re looking at moving to Netbeans as a Rails IDE, it’s the first place I suggest that you go. Some of my favorite features of Netbeans (with screens shamelessly stolen from George’s site) include code completion
 
-![Netbeans 6.0 Code Completion](http://s3.beckshome.com/20071001-Netbeans-6-0-Code-Completion.png)
+![Netbeans 6.0 Code Completion](https://s3.amazonaws.com/s3.beckshome.com/20071001-Netbeans-6-0-Code-Completion.png)
 
 …and debugging
 
-![Netbeans 6.0 Debugging](http://s3.beckshome.com/20071001-Netbeans-6-0-Debugging.png)
+![Netbeans 6.0 Debugging](https://s3.amazonaws.com/s3.beckshome.com/20071001-Netbeans-6-0-Debugging.png)
 
 There are several features from RadRails that I miss and that I hope the NetBeans team will consider integrating over time. These include the ability to import a project directly from Subversion and the test window that allows you to visually check the status of your tests and select particular tests to run. Those features aside, I don’t plan on going back to RadRails. NetBeans has made so much progress so quickly, I can only imagine that it’s going to put significant distance between itself and RadRails in the near future.
 

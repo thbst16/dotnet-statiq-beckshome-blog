@@ -5,7 +5,7 @@ Tags:
 ---
 I’ve been contemplating the move towards a self-hosted Subversion repository for quite a while. My earlier attempts worked but left me with a lot of inconvenient and sometimes quirky side effects. These experiences always led me back to hosting Subversion on Linux, which is really where it works most naturally. Recently, however, I decided to retry my luck with Subversion hosting on Windows and I made the call to go with a “package” instead of doing the Apache / Subversion integration myself.
 
-![VisualSVN](http://s3.beckshome.com/20080310-Visual-SVN.png)
+![VisualSVN](https://s3.amazonaws.com/s3.beckshome.com/20080310-Visual-SVN.png)
 
 The tool that I went with, [VisualSVN](https://www.visualsvn.com/), is a Windows version of Subversion that targets primarily Microsoft developers using VisualStudio as their development platform. Matter of fact, the Subversion server package is freely distributed and the actual product that is sold is the Visual Studio plugin that allows you to tap into Subversion from Visual Studio. With a 30 day trial period and $49 price tag, I decided that it couldn’t hurt to try it out. My findings are below:
 
