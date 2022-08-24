@@ -5,7 +5,7 @@ Tags:
 ---
 I’ve been putting a good deal of time recently into converting GeoGlue from .NET to Rails. One of the things that I’m looking to get into the alpha release is the dynamic creation of podcasts. This is really nothing special since a podcast is little more than a special case of an RSS feed that points at external media files (i.e. audio or video).
 
-![Podcast Creation From Rails](http://s3.beckshome.com/20070708-Podcast-Creation-From-Rails.jpg)
+![Podcast Creation From Rails](https://s3.amazonaws.com/s3.beckshome.com/20070708-Podcast-Creation-From-Rails.jpg)
 
 I plan on covering the audio/video entry in an upcoming post about the nuances of the Attachment_Fu plugin on Windows. In this post, I’m going to just lay out the code for the podcast creation, since this is nothing more that a simple rxml file. I’ve sprinkled in comments liberally but most of the code should be fairly self explanatory to those familiar with Ruby and RSS feeds.
 

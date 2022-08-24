@@ -5,7 +5,7 @@ Tags:
 ---
 Continuing my Rails on Windows thread, I’m going to spend a bit of time on something that’s brought me both some substantial gains and some minor woes lately, running the Attachment_Fu plugin on Windows. I’ll start off with some general Attachment_Fu information and then get into some of the quirks, which are, as expected, mostly specific to the Windows environment.
 
-![Attachment_Fu On Windows](http://s3.beckshome.com/20070719-Attachment-Fu.gif)
+![Attachment_Fu On Windows](https://s3.amazonaws.com/s3.beckshome.com/20070719-Attachment-Fu.gif)
 
 First, for those not in the know, Attachment_Fu is a Rails plugin that allows you to store binary data (e.g. images, video, documents) and associate it with other models in your Rails application. Metadata (content type, size, height, width) about the attachment is stored in a separate model. Attachment_Fu’s sweet spot is handling images. It can handle automatic image conversion and thumbnailing using a number of popular image processors such as ImageScience, RMagick, or minmagick. Although not provided, you can imagine that Attachment_Fu might be extended to handle other types of binary processing utilities such as PDF converters or audio/video transcoding software. The other very cool thing about Attachment_Fu is that it provides support for pluggable persistence mechanisms. Out of the box, it allows for storage on the file system, as binary information in a database or on Amazon’s S3 storage service.
 
