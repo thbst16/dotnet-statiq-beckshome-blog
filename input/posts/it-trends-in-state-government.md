@@ -5,7 +5,7 @@ Tags:
 ---
 With the [2007 NASCIO IT recognition award](https://www.nascio.org/awards/) submission process closed and the evaluation process in full swing, I’m anxiously awaiting the publication of the nominations from across the country. It’s always interesting to see what new and innovative practices are being applied in different state governments. With Web 2.0, blogging, wikis, multi-media, and social computing firmly established in the Internet at large (see Time Person of the Year 2006), it’s high time that this wave hits the government sector, which usually lags behind in such trends by a couple of years.
 
-![IT Trends in State Government](http://s3.beckshome.com/20070622-IT-Trends-In-State-Government.gif)
+![IT Trends in State Government](https://s3.amazonaws.com/s3.beckshome.com/20070622-IT-Trends-In-State-Government.gif)
 
 I’ve been catching up on blogs the last couple of days and took in a couple of interesting sites. [Dave Fletcher](http://davidfletcher.blogspot.com/), who I believe is the CIO or CTO of Utah, has re-emerged with a vengeance in his blogging and is to thank directly or indirectly for much of this information.
 

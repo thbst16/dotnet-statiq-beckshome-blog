@@ -5,7 +5,7 @@ Tags:
 ---
 As soon as you’ve spent some time dealing with Rails, you’re bound to hear the fact quoted that the entire Core Rails Team does their work on Macs. There are likely several reasons for this: (1) these folks really like Macs (you can’t fault them for that); (2) they’re getting kickbacks to use Powerbooks (could be; not likely though); or (3) Rails is fun, and using Windows puts a bit of damper on that fun. I think the last answer is the most likely even though I’d like to think that Steve Jobs has some skin in the Rails game.
 
-![Rails on Windows - Part 1](http://s3.beckshome.com/20070625-Rails-On-Windows.png)
+![Rails on Windows - Part 1](https://s3.amazonaws.com/s3.beckshome.com/20070625-Rails-On-Windows.png)
 
 What you’ll also hear and experience when dealing with Rails is that it’s “opinionated software”, which it is. It just so turns out that the prevailing Rails opinions tend to align more closely with the UNIX-derivative camp (like Mac’s OS-X) than with the Windows camp. There’s a price to pay for working against the prevailing opinions and using a Windows environment to do your development. In most cases, the community that supports Rails has done a great job to make sure that this cost is very miniscule. However, once in a while, when you’re working with a Ruby Gem or Rails Plugin that is outside the core framework, you’ll hit the opinionated software wall head-on.
 

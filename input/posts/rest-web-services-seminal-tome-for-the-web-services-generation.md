@@ -5,7 +5,7 @@ Tags:
 ---
 Every IT generation has its seminal tome that transcends time and connects the dots in a way that no book had before it. For the object oriented generation in the 1980s, it was the Gang of Four (GoF) book. For the application architecture generation in the 1990s, it was Fowler’s book on patterns (PoEAA). [“RESTful Web Services”](https://www.amazon.com/gp/product//0596529260/) will be, in my opinion, that book for the 2000s Web services generation.
 
-![RESTful Web Services - The Book](http://s3.beckshome.com/20070523-RESTful-Web-Services.gif)
+![RESTful Web Services - The Book](https://s3.amazonaws.com/s3.beckshome.com/20070523-RESTful-Web-Services.gif)
 
 There is something absolutely special about this book that readers of GoF or PoEAA will immediately recognize and appreciate. The book covers a breadth of technologies and ideas yet it helps the reader see how they all connect. It uses short code samples (in Ruby, the choice of this generation) to illustrate rather than obfuscate the ideas. Most importantly, it makes the complex comprehensible and delivers epiphany-like experiences throughout the book.
 

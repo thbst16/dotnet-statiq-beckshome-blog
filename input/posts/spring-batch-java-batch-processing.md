@@ -13,7 +13,7 @@ A couple of month’s back, word got out that Rod Johnson, the brains behind the
 
 I haven’t checked out the source code yet but Spring Batch purports to be non-dependant on other Spring facilities. The architectural diagram for Spring, which is shown below, won’t tell you much.
 
-![Spring Batch - Java Batch Processing](http://s3.beckshome.com/20070508-Spring-Batch-Java-Batch-Processing.png)
+![Spring Batch - Java Batch Processing](https://s3.amazonaws.com/s3.beckshome.com/20070508-Spring-Batch-Java-Batch-Processing.png)
 
 Perhaps more telling are the use cases upon which their framework is based:
 

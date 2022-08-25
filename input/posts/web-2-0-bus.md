@@ -12,7 +12,7 @@ I feel as if someone tacked a “show me your enterprise service bus” sign ont
 
 To escalate the situation, I came up with my own next generation architecture diagram and talked it through with a bunch of my peers. People liked it at first because of all the nice icons. They really loved it when the answer to any of the hard questions was “let me show you how this works, do you have a Web browser handy?” I’ve included the diagram below for your enjoyment and jotted down some quick write-ups with the obligatory links so that you can see, understand, and convince yourself of the reality of these tools.
 
-![Web 2.0 Bus](http://s3.beckshome.com/20070623-Web-2-0-Bus.jpg)
+![Web 2.0 Bus](https://s3.amazonaws.com/s3.beckshome.com/20070623-Web-2-0-Bus.jpg)
 
 * [Ruby on Rails](https://rubyonrails.org/) – Although there are tons of free services and a number of high quality paid services that can be leveraged to enhance applications on the Web, it’s hard to go very far without having some dedicated computing power. Using Ruby on Rails and MySql will get you the maximum bang for your buck (that’s no bucks for those who are counting). While you’re riding the Rails, make sure to take advantage of Ruby gems and Rails plugins.
 * **Web Service APIs** – Lots of folks talk about enterprise applications that invoke common APIs to store documents, images, or access business services. For most, it’s talk of a far off and distant future. Would you like to see how this works today? Check out box.net, [flickr](https://www.flickr.com/services/api/), and [salesforce.com](https://developer.salesforce.com/) for file, image, and business Web Service APIs in action.
