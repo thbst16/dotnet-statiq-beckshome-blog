@@ -5,7 +5,7 @@ Tags:
 ---
 The [recent announcement](http://googlemapsapi.blogspot.com/2007/03/kml-and-georss-support-added-to-google.html) that Google will support GeoRSS in addition to KML as a data format for geographic content in Google Maps is long overdue. This is one of those rare areas where Google trailed both Microsoft and Yahoo and did not seem at all willing to budge. Google’s announcement also seals the deal on GeoRSS as the way to syndicate geo-specific data. However, despite the obvious importance of GeoRSS, there is little written material on producing GeoRSS feeds.
 
-![Creating GeoRSS Fees in C#](http://s3.beckshome.com/20070412-Creating-GeoRSS-Feeds-in-CSharp.png)
+![Creating GeoRSS Fees in C#](https://s3.amazonaws.com/s3.beckshome.com/20070412-Creating-GeoRSS-Feeds-in-CSharp.png)
 
 I promised a brief tutorial on creating a GeoRSS feed with my post on Yahoo’s Tag Maps. More specifically, my post will focus on a boundary update GeoRSS feed. That is, you pass in the maximum and minimum latitudes and longitudes for your map in question and only data about the points that correspond to that particular latitude / longitude box is actually fetched. Obviously, if the user interacts with the map (i.e. panning or zooming), you can use the map’s API and some AJAX’y goodness to make calls to the GeoRSS feed to pick up a new set of points that correspond to the updated map’s boundaries.
 

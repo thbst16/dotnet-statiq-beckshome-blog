@@ -5,7 +5,7 @@ Tags:
 ---
 In the final installment of this March 1st trilogy, I’ll hit something really topical, the precipitous fall of the Dow Jones Industrial Average (DJIA) two days ago on February 26th. For those of you just diligently minding your stakes in the market, you probably got wind that all the major indexes tanked pretty badly on the 26th. The Dow, however, tanked in a rather unnatural fashion that was quite different from the others.
 
-![How the Dow Lost 200 Points in the Blink of an Eye](http://s3.beckshome.com/20070301-Misqueue-How-The-DOW-Lost-200-Points-In-The-Blink-Of-An-Eye.jpg)
+![How the Dow Lost 200 Points in the Blink of an Eye](https://s3.amazonaws.com/s3.beckshome.com/20070301-Misqueue-How-The-DOW-Lost-200-Points-In-The-Blink-Of-An-Eye.jpg)
 
 You can see the “Live” and recalculated Dow Jones numbers on the graph above. Although the actual Dow (in orange) did drop pretty steeply, there’s no way it could have done the near vertical drop that the graph indicates without some outside intervention. It turns out that this outside intervention was provided by a “computer glitch”, as reported in the general press. More specifically, one of the queuing systems that feeds data to the system that actually calculates the Dow Jones index got backed up under record trading volumes. When market watchers got suspicious that the index movement did not align with the sliding values of its core components, they decided to investigate. Discovering the backlog, they manually switched over to alternate systems. When these systems worked down the backload, a new DJIA was calculated and voila, we had a 200 point drop in a couple of minutes.
 

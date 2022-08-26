@@ -5,7 +5,7 @@ Tags:
 ---
 In the first of my beginning-of-the-month speed blogs, I’d like to start with the topic that I’ve been putting off longest, building applications on top of Amazon’s Web services. For those of you that think of Amazon.com as just a book store, or an e-commerce platform, or [add your assumption here], think again. In the last year or so, Amazon has released a number of services that have not only established them as a first-class platform, but have pushed the envelope considerably on the idea of virtualization.
 
-![Building Applications in the Cloud](http://s3.beckshome.com/20070301-Building-Applications-In-The-Cloud.gif)
+![Building Applications in the Cloud](https://s3.amazonaws.com/s3.beckshome.com/20070301-Building-Applications-In-The-Cloud.gif)
 
 This trend started with Amazon’s [Simple Storage Service (S3)](https://aws.amazon.com/s3/) and was expanded on with their [Simple Queue Service (SQS)](https://aws.amazon.com/sqs/). Late last year, Amazon blew the roof off with the limited release of their [Elastic Compute Cloud (EC2) service](https://aws.amazon.com/ec2/). EC2 is a configurable computing environment where you can load up virtual instances (roughly equivalent to your average Linux server) – on demand. You can load or unload these instances to meet cyclical demand and you only get charged for the computing time that you use. Couple this grid computing potential with S3 for storage and SQS for queuing and let your imagination be the limit.
 

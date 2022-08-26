@@ -5,7 +5,7 @@ Tags:
 ---
 The more I use [Ruby on Rails](https://rubyonrails.org/), the more I become convinced that it is damn near the perfect framework for state government Web-based applications. Ruby on Rails in State GovernmentThat said, I don’t know of a single state, local, or municipal government that is experimenting with Rails in any meaningful fashion. I have a bunch of stored Google queries that have yielded woefully little information about the penetration of Rails into state government over the past year or so. I fear that is because there really has been little or no penetration.
 
-![Ruby on Rails in State Government](http://s3.beckshome.com/20070329-Ruby-On-Rails-In-State-Government.png)
+![Ruby on Rails in State Government](https://s3.amazonaws.com/s3.beckshome.com/20070329-Ruby-On-Rails-In-State-Government.png)
 
 When I think through the merits of Ruby on Rails and apply the pragmatic brush of my experience with state governments, I’m torn as to whether I believe Rails will ever gain a foothold in this arena. To articulate my ideas, I’ve enumerated, on one hand, my top three compelling arguments why Rails should be overwhelmingly successful in state government. On the other hand, I’ve listed the top 3 reasons why Rails doesn’t really stand a fighting chance. I’ve omitted what some would consider the “classic” selling points of RoR: ActiveRecord, Scaffolding, etc. By all means, I encourage you to look into these if you’re new to Rails. It’s just that they aren’t particular to adoption in state government. In the spirit of remaining optimistic, I’ll list the top 3 reasons Rails has a chance first.
 
