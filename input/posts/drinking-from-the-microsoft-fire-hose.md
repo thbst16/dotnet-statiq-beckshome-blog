@@ -5,7 +5,7 @@ Tags:
 ---
 What [Tad Anderson said](https://realworldsa.blogspot.com/2006/12/microsoft-has-become-abstraction.html) in a recent post about Microsoft as a “technology factory” really got me thinking. I particularly identified with his quote that “Microsoft has buried the average learner, and presented quite the challenge for the best workaholic out there.” With all of the things that he mentioned in his post plus the release of Vista, the coming release of Enterprise Library 3.0, software factory work from the Patterns and Practices group, not to mention C# 3.0, Lambda expressions, and… oh yeah, [F#](https://www.microsoft.com/en-us/research/project/f-at-microsoft-research/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fcambridge%2Fprojects%2Ffsharp%2Fdefault.aspx), it’s hard keeping your head above water as a Microsoft application development technology specialist these days.
 
-![Drinking From The Microsoft Firehose](http://s3.beckshome.com/20070101-Drinking-From-The-Microsoft-Firehose.png)
+![Drinking From The Microsoft Firehose](https://s3.amazonaws.com/s3.beckshome.com/20070101-Drinking-From-The-Microsoft-Firehose.png)
 
 Personally, my problems are compounded by trying to track both .NET and Java. Don’t get me wrong, there are a lot of great things going on in both of these camps and the opportunity to intelligently compare and contrast the technologies makes me a more valuable technologist, I think. However, it pains me to see my knowledge getting broader and shallower rather than targeted and deeper as I try to take a sip from the veritable technology fire hose.
 

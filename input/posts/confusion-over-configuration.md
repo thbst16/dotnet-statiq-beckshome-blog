@@ -5,7 +5,7 @@ Tags:
 ---
 My initial experiences with Oracle’s TopLink object-relational mapping tool have been less than pleasant. TopLink is the default Java Persistence API provider when creating persistence units for EJB3 style beans in NetBeans. When using TopLink out of the box with NetBeans, the tool’s default behavior is to behave in a case-sensitive fashion with respect to table and column names. This results in awful “Table XXXXX does not exist” errors, where XXXXX is, of course, the capitalized table name.
 
-![Confusion over Configuration](http://s3.beckshome.com/20061216-Confusion-Over-Configuration.gif)
+![Confusion over Configuration](https://s3.amazonaws.com/s3.beckshome.com/20061216-Confusion-Over-Configuration.gif)
 
 This posture represents the absolute antithesis to the recent, Ruby on Rails-driven trend towards “Convention over Configuration”; instead reverting to the longstanding software engineering tradition of confusion over configuration. Why wouldn’t you just set the default behavior to respect case insensitivity? I’m assuming that this can be set in a config file but I’m too mad to go thumbing through the documentation to find out where that is. The TopLink API has a setShouldForceFieldsToUpperCase() method. I don’t want to call that either. Why should I have to?
 

@@ -5,7 +5,7 @@ Tags:
 ---
 I’ve added a second state government pattlet to the portfolio. This one is for the case entity. Although a bit more simplistic than our previous pattlet, Case still has some very interesting nuances, such as the use of aspect-oriented techniques to account for associating the writing of case history records with various case-related transactions.
 
-![State Government Pattern - Case](http://s3.beckshome.com/20061220-State-Government-Pattlet-Case.png)
+![State Government Pattern - Case](https://s3.amazonaws.com/s3.beckshome.com/20061220-State-Government-Pattlet-Case.png)
 
 In addition, I have made some minor revisions to the Case Transfer pattlet, upped the version number, and reposted that as well. I’ve also started added these pattlets to two open source pattern repositories.
 
@@ -15,4 +15,4 @@ On et.gov, the process of adding and mapping a pattern was very interesting. You
 
 As before, the pattlet is licensed under the [Creative Commons “Attribution Share-Alike” license](https://creativecommons.org/licenses/by-sa/2.5/). As a next step, I’m looking to move outside of case management for a while and potentially deal with participants. I’m especially interested in working on a Participant Relationship pattlet, since I’ve been having a lot of discussions in that area as of late. I’d also like to fully open source all of this work, including the source code, and post it out to a Subversion repository for people to download. There just don’t seem to be enough hours in the day to get this all done. Any help or assistance would be greatly appreciated.
 
-[Case.pdf (165.74 KB)](http://s3.beckshome.com/20061220-State-Government-Pattlet-Case.pdf)
+[Case.pdf (165.74 KB)](https://s3.amazonaws.com/s3.beckshome.com/20061220-State-Government-Pattlet-Case.pdf)
