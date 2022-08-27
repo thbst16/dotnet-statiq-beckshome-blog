@@ -5,7 +5,7 @@ Tags:
 ---
 Try this on for size – the EPAct2005 is the Y2K of Y2K’07. No, this is not an anagram. No sooner is 2006 behind us and folks are already worried about “the next Y2K”, the Energy Policy Act of 2005. Between January 1st and January 3rd, I’ve received no fewer than 8 emails on this topic. These emails include everything from details about software and hardware that will require some form of remediation to EPAct2005-related business opportunities.
 
-![Energy Policy Act of 2005](http://s3.beckshome.com/20070103-Energy-Policy-Act-Of-2005.gif)
+![Energy Policy Act of 2005](https://s3.amazonaws.com/s3.beckshome.com/20070103-Energy-Policy-Act-Of-2005.gif)
 
 What is the Energy Policy Act of 2005 exactly, you ask. If you read the [Wikipedia entry on EPA2005](https://en.wikipedia.org/wiki/Energy_Policy_Act_of_2005), you will get a face-full of legislative overload. What’s important to look at, at least if you’re in the IT industry, is the one section titled Change to daylight savings time:
 

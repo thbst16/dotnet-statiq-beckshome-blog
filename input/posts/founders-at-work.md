@@ -5,7 +5,7 @@ Tags:
 ---
 I don’t like to do book reviews back-to-back but Founders at Work has kept me pretty busy reading (and not writing) over the last couple of weeks. The book definitely deserves a [five star rating](https://www.amazon.com/gp/product//1590597141) and at $13 for the e-book version, it really is a great deal. My review follows…
 
-![Founders at Work](http://s3.beckshome.com/20070220-Founders-At-Work.jpg)
+![Founders at Work](https://s3.amazonaws.com/s3.beckshome.com/20070220-Founders-At-Work.jpg)
 
 This is an absolute must read if you’re job, your passion, or both (if you’re lucky) has anything to do with creating technical innovation. “Founders at Work” is a wonderfully meander through the stories of successful company founders – across several decades. Far from focusing on just those who made it big during the first dot-com boom or those who are profiting from Web 2.0, Jessica also includes some of the true pioneers in the field. She recognizes that, not only do these industry veterans have valuable stories to convey but, since many of them are helping to steer companies and venture capital funds to this day, their advice is quite topical and current.
 

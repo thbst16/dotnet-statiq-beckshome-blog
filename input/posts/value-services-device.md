@@ -9,7 +9,7 @@ The premise of the Apple discussion was that the combination of offering digital
 
 All of this talk got me thinking and putting together a mental model. It brought me back to a McKinsey interview I had in the late dot-com era where the interviewer asked me to draw out a value map for several emerging digital media technologies. Granted, there were no iPods or Chumbies back then but the value map visual seems to work just as well for these newer technologies too. I’ve included a simple map of some representative technologies (circa 2006-2007) below.
 
-![Value == Services + Device](http://s3.beckshome.com/20070116-Value-Equals-Services-Plus-Device.png)
+![Value == Services + Device](https://s3.amazonaws.com/s3.beckshome.com/20070116-Value-Equals-Services-Plus-Device.png)
 
 In the diagram, the dollar signs [<span style="color:red">$$$</span>] represent where the primary value derivation occurs in the chain. If you buy into the Value == Services + Device equation, TiVo and Apple are set to come out on top since they control both services and devices. Brings to mind all types of questions around potential commoditization of the services and devices as well as to what strategic leverage (aside from high switching costs) these companies enjoy. Audible and MySpace own only the services, having to rely upon complimentary products (MP3 players and the browser, respectively) to deliver their services. The Chumby is in an interestingly unique position, controlling only the device but not the services. This makes me wonder what the long term value potential is for this product. It would seem that, without very strong branding and product loyalty, the Chumby would be exposed to all sorts of knock-offs. I guess time will tell.
 

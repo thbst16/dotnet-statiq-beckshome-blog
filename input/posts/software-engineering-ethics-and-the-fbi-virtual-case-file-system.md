@@ -7,7 +7,7 @@ Technologists who spend their time working on line of business projects are typi
 
 As strong as the reaction to Enron, Tyco, and WorldCom debacles was; it surprises me again and again to see just how willing the corporate community is to shrug off major IT project failures. This is especially true when you compare the strict regulations, codes of conduct, and ethical guidelines in place for the public accounting community and the almost complete lack of anything resembling these structures in the professional software engineering community. Enron and Tyco may be examples of otherwise ample process controls gone awry. In the software engineering community, we don’t even have a process.
 
-![Software Engineering, Ethics and the FBI Virtual Case File System](http://s3.beckshome.com/20070129-Software-Engineering-Ethincs-And-The-FBI-Virtual-Case-File-System.jpg)
+![Software Engineering, Ethics and the FBI Virtual Case File System](https://s3.amazonaws.com/s3.beckshome.com/20070129-Software-Engineering-Ethincs-And-The-FBI-Virtual-Case-File-System.jpg)
 
 The recent [IT conversations Podcast](http://web.archive.org/web/20130729205010id_/http://itc.conversationsnetwork.org/shows/detail1688.html) on the utter failure of the project to stand up the FBI Virtual Case File system reinforced this point for me. For those of you who want to get the down and dirty on the FBI Virtual Case File story, the [IEEE has a pretty good article](https://spectrum.ieee.org/who-killed-the-virtual-case-file) containing what appears to be a fairly objective history of the project. “So what does this have to do with ethics?”, you ask.
 

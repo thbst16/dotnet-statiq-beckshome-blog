@@ -5,7 +5,7 @@ Tags:
 ---
 [Windows Power Tools](https://www.amazon.com/Windows-Developer-Power-Tools-Turbocharge/dp/0596527543) is a collection of brief tutorials and overviews of freeware and open source .NET development tools. What kind of rating you might give this book depends largely upon what type of background that you’re coming from. If you’re the kind who has stuck religiously to the Microsoft Press series of books and acknowledge only the old testament, than this book will be either an epiphany (5 stars) or outright blasphemy (1 star). If continuous integration, test-driven development, and object relational mapping (new testament type stuff) are terms that you are fairly conversant with, then this book will probably land somewhere in the 2-4 star range.
 
-![Windows Power Tools](http://s3.beckshome.com/20070130-Windows-Power-Tools.jpg)
+![Windows Power Tools](https://s3.amazonaws.com/s3.beckshome.com/20070130-Windows-Power-Tools.jpg)
 
 Since I put myself in the 2-4 star group, I’ll start by mentioning that there are great online tomes of knowledge that contain most of the tools listed in this book and a bunch others not listed here. One of the most respected and well linked lists belongs to the author of this book’s forward, Scott Hanselman. His [<i>Ultimate Developer and Power Users Tool List for Windows</i>](https://www.hanselman.com/blog/scott-hanselmans-2021-ultimate-developer-and-power-users-tool-list-for-windows) has been dutifully updated on an annual basis. Despite the fact that there are free, decent resources out there that fill some of the same purposes as this book, I enjoyed thumbing through the book and picking out tools I hadn’t heard of to fill in some knowledge gaps.
 
