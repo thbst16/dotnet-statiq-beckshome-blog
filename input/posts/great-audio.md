@@ -5,7 +5,7 @@ Tags:
 ---
 As I’ve mentioned in previous posts, I’m a pretty dedicated listener of both the Wall Street Journal Audio Edition and the [IT Conversations](http://web.archive.org/web/20130729200341id_/http://itc.conversationsnetwork.org/) podcast site. This morning, I caught some great audio from both of them.
 
-![Great Audio](http://s3.beckshome.com/20061024-Great-Audio.png)
+![Great Audio](https://s3.amazonaws.com/s3.beckshome.com/20061024-Great-Audio.png)
 
 <u>IT Conversations</u> – The [IT Conversations audio](http://web.archive.org/web/20130729205137id_/http://itc.conversationsnetwork.org/shows/detail1036.html) came from the Software 2006 conference series. The focus of the podcast in question was a CIO panel at that conference. Toby Redshaw and Con Goedman, IT executives from Motorola and Shell International, respectively, provide some great insights into the user-focused mentality that it takes to succeed as an IT executive in the corporate world. They are both quite candid, with Mr.Redshaw providing some especially interesting insights and sound bytes. I’ve quoted a couple below:
 * [On dealmaking] “You’ve got to remember, the people that cut the deal aren’t the people that manage the relationship. I don’t care if the [software] salespeople leave with blood coming out of both of their ears. I’m not going to see those guys again.”

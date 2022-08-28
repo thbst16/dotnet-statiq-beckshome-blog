@@ -7,7 +7,7 @@ I enjoyed [Harry Piereson’s](http://devhawk.net/blog) well thought-out respons
 
 The use of the word “context” stirred up in my mind the classic black box, gray box, white box argument. We can expect Java buttons or .NET Windows objects to behave in a low context, black box manner. From contextual business objects, we can at best expect gray box behavior; although white box is much more realistic. I guess in the box world, the opacity of the box is tantamount to the amount of context that can get through.
 
-![What Color Is Your Box](http://s3.beckshome.com/20060919-What-Color-Is-Your-Box.png)
+![What Color Is Your Box](https://s3.amazonaws.com/s3.beckshome.com/20060919-What-Color-Is-Your-Box.png)
 
 This said, in business object environments that demand high opacity/context, can and should we strive for reuse? I think the answer is still a resounding “yes”. We just need to do it in a realistic manner. So what does this mean? If our experience has shown that neither objects nor Web services are the appropriate level of abstraction for business logic reuse, where do we turn?
 
