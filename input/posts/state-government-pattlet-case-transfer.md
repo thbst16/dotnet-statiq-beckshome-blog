@@ -5,7 +5,7 @@ Tags:
 ---
 Following up on a long-standing desire to get domain knowledge out of our heads and onto paper, a colleague and I engaged in writing our first state government pattlet. We spent about two weeks of our spare time putting together an abstract approach to case transfer based upon our varied experiences. We finally have a draft version which we feel comfortable sharing online.
 
-![State Government Pattern - Case Transfer](http://s3.beckshome.com/20060913-State-Government-Pattern-Case-Transfer.png)
+![State Government Pattern - Case Transfer](https://s3.amazonaws.com/s3.beckshome.com/20060913-State-Government-Pattern-Case-Transfer.png)
 
 As far as I know, this is a first-of-its-kind endeavor for state government. We drew heavily on Fowler’s [Analysis Patterns: Reusable Object Models](https://www.amazon.com/gp/product/0201895420/) as background material for documenting the patterns. The underlying analysis, design, and approach are all original, though. Please understand that the pattlet is not perfect. We’ve marked it as a 0.1 version to reflect its state and we intend to update it over the next couple of weeks.
 
@@ -15,4 +15,4 @@ Note that the pattlet is licensed under the [Creative Commons “Attribution Sha
 
 Right now, we are only giving access to the final product in PDF format but we have kicked around the idea of hosting sample code, pattern documents, and design models on a Subversion share. Let us know if this would be interesting or if we’d just be wasting our time in this endeavor. Finally, you can find the pattlet by clicking on the link below.
 
-[State Government – Case Transfer Pattlet.pdf (164.24 KB)](http://s3.beckshome.com/20060913-State-Government-Pattlet-Case-Transfer.pdf)
+[State Government – Case Transfer Pattlet.pdf (164.24 KB)](https://s3.amazonaws.com/s3.beckshome.com/20060913-State-Government-Pattlet-Case-Transfer.pdf)

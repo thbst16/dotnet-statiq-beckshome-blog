@@ -5,7 +5,7 @@ Tags:
 ---
 If you haven’t seen the materials yet on the Destiny USA project, it’s worth giving them a look. The [official site](https://www.destinyusa.com/) is a masterpiece of Flash animation and in the [Wikipedia entry](https://en.wikipedia.org/wiki/Destiny_USA), as always, you can find all of the details. The goal of the Destiny project is to create a one-of-a-kind eco-tourism complex encompassing shopping, entertainment, dining, and hotel accommodations in Syracuse, New York. The shopping complex would surpass the Mall of America as the country’s largest mall. The “green” touches included everything from a 100% fossil fuel free / sustainable energy operating goal and organically grown food in the restaurants to a glass-enclosed indoor park and 20 acre artificial lake. In addition, there are plans to create a research laboratory near Destiny for research into renewable energy, security, sustainable design, and more.
 
-![Disappointing Destiny](http://s3.beckshome.com/20060902-Disappointing-Destiny.jpg)
+![Disappointing Destiny](https://s3.amazonaws.com/s3.beckshome.com/20060902-Disappointing-Destiny.jpg)
 
 Destiny has received limited press outside of the upstate New York area but it deserves a whole lot more exposure, in my opinion. I found out about the project originally during my interviews with ThoughtWorks, which had been awarded the system integration contract for the Destiny project. Even after I decided not to accept the job offer from TW, I couldn’t get Destiny off of my mind. Now almost two years hence, I still find the time almost every week to see what’s up with Destiny.
 

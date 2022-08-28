@@ -5,7 +5,7 @@ Tags:
 ---
 In addition to the technical assets that I’ve mentioned in previous blog postings, BSCoE also makes a set of software process assets available. These software process assets are arranged into disciplines and collected under the umbrella of BSCoE’s Software Engineering Process (SEP). Information about the BSCoE SEP is available online to the general public.
 
-![BSCoE SEP Wheel](http://s3.beckshome.com/20060829-BSCoE-SEP-Wheel.jpg)
+![BSCoE SEP Wheel](https://s3.amazonaws.com/s3.beckshome.com/20060829-BSCoE-SEP-Wheel.jpg)
 
 The SEP is based roughly upon the Rational Unified Process (RUP) and Microsoft Solutions Framework (MSF). Those looking at the sample assets will notice the similarities with the standard RUP templates. The process component of the SEP is specifically vague, leaving decisions such as formality versus agility, process activities, and roles to the projects employing the SEP. In particular, projects have several options for SEP customization including document-driven (RUP-style development case), local modifications to the process, or modifications with intent to contribute back changes to BSCoE for inclusion in the master SEP distribution. The SEP is conceptually similar in some ways to Ivar Jacobson’s new Essential Unified Process (EssUP). However, whereas the EssUP variability comes through the selection of practices, SEP’s variability comes through the selection of artifacts.
 

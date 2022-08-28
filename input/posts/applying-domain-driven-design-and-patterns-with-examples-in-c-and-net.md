@@ -5,7 +5,7 @@ Tags:
 ---
 When I purchased this book almost 3 weeks ago, I was surprised to find that it had been on the shelves for 3 months already. Books that unify advanced architectural concepts such as Domain-Driven Design and design patterns are few and far between. This is especially true in the .NET world since many of the source materials originated in the Java realm.
 
-![Applying Domain Driven Design and Patterns](http://s3.beckshome.com/20060808-Applying-Domain-Driven-Design-And-Patterns.jpg)
+![Applying Domain Driven Design and Patterns](https://s3.amazonaws.com/s3.beckshome.com/20060808-Applying-Domain-Driven-Design-And-Patterns.jpg)
 
 Nilsson does a rather unique job of puling together some of the best domain-driven, object-oriented patterns and approaches and explain them using .NET-specific examples. The pros and cons, as I see them, are taken [from my Amazon.com review](https://www.amazon.com/gp/product/0321268202/) and reprinted below:
 

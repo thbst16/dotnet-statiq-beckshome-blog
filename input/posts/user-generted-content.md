@@ -7,7 +7,7 @@ For some time I’ve been giving thought to user-generated content on the Intern
 
 I’ve been following Dion’s blog for nearly a year now and his writing helped shape my thinking about Web 2.0. Although I strongly agree with his statement that user-generated content is one of the pillars of Web 2.0, it appears that we disagree somewhat with respect to the limits of its potential. I can honestly say that user-generated content on sites such as Amazon.com, Wikipedia, and del.icio.us has added tangible value to my online experience. In many ways, there is no way to even emulate these services in the world outside of the Web. I don’t think, however, that I will ever be able to make a similar assertion about video and YouTube, in its current incarnation.
 
-![YouTube User Generated Content](http://s3.beckshome.com/20060727-YouTube-User-Generated-Content.gif)
+![YouTube User Generated Content](https://s3.amazonaws.com/s3.beckshome.com/20060727-YouTube-User-Generated-Content.gif)
 
 Call it frivolous, but I’d rather spend a couple of dollars to download the latest version of Lost or 24 onto my iPod than watch any number of the best of the best YouTube clips. Creating quality programming usually involves capital expenditures beyond most individuals’ means; casting and directing a team of professionals – be it actors, animators or otherwise; leveraging a professional production staff; and having a mechanism for distributing this programming. YouTube only addresses one facet in the programming production chain – distribution.
 

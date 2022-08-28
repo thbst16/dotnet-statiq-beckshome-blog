@@ -5,7 +5,7 @@ Tags:
 ---
 [Programming Atlas](https://www.amazon.com/o/ASIN/0596526725/), by Christopher Wentz, has not yet officially been released but I’ve had the chance to read it and keep up with progress through the O’Reilly Rough Cuts program. With its last update happening over a month ago, I anticipate that its now press ready and that a review of the book would be appropriate at this time.
 
-![Programming Atlas](http://s3.beckshome.com/20060917-Programming-Atlas.jpg)
+![Programming Atlas](https://s3.amazonaws.com/s3.beckshome.com/20060917-Programming-Atlas.jpg)
 
 Even though Atlas has not yet been officially released, this book is already a late comer to the market. It’s been beaten to market by a variety of AJAX texts that included some coverage of Atlas and at least one dedicated [Atlas book from Apress](https://www.amazon.com/Foundations-Atlas-Rapid-Development-ASP-NET/dp/1590596471/). With all the press around Ajax and the huge Microsoft ASP.NET programmers market, putting out a book in the Atlas category is an opportunity that won’t be ignored by the major publishing houses. After trying out Atlas for a while during its Community Technology Preview (CTP) release and seeing the fairly extensive documentation and examples released by both Microsoft and the community, I tend to think that it’s an opportunity that they might best have chosen to ignore just the same.
 

@@ -5,7 +5,7 @@ Tags:
 ---
 I received an email from one of my clients a couple of days back referring to a quote of mine on Cenqua’s website under their Clover.NET product. This brought me back to an article I wrote for Dr.Dobb’s Journal when build tools, unit testing products, and continuous integration were making their way from the Java world over to .NET. I decided to meander over to Dr.Dobb’s site (I still call it a site although a barrage of emails from CMP Media constantly reminds me that it’s a new and improved portal) and see if the article is still available.
 
-![Continuous Integration and .NET](http://s3.beckshome.com/20060801-Continuous-Integration-And-DotNET.png)
+![Continuous Integration and .NET](https://s3.amazonaws.com/s3.beckshome.com/20060801-Continuous-Integration-And-DotNET.png)
 
 Googling around, I was quickly able to locate the articles, which were published in two parts: Part I and Part II. Reading through the articles, I reflected on how far we’ve come in the .NET community since then. Continuous Integration (CI) and the tools supporting it have been embraced by the community and have found fairly widespread acceptance on commercial and open source products alike. In fact, the pendulum has swung so far in this direction that Microsoft decided that it was time that they undertook the effort to re-create these tools and repackage them within proprietary Microsoft products. The ultimate incarnation of this effort is Team System, which represents Continuous Integration and everything else tangentially related to the software development process rolled into one… and then given a shot of steroids – the proverbial 500 pound gorilla.
 
@@ -19,4 +19,4 @@ Employing James Newkirk, the creator of NUnit, to design the Team System unit te
 
 <u>Post Footnotes:</u> In case you’ve been living under a rock for the last 5 years, [Fowler’s explanation of continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html) is considered the seminal work and will get you up to speed quickly. The image above comes from my article and, while not nearly as eloquent or enjoyable as Martin’s explanation; I’ve found it a good and quick way to explain CI to absolute beginners and pointy-haired boss types alike. I’ve included a link to my original code below for the sake of completeness. My apologies in advance since it’s a bit dated.
 
-[Continuous Integration and .NET Source.zip (1.27 MB)](http://s3.beckshome.com/20060801-Continuous-Integration-And-DotNET-Source.zip)
+[Continuous Integration and .NET Source.zip (1.27 MB)](https://s3.amazonaws.com/s3.beckshome.com/20060801-Continuous-Integration-And-DotNET-Source.zip)
