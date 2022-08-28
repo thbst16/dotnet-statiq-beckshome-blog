@@ -5,7 +5,7 @@ Tags:
 ---
 Following up on my This Digital Life post last month, a couple of folks have sent me emails asking if I had some recommendations around other Web 2.0 tools. In the sprit of a recent podcast that defined Web 2.0 as “really anything that’s cool online nowadays”, I decided to post some Web 2.0’ish tools that I highly recommend. Some of these tools I’ve been using for a year or more (a mighty long time in the Web 2.0 world) and some I’ve been using for just a couple of weeks. Most are, with the exception of Central Desktop, free services. Enjoy and let me know if you find these useful.
 
-![Web-2-0-ish-Tools](http://s3.beckshome.com/20061130-Web-2-0-ish-Tools.png)
+![Web-2-0-ish-Tools](https://s3.amazonaws.com/s3.beckshome.com/20061130-Web-2-0-ish-Tools.png)
 
 * **scanR** – Snap digital pictures of whiteboards or paper documents and upload them for processing to scanR. The images are cleaned up, PDFed, and sent back to you in an email. You can also upload images of business cards, which are then converted into vCards that can be imported into your favorite contact management program.
 * **Vyew** – I’m a recent convert to Vyew and have been nothing but impressed with its features and ease of use. Think WebEx; but it’s better and it’s free.

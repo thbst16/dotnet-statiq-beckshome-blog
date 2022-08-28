@@ -5,7 +5,7 @@ Tags:
 ---
 This weekend, I set out on the daunting task of trying to add an Apache Web server to my existing Windows 2003 production server installation. “Why would you go about doing such a crazy thing”, you might ask. The answer is that, in short, it’s the only way to host an HTTP-accessible instance of Subversion on a Windows box. I’m looking to consolidate all of my hosted software: .NET, Java, and infrastructure, onto a single platform. Since I use Subversion to enable my location independence with respect to computers I use, this application needed to be ported as well.
 
-![IIS and Apache Side-by-Side](http://s3.beckshome.com/20061127-IIS-And-Apache-Side-By-Side.png)
+![IIS and Apache Side-by-Side](https://s3.amazonaws.com/s3.beckshome.com/20061127-IIS-And-Apache-Side-By-Side.png)
 
 I expected to learn a lot of new stuff about Subversion and Apache through this process. I didn’t expect (perhaps ignorantly so) that I’d encounter “learning opportunities” on Windows as well. As it turns out, Microsoft has gone ahead and made the assumption that if you’re running IIS on your Windows Server, nothing else should be running on port 80. That is, out of the box, IIS exhibits very greedy behavior, binding to all available IP addresses on the server, not just the ones that are explicitly assigned to Web sites.
 
