@@ -5,9 +5,9 @@ Tags:
 ---
 I was revisiting an article I penned very optimistically several years ago about open source software collaboratives. Most notably, I mentioned the Avalanche Corporate Technology Cooperative and the [Government Open Code Collaborative (GOCC)](https://en.wikipedia.org/wiki/Government_Open_Code_Collaborative). These were (I stress the “were”) seemingly ill-fated initiatives to share the source code to business applications in the commercial and public sectors, respectively.
 
-![Government Open Code Collaborative](http://s3.beckshome.com/20060711-Government-Open-Code-Collaborative.jpg) ![Avalanche Corporate Technology Cooperative](http://s3.beckshome.com/20060711-Avalanche-Corporate-Technology-Cooperative.gif)
+![Government Open Code Collaborative](https://s3.amazonaws.com/s3.beckshome.com/20060711-Government-Open-Code-Collaborative.jpg) ![Avalanche Corporate Technology Cooperative](https://s3.amazonaws.com/s3.beckshome.com/20060711-Avalanche-Corporate-Technology-Cooperative.gif)
 
-[Open Source Enterprise Applications.pdf (550.16 KB)](http://s3.beckshome.com/20060711-Open-Source-Enterprise-Applications.pdf)
+[Open Source Enterprise Applications.pdf (550.16 KB)](https://s3.amazonaws.com/s3.beckshome.com/20060711-Open-Source-Enterprise-Applications.pdf)
 
 Checking on these initiatives two years hence, I discovered that there has been scarce an update to either one of these sites since I wrote the article. Looking back and reflecting on my thoughts and experiences over the past couple of years, I realize that these two initiatives were destined to fail and that the open source community is unlikely to produce quality, open source enterprise applications. Allow me to compare.
 

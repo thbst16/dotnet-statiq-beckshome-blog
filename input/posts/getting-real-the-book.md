@@ -7,7 +7,7 @@ I stumbled onto the book [Getting Real: The smarter, faster, easier way to build
 
 Getting Real describes the practices, both software development and beyond, used by 37signals, a small company that despite their excellent, easy-to-use applications is perhaps still best known as the innovators and driving force behind the Rails framework. Given the tie to the Rails creators, it is not surprising to learn that this book espouses an Agile approach to software development. What differentiates this book from other Agile texts is that it blends both Agile software development practices with, dare I say it, <i>pragmatic</i> guidance from 37signals and other industry notables on the business of creating, releasing and managing Web applications in the Web 2.0 world. This includes advice on staffing and the organization (borrowing from <i>Peopleware</i>), application design (using a user story / UI approach as opposed to a user story / domain object approach), pricing and signup, promotion strategy, support and post-implementation activities.
 
-![Getting Real - The Book](http://s3.beckshome.com/20060709-Getting-Real-The-Book.png)
+![Getting Real - The Book](https://s3.amazonaws.com/s3.beckshome.com/20060709-Getting-Real-The-Book.png)
 
 The book could not have been released at a better time. It will function very well as a handbook for operations at GeoGlue as the team expands. To that extent, I believe you can even purchase an organizational license to the book for about $50. There are a couple of real gems in here (for the Ruby crowd, no pun intended) – one of my favorites is the obligatory sections beating up on functional specifications.
 

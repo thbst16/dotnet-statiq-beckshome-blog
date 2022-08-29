@@ -5,7 +5,7 @@ Tags:
 ---
 A couple of weeks ago, I was asked to describe what GeoGlue was. Although, we have a far-reaching strategic vision for GeoGlue, I can describe the functionality in the initial release using two words – “Soundseeing Mashup”. Now both of these words are fairly new additions to the English language. The mashup concept has gained a good deal of traction through all of the Web 2.0 writeups. Soundseeing, on the other hand, was a term that even I had not heard until just a couple of weeks ago.
 
-![Soundseeing](http://s3.beckshome.com/20060716-Soundseeing.jpg)
+![Soundseeing](https://s3.amazonaws.com/s3.beckshome.com/20060716-Soundseeing.jpg)
 
 Wikipedia, in its very brief description of soundseeing, describes it as an audio tour that uses the ambient sounds and descriptions given by a tour guide to give the listener an accurate depiction of the surroundings. These types of recordings are usually made at tourist points of interest and are commonly distributed through podcasting Soundseeingtours.com provides a collection of links to get you started on understanding soundseeing. The New York Minute Show appears to be a leader in the genre, with a number of podcasts covering popular areas of New York City. The [Amateur Traveler](https://amateurtraveler.com/) is also pretty good, with a diverse geographic focus and a good bit of content collected over the last year or so.
 
