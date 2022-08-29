@@ -10,7 +10,7 @@ As a card holding member of the tool skeptics club, I admit to being plesantly s
 * Visualization of the enterprise architectural layers with the Federal Enterprise Architecture (FEA) included out of the box and support for the integration of other popular models such as the Zachman framework. This allows users to navigate the layers of the enterprise architecture and examine the assets associated with each of the layers.
 * Cataloging the contents of multiple disparate version control systems and presenting them as a “virtual repository”. This repository includes UDDI discovery of Web services and baseline .NET and Java assets from Microsoft’s Enterprise Library and Sun’s core J2EE patterns, respectively.
 
-    ![BSCoE Logidex](http://s3.beckshome.com/20060624-BSCoE-Logidex.jpg)
+    ![BSCoE Logidex](https://s3.amazonaws.com/s3.beckshome.com/20060624-BSCoE-Logidex.jpg)
 
 * Providing a configurable workflow for the review and approval of software assets as well as notifications to asset consumers of changes to existing assets.
 * Exposing core Logidex business services as Web services, lowering the barriers to integration with existing solutions, portals, etc. LogicLibrary eats their own dog food in this sense, by having their IDE plug-ins for Visual Studio and Eclipse consume these same Web services.
