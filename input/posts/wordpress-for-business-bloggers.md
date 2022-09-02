@@ -3,7 +3,7 @@ Published: 6/23/2009
 Tags:
     - Book Reviews
 ---
-After more than a year-long hiatus, this entry marks my return to blogging. One of the things I decided to do to get myself back into the spirit of blogging was to change my blogging engine. I made the move from the [.NET-based DasBlog](http://blog.beckshome.com/index.php/2006/06/dasblog-installation/index.html) to the more mainstream WordPress platform. I will be providing more information about the migration process (specifically, WordPress on IIS 7), helpful tools and tutorials, and useful WordPress plugins in an upcoming blog post.
+After more than a year-long hiatus, this entry marks my return to blogging. One of the things I decided to do to get myself back into the spirit of blogging was to change my blogging engine. I made the move from the [.NET-based DasBlog](/2006/06/das-blog-installation) to the more mainstream WordPress platform. I will be providing more information about the migration process (specifically, WordPress on IIS 7), helpful tools and tutorials, and useful WordPress plugins in an upcoming blog post.
 
 ![WordPress for Business Bloggers](https://s3.amazonaws.com/s3.beckshome.com/20090623-WordPress-for-Business-Bloggers.png)
 

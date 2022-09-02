@@ -7,7 +7,7 @@ Tags:
 
 ![Making it Big in Software Book](https://s3.amazonaws.com/s3.beckshome.com/20100428-Making-It-Big-Book.jpg)
 
-I really wanted to like Sam Lightstone’s book “Making It Big In Software” and read it cover-to-cover, at some times forcing myself to read on. There are some good points in the book, which at its best represents a blend between the interviewing style of [“Founders at Work”](http://blog.beckshome.com/index.php/2007/02/founders-at-work/2007/02/founders-at-work/) and the pragmatic advice of “Career Warfare”. Unfortunately, the book is at its best far too infrequently to make it a recommended read.
+I really wanted to like Sam Lightstone’s book “Making It Big In Software” and read it cover-to-cover, at some times forcing myself to read on. There are some good points in the book, which at its best represents a blend between the interviewing style of [“Founders at Work”](/2007/02/founders-at-work) and the pragmatic advice of “Career Warfare”. Unfortunately, the book is at its best far too infrequently to make it a recommended read.
 
 Aside from really lacking any really original advice or insights that are fairly common knowledge to folks who have spent a couple of years in the software industry, there are several other reasons I probably won’t be referring back to this book very frequently:
 

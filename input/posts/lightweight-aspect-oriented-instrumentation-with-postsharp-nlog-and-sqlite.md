@@ -37,7 +37,7 @@ The remainder of this post will focus on the actual implementation of the soluti
 
 ![Loggong to SQLite Table](https://s3.amazonaws.com/s3.beckshome.com/20100407-Logging-SQLite-Table.png)
 
-The logging configuration file is very similar to [my post on logging with SQLite and NLog](http://blog.beckshome.com/index.php/2010/03/logging-to-sqlite-with-nlog/2010/03/logging-to-sqlite-with-nlog/) with minor changes to the SQLite provider version.
+The logging configuration file is very similar to [my post on logging with SQLite and NLog](/2010/03/logging-to-sqlite-with-nlog) with minor changes to the SQLite provider version.
 
 ```xml
 1	<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
