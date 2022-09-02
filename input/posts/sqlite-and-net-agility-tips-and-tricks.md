@@ -91,4 +91,4 @@ Both ASP.NET MVC and WCF RIA Services use SQL Server ASP.NET Membership and Role
 ```
 **SQLite Logging and Tracing with NLog**
 
-I [recently covered](http://blog.beckshome.com/index.php/2010/03/logging-to-sqlite-with-nlog/2010/03/logging-to-sqlite-with-nlog/) the integration of [NLog](http://nlog-project.org/blog/) with SQLite. A simple configuration file entry and all of your log and trace output can go into a single SQLite database.
+I [recently covered](http://blog.beckshome.com/index.php/2010/03/logging-to-sqlite-with-nlog/2010/03/logging-to-sqlite-with-nlog/) the integration of [NLog](http://nlog-project.org/archives/) with SQLite. A simple configuration file entry and all of your log and trace output can go into a single SQLite database.
