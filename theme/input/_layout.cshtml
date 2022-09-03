@@ -5,6 +5,16 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style>
+    img {
+        max-width: 100%;
+        max-height: 100vh;
+        width: auto;
+        margin: auto;
+    }
+  </style>
+
   @if(Document.ContainsKey(WebKeys.Description))
   {
     <meta name="description" content="@Document.GetString(WebKeys.Description)">
