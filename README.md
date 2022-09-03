@@ -6,4 +6,17 @@ The dotnet-statiq-beckshome-blog solution is the fourth version of my blog's hos
 
 # Solution Highlights
 
+It took a couple of iterations to get all the features right that were needed to replicate the existing Beckshome.com blog functionality. I've included below specific features and functions that are instrumental to the functionality of the blog:
+
+* Statiq web framework - https://www.statiq.dev/web
+* Statiq clean blogging theme - https://github.com/statiqdev/CleanBlog
+* Giscus for commenting - https://giscus.app
+* Azure App Service deployment - https://www.statiq.dev/guide/deployment/azure-app-service
+* Setting the post destination path for REST'ful URLs - https://github.com/statiqdev/CleanBlog/blob/main/README.md#post-destination-path
+
 # Motivation and Credits
+
+There were two specific reference sites that were particularly helpful in my Statiq journey:
+
+* [Migrating to Statiq](https://www.techwatching.dev/posts/migrating-blog) - Awesome blog post on getting Statiq set up, using a theme and deploying giscus. The source code for the site is on GitHub and is a very useful datapoint.
+* [Continuous Deployment of Statiq to Azure](https://www.developmomentum.com/blog/continuously_deploy_a_static_website_with_azure_pipelines.html) - Although I rolled back my deployment from Azure Blob hosting to Azure Web Apps, this article helped me get the Blog hosting deployment pipeline setup in Azure DevOps. As a caveat, there's some additional work to get REST urls working on static hosting that made this approach not immediately worth it for me.
