@@ -2,6 +2,7 @@ MinimumStatiqWebVersion-CleanBlog: "1.0.0-beta.36"
 SiteTitle: "Beckshome.com: Thomas Beck's Blog"
 GenerateSearchIndex: true
 LinkHideExtensions: false
+Image: /beckshome.jpeg
 PageTitle: |
   =>
   {
