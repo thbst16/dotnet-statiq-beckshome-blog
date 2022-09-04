@@ -11,6 +11,7 @@ It took a couple of iterations to get all the features right that were needed to
 * Statiq web framework - https://www.statiq.dev/web
 * Statiq clean blogging theme - https://github.com/statiqdev/CleanBlog
 * Giscus for commenting - https://giscus.app
+* EnlightenerJS for code highlighting - https://github.com/EnlighterJS/EnlighterJS
 * Azure App Service deployment - https://www.statiq.dev/guide/deployment/azure-app-service
 * Setting the post destination path for REST'ful URLs - https://github.com/statiqdev/CleanBlog/blob/main/README.md#post-destination-path
 
