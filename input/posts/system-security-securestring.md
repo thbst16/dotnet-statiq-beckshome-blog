@@ -13,95 +13,94 @@ In the case of a SecureString, you don’t have an unsecure String in managed me
 
 The simple console application below exhibits how a SecureString can be properly used and disposed; with the SecureString contents being made available to managed code and the intermediate memory zeroed out when no longer needed.
 
-```cs
-1	using System;
-2	using System.Security;
-3	using System.Runtime.InteropServices;
-4	 
-5	namespace SecureStringExample
-6	{
-7	    class Program
-8	    {
-9	        static void Main(string[] args)
-10	        {
-11	            // Wrapping the SecureString with using causes it to be properly 
-12	            // disposed, leaving no sensitive data in memory
-13	            using (SecureString SecString = new SecureString())
-14	            {
-15	                Console.Write("Please enter your password: ");
-16	                while (true)
-17	                {
-18	                    ConsoleKeyInfo CKI = Console.ReadKey(true);
-19	                    if (CKI.Key == ConsoleKey.Enter) break;
-20	 
-21	                    // Use the AppendChar() method to add characters
-22	                    // to the SecureString
-23	                    SecString.AppendChar(CKI.KeyChar);
-24	                    Console.Write("*");
-25	                }
-26	                // Make the SecureString read only
-27	                SecString.MakeReadOnly();
-28	                Console.WriteLine();
-29	 
-30	                // Display password by marshalling it from unmanaged memory 
-31	                DisplaySecureString(SecString);
-32	                Console.ReadKey();
-33	            }
-34	        }
-35	 
-36	        // Example demonstrating what needs to be done to get SecureString value to
-37	        // managed code. This method uses unsafe code; project must be compiled
-38	        // with /unsafe flag in the C# compiler
-39	        private unsafe static void DisplaySecureString(SecureString SecString)
-40	        {
-41	            IntPtr StringPointer = Marshal.SecureStringToBSTR(SecString);
-42	            try
-43	            {
-44	                // Read the decrypted string from the unmanaged memory buffer
-45	                String NonSecureString = Marshal.PtrToStringBSTR(StringPointer);
-46	                Console.WriteLine(NonSecureString);
-47	            }
-48	            finally
-49	            {
-50	                // Zero and free the unmanaged memory buffer containing the
-51	                // decrypted SecureString
-52	                Marshal.ZeroFreeBSTR(StringPointer);
-53	                if (!SecString.IsReadOnly())
-54	                   SecString.Clear();
-55	            }
-56	        }
-57	    }
-58	}
-```
+<pre data-enlighter-language="csharp">
+using System;
+using System.Security;
+using System.Runtime.InteropServices;
+ 
+namespace SecureStringExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Wrapping the SecureString with using causes it to be properly 
+            // disposed, leaving no sensitive data in memory
+            using (SecureString SecString = new SecureString())
+            {
+                Console.Write("Please enter your password: ");
+                while (true)
+                {
+                    ConsoleKeyInfo CKI = Console.ReadKey(true);
+                    if (CKI.Key == ConsoleKey.Enter) break;
+                    // Use the AppendChar() method to add characters
+                    // to the SecureString
+                    SecString.AppendChar(CKI.KeyChar);
+                    Console.Write("*");
+                }
+                // Make the SecureString read only
+                SecString.MakeReadOnly();
+                Console.WriteLine();
+
+                // Display password by marshalling it from unmanaged memory 
+                DisplaySecureString(SecString);
+                Console.ReadKey();
+	        }
+	    }
+	 
+	    // Example demonstrating what needs to be done to get SecureString value to
+        // managed code. This method uses unsafe code; project must be compiled
+        // with /unsafe flag in the C# compiler
+        private unsafe static void DisplaySecureString(SecureString SecString)
+        {
+            IntPtr StringPointer = Marshal.SecureStringToBSTR(SecString);
+            try
+            {
+                // Read the decrypted string from the unmanaged memory buffer
+                String NonSecureString = Marshal.PtrToStringBSTR(StringPointer);
+                Console.WriteLine(NonSecureString);
+            }
+            finally
+            {
+                // Zero and free the unmanaged memory buffer containing the
+                // decrypted SecureString
+                Marshal.ZeroFreeBSTR(StringPointer);
+                if (!SecString.IsReadOnly())
+                    SecString.Clear();
+            }
+        }
+    }
+}
+</pre>
 
 This example should be useful to you in working SecureString into your own application. Like any other security measure, there’s a cost to the additional security. In the case of the SecureString, there’s overhead to adding characters to the SecureString as well as marshaling data out of unmanaged memory.  The final reference example I’ll provide is from Microsoft’s SecureString implementation, specifically the code to initialize the secure string. From this code, you can clearly see the check for platform dependencies, buffer allocation, pointer creation and the ProtectMemory() call which invokes the Win32 native RtlEncryptMemory function.
 
-```cs
-1	[HandleProcessCorruptedStateExceptions, SecurityCritical]
-2	private unsafe void InitializeSecureString(char* value, int length)
-3	{
-4	    this.CheckSupportedOnCurrentPlatform();
-5	    this.AllocateBuffer(length);
-6	    this.m_length = length;
-7	    byte* pointer = null;
-8	    RuntimeHelpers.PrepareConstrainedRegions();
-9	    try
-10	    {
-11	        this.m_buffer.AcquirePointer(ref pointer);
-12	        Buffer.memcpyimpl((byte*) value, pointer, length * 2);
-13	    }
-14	    catch (Exception)
-15	    {
-16	        this.ProtectMemory();
-17	        throw;
-18	    }
-19	    finally
-20	    {
-21	        if (pointer != null)
-22	        {
-23	            this.m_buffer.ReleasePointer();
-24	        }
-25	    }
-26	    this.ProtectMemory();
-27	}
-```
+<pre data-enlighter-language="csharp">
+[HandleProcessCorruptedStateExceptions, SecurityCritical]
+private unsafe void InitializeSecureString(char* value, int length)
+{
+    this.CheckSupportedOnCurrentPlatform();
+    this.AllocateBuffer(length);
+    this.m_length = length;
+    byte* pointer = null;
+    RuntimeHelpers.PrepareConstrainedRegions();
+    try
+    {
+        this.m_buffer.AcquirePointer(ref pointer);
+        Buffer.memcpyimpl((byte*) value, pointer, length * 2);
+    }
+    catch (Exception)
+    {
+        this.ProtectMemory();
+        throw;
+    }
+    finally
+    {
+        if (pointer != null)
+        {
+            this.m_buffer.ReleasePointer();
+        }
+    }
+    this.ProtectMemory();
+}
+</pre>
