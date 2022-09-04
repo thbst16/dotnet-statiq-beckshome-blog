@@ -9,13 +9,13 @@ Performance counters for WCF have been available ever since the first release of
 
 Enabling WCF performance counters is a breeze and is covered pretty well elsewhere.  The configuration change below will turn on all three types of WCF counters: Endpoint, Operation, and Service.
 
-```xml
-1	<configuration>
-2	    <system.serviceModel>
-3	        <diagnostics performanceCounters="All" />
-4	    </system.serviceModel>
-5	</configuration>
-```
+<pre data-enlighter-language="xml">
+<configuration>
+    <system.serviceModel>
+        <diagnostics performanceCounters="All" />
+    </system.serviceModel>
+</configuration>
+</pre>
 Your options for enabling the counters are: All, ServiceOnly, and Off. WCF performance counters are included for a reason so I wouldn’t recommend disabling them entirely. Instead, as a rule of thumb you should enable “All” if you’re performing specific service debugging activities that require all the counters and should leave on “ServiceOnly” for normal operations, including in a production environment.
 
 **Calculating Performance Counter Memory Size**

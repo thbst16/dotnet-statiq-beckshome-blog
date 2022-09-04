@@ -39,29 +39,29 @@ The remainder of this post will focus on the actual implementation of the soluti
 
 The logging configuration file is very similar to [my post on logging with SQLite and NLog](/2010/03/logging-to-sqlite-with-nlog) with minor changes to the SQLite provider version.
 
-```xml
-1	<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-2	  <targets>
-3	    <target name="File" xsi:type="File" fileName="C:Temp${shortdate}.nlog.txt"/>
-4	    <target name="Database" xsi:type="Database" keepConnection="false" useTransactions="false"
-5	            dbProvider="System.Data.SQLite.SQLiteConnection, System.Data.SQLite, Version=1.0.60.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86"
-6	            connectionString="Data Source=C:ProjectsMyApp_Logging.s3db;Version=3;"
-7	            commandText="INSERT into LOGTABLE(Timestamp, Loglevel, ThreadId, Message, Context, User, DurationInMs, Exception) values(@Timestamp, @Loglevel, @ThreadId, @Message, @Context, @User, @DurationInMs, @Exception)">
-8	      <parameter name="@Timestamp" layout="${longdate}"/>
-9	      <parameter name="@Loglevel" layout="${level:uppercase=true}"/>
-10	      <parameter name="@ThreadId" layout="${threadid}"/>
-11	      <parameter name="@Message" layout="${message}"/>
-12	      <parameter name="@Context" layout="${ndc}"/>
-13	      <parameter name="@User" layout="${aspnet-user-identity}"/>
-14	      <parameter name="@DurationInMs" layout="${mdc:item=DurationInMs}"/>
-15	      <parameter name="@Exception" layout="${mdc:item=exception}"/>
-16	    </target>
-17	  </targets>
-18	  <rules>
-19	    <logger name="*" minlevel="Debug" writeTo="Database" />
-20	  </rules>
-21	</nlog>
-```
+<pre data-enlighter-language="xml">
+<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <targets>
+        <target name="File" xsi:type="File" fileName="C:Temp${shortdate}.nlog.txt"/>
+        <target name="Database" xsi:type="Database" keepConnection="false" useTransactions="false"
+            dbProvider="System.Data.SQLite.SQLiteConnection, System.Data.SQLite, Version=1.0.60.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86"
+            connectionString="Data Source=C:ProjectsMyApp_Logging.s3db;Version=3;"
+            commandText="INSERT into LOGTABLE(Timestamp, Loglevel, ThreadId, Message, Context, User, DurationInMs, Exception) values(@Timestamp, @Loglevel, @ThreadId, @Message, @Context, @User, @DurationInMs, @Exception)">
+                <parameter name="@Timestamp" layout="${longdate}"/>
+                <parameter name="@Loglevel" layout="${level:uppercase=true}"/>
+                <parameter name="@ThreadId" layout="${threadid}"/>
+                <parameter name="@Message" layout="${message}"/>
+                <parameter name="@Context" layout="${ndc}"/>
+                <parameter name="@User" layout="${aspnet-user-identity}"/>
+                <parameter name="@DurationInMs" layout="${mdc:item=DurationInMs}"/>
+                <parameter name="@Exception" layout="${mdc:item=exception}"/>
+        </target>
+    </targets>
+    <rules>
+        <logger name="*" minlevel="Debug" writeTo="Database" />
+    </rules>
+</nlog>
+</pre>
 The most important component of the solution is the source code for the PostSharp aspect. Before letting you loose, I’ve highlighted some of the features of the source code to avoid cluttering it with comments:
 
 * You need to have PostSharp (the DLLs and the necessary build/compilation configuration) set up on your machine for the aspects to work correctly. Specifically, my code works against PostSharp 2.0
@@ -70,64 +70,64 @@ The most important component of the solution is the source code for the PostShar
 * The MDC map stores timing information in all cases and exception information in the case of an Exception in one of the calling methods annotated with the [LogMethodCall] attribute.
 * To use the attribute, just decorate the method you wish to instrument with the [LogMethodCall] attribute. Then sit back and enjoy detailed instrumentation for free.
 
-```cs
-1	using System;
-2	using System.Diagnostics;
-3	using NLog;
-4	using NLog.Targets;
-5	using PostSharp;
-6	using PostSharp.Aspects;
-7	 
-8	namespace MvcApp.Web.Aspects
-9	{
-10	    [Serializable]
-11	    public class LogMethodCallAttribute : MethodInterceptionAspect
-12	    {
-13	        public override void OnInvoke(MethodInterceptionArgs eventArgs){
-14	            var methodName = eventArgs.Method.Name.Replace("~", String.Empty);
-15	            var className = eventArgs.Method.DeclaringType.ToString();
-16	            className = className.Substring(className.LastIndexOf(".")+1, (className.Length - className.LastIndexOf(".")-1));
-17	            var log = LogManager.GetCurrentClassLogger();
-18	            var stopWatch = new Stopwatch();
-19	 
-20	            var contextId = Guid.NewGuid().ToString();
-21	            NLog.NDC.Push(contextId);
-22	 
-23	            log.Info("{0}() called", methodName);
-24	            stopWatch.Start();
-25	            NLog.NDC.Pop();
-26	 
-27	            try
-28	            {
-29	                eventArgs.Proceed();
-30	            }
-31	            catch (Exception ex)
-32	            {
-33	                var innermostException = GetInnermostException(ex);
-34	                MDC.Set("exception", innermostException.ToString().Substring(0, Math.Min(innermostException.ToString().Length, 2000)));
-35	                log.Error("{0}() failed with error: {1}", methodName, innermostException.Message);
-36	                MDC.Remove("exception");
-37	                throw innermostException;
-38	           }
-39	 
-40	           NLog.NDC.Push(contextId);
-41	           stopWatch.Stop();
-42	           NLog. MDC.Set("DurationInMs", stopWatch.ElapsedMilliseconds.ToString());
-43	           log.Info("{0}() completed", methodName);
-44	           NLog.MDC.Remove("DurationInMs");
-45	           stopWatch = null;
-46	           NLog.NDC.Pop();
-47	        }
-48	 
-49	        private static Exception GetInnermostException(Exception ex)
-50	        {
-51	            var exception = ex;
-52	            while (null != exception.InnerException)
-53	            {
-54	                exception = exception.InnerException;
-55	            }
-56	            return exception;
-57	        }
-58	    }
-59	}
-```
+<pre data-enlighter-language="csharp">
+using System;
+using System.Diagnostics;
+using NLog;
+using NLog.Targets;
+using PostSharp;
+using PostSharp.Aspects;
+ 
+namespace MvcApp.Web.Aspects
+{
+    [Serializable]
+    public class LogMethodCallAttribute : MethodInterceptionAspect
+    {
+        public override void OnInvoke(MethodInterceptionArgs eventArgs){
+            var methodName = eventArgs.Method.Name.Replace("~", String.Empty);
+            var className = eventArgs.Method.DeclaringType.ToString();
+            className = className.Substring(className.LastIndexOf(".")+1, (className.Length - className.LastIndexOf(".")-1));
+            var log = LogManager.GetCurrentClassLogger();
+            var stopWatch = new Stopwatch();
+
+            var contextId = Guid.NewGuid().ToString();
+            NLog.NDC.Push(contextId);
+
+            log.Info("{0}() called", methodName);
+            stopWatch.Start();
+            NLog.NDC.Pop();
+
+            try
+            {
+                eventArgs.Proceed();
+            }
+            catch (Exception ex)
+            {
+                var innermostException = GetInnermostException(ex);
+                MDC.Set("exception", innermostException.ToString().Substring(0, Math.Min(innermostException.ToString().Length, 2000)));
+                log.Error("{0}() failed with error: {1}", methodName, innermostException.Message);
+                MDC.Remove("exception");
+                throw innermostException;
+            }
+	 
+            NLog.NDC.Push(contextId);
+            stopWatch.Stop();
+            NLog. MDC.Set("DurationInMs", stopWatch.ElapsedMilliseconds.ToString());
+            log.Info("{0}() completed", methodName);
+            NLog.MDC.Remove("DurationInMs");
+            stopWatch = null;
+            NLog.NDC.Pop();
+        }
+	 
+        private static Exception GetInnermostException(Exception ex)
+        {
+            var exception = ex;
+            while (null != exception.InnerException)
+            {
+                exception = exception.InnerException;
+            }
+            return exception;
+        }
+    }
+}
+</pre>
