@@ -13,82 +13,82 @@ If you’ve never used SQLite with .NET before, you’ll be happy to know that i
 
 There are lots of good reasons to implement proper interfaces and mock objects or stubs for the purposes of testing. Sometimes it’s just easier not to have to deal with it. SQLite-backed testing provides the perfect alternative. You can still create your unit tests, even exercising framework elements and third party libraries that aren’t always the easiest to cover with traditional mocking frameworks. Just plug in a temporary SQLite test database, write your test code just as you’d write your application code and use one of several mechanisms to purge the data between tests. As usual, [Ayende provides the definitive reference](https://ayende.com/blog/1772/unit-testing-with-nhibernate-active-record) on how to do this for NHibernate. I’ve provided code below from my experiences doing this with file backed databases for Castle ActiveRecord. Find your way to Google for references on how to accomplish this with the Entity Framework.
 
-```cs
-1	using Castle.ActiveRecord;
-2	using Castle.ActiveRecord.Framework;
-3	using Castle.ActiveRecord.Framework.Config;
-4	using Gallio.Framework;
-5	using Gallio.Model;
-6	using MbUnit.Framework;
-7	using MyNameSpace.Models;
-8	using System;
-9	 
-10	namespace MyNameSpace.Tests
-11	{
-12	    public abstract class AbstractBaseTest
-13	    {
-14	        protected SessionScope scope;
-15	 
-16	        [FixtureSetUp]
-17	        public void InitializeAR()
-18	        {
-19	            ActiveRecordStarter.ResetInitializationFlag();
-20	            IConfigurationSource source = new XmlConfigurationSource("TestConfig.xml");
-21	            ActiveRecordStarter.Initialize(source, typeof(Object1), typeof(Object2));
-22	        }
-23	 
-24	        [SetUp]
-25	        public virtual void Setup()
-26	        {
-27	            Object2.DeleteAll();
-28	            Object1.DeleteAll();
-29	            scope = new SessionScope();
-30	        }
-31	 
-32	        [TearDown]
-33	        public virtual void TearDown()
-34	        {
-35	            scope.Dispose();
-36	        }
-37	 
-38	        public void Flush()
-39	        {
-40	            scope.Flush();
-41	            scope.Dispose();
-42	            scope = new SessionScope();
-43	        }
-44	    }
-45	}
-```
+<pre data-enlighter-language="csharp">
+using Castle.ActiveRecord;
+using Castle.ActiveRecord.Framework;
+using Castle.ActiveRecord.Framework.Config;
+using Gallio.Framework;
+using Gallio.Model;
+using MbUnit.Framework;
+using MyNameSpace.Models;
+using System;
+
+1namespace MyNameSpace.Tests
+{
+    public abstract class AbstractBaseTest
+    {
+        protected SessionScope scope;
+	 
+        [FixtureSetUp]
+        public void InitializeAR()
+        {
+	        ActiveRecordStarter.ResetInitializationFlag();
+	        IConfigurationSource source = new XmlConfigurationSource("TestConfig.xml");
+	        ActiveRecordStarter.Initialize(source, typeof(Object1), typeof(Object2));
+        }
+
+	    [SetUp]
+        public virtual void Setup()
+        {
+            Object2.DeleteAll();
+            Object1.DeleteAll();
+            scope = new SessionScope();
+        }
+	 
+        [TearDown]
+        public virtual void TearDown()
+        {
+            scope.Dispose();
+        }
+	 
+        public void Flush()
+        {
+            scope.Flush();
+            scope.Dispose();
+            scope = new SessionScope();
+        }
+    }
+}
+</pre>
 
 **SQLite as a Membership and Role Provider**
 
 Both ASP.NET MVC and WCF RIA Services use SQL Server ASP.NET Membership and Role Providers by default. Take SQL Server out of the equation and swap in the [custom SQLite Membership and Role Providers](http://www.nullskull.com/articles/20051119.asp) and you can use SQLite for your security data as well. Configuration of the custom provider can all be done right in the web.config file, as illustrated below.
 
-```xml
-1	<configuration>
-2	  <connectionStrings>
-3	    <add name="MembershipConnection" connectionString="Data Source=C:ProjectsDatabasesMyApp_Membership.s3db;Version=3;"/>
-4	  </connectionStrings>
-5	    <system.web>
-6	        <authentication mode="Forms">
-7	            <forms loginUrl="~/Account/LogOn"/>
-8	        </authentication>
-9	    <membership defaultProvider="SQLiteMembershipProvider" userIsOnlineTimeWindow="15">
-10	      <providers>
-11	        <clear/>
-12	        <add name="SQLiteMembershipProvider" type="MyNameSpace.Web.Helpers.SqliteMembershipProvider" connectionStringName="MembershipConnection" applicationName="MyApplication" enablePasswordRetrieval="false" enablePasswordReset="true" requiresQuestionAndAnswer="false" requiresUniqueEmail="true" passwordFormat="Hashed" writeExceptionsToEventLog="true"/>
-13	      </providers>
-14	    </membership>
-15	    <roleManager defaultProvider="SQLiteRoleProvider" enabled="true" cacheRolesInCookie="true" cookieName=".ASPROLES" cookieTimeout="30" cookiePath="/" cookieRequireSSL="false" cookieSlidingExpiration="true" cookieProtection="All">
-16	      <providers>
-17	        <clear/>
-18	        <add name="SQLiteRoleProvider" type="MyNameSpace.Web.Helpers.SQLiteRoleProvider" connectionStringName="MembershipConnection" applicationName="MyApplication" writeExceptionsToEventLog="true"/>
-19	      </providers>
-20	    </roleManager>
-21	    </system.web>
-22	</configuration>
-```
+<pre data-enlighter-language="xml">
+<configuration>
+    <connectionStrings>
+        <add name="MembershipConnection" connectionString="Data Source=C:ProjectsDatabasesMyApp_Membership.s3db;Version=3;"/>
+    </connectionStrings>
+    <system.web>
+        <authentication mode="Forms">
+            <forms loginUrl="~/Account/LogOn"/>
+	    </authentication>
+	    <membership defaultProvider="SQLiteMembershipProvider" userIsOnlineTimeWindow="15">
+	        <providers>
+                <clear/>
+                <add name="SQLiteMembershipProvider" type="MyNameSpace.Web.Helpers.SqliteMembershipProvider" connectionStringName="MembershipConnection" applicationName="MyApplication" enablePasswordRetrieval="false" enablePasswordReset="true" requiresQuestionAndAnswer="false" requiresUniqueEmail="true" passwordFormat="Hashed" writeExceptionsToEventLog="true"/>
+            </providers>
+        </membership>
+        <roleManager defaultProvider="SQLiteRoleProvider" enabled="true" cacheRolesInCookie="true" cookieName=".ASPROLES" cookieTimeout="30" cookiePath="/" cookieRequireSSL="false" cookieSlidingExpiration="true" cookieProtection="All">
+            <providers>
+	            <clear/>
+	            <add name="SQLiteRoleProvider" type="MyNameSpace.Web.Helpers.SQLiteRoleProvider" connectionStringName="MembershipConnection" applicationName="MyApplication" writeExceptionsToEventLog="true"/>
+            </providers>
+        </roleManager>
+    </system.web>
+</configuration>
+</pre>
 **SQLite Logging and Tracing with NLog**
 
 I [recently covered](/2010/03/logging-to-sqlite-with-nlog) the integration of [NLog](http://nlog-project.org/archives/) with SQLite. A simple configuration file entry and all of your log and trace output can go into a single SQLite database.
