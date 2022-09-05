@@ -22,8 +22,8 @@ Capistrano is quite overt about being opinionated software, going as far as to c
 * Select a hosting provider that has one or more sample Capistrano deployment files available or that have customized the standard Shovel file for their environment. You’ll still have to do some tweaking but this will help save a good deal of time. Suffice it to say that if your hosting provider doesn’t know how Capistrano works, turn and run… fast.
 * If you maintain critical files outside of Subversion such as your database.yml or if you have multiple copies of the same file (e.g. different environment.rb files for staging and production deployments), the simple Ruby put command goes a long way. For example:
 
-```ruby
-1	put(File.read('config/database.yml'),"#{deploy_to}/current/config/database.yml", :mode => 0444)
-2	put(File.read('config/environment.staging.rb'),"#{deploy_to}/current/config/environment.rb", :mode => 0664)
-```
+<pre data-enlighter-language="ruby">
+put(File.read('config/database.yml'),"#{deploy_to}/current/config/database.yml", :mode => 0444)
+put(File.read('config/environment.staging.rb'),"#{deploy_to}/current/config/environment.rb", :mode => 0664)
+</pre>
 There are plenty of purists out there that have invented all sorts of ways to get unversioned files onto your productions server if need be. I don’t see the need for such complexity, especially if only one or two people have been granted deployment rights with Capistrano.
