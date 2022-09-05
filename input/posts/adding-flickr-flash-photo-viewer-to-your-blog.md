@@ -13,15 +13,15 @@ What I eventually stumbled on was a simple and elegant solution that got me exac
 
 With the Flickr slideshow viewer up and running, I only needed to add the ability to select between multiple photo groups and I was done. With the actual Flickr viewer taking care of all of the real AJAX work, all that was needed was a bit of light JavaScript to tie this all together. Below you will find the code that does all of the lifting.
 
-```js
-1	<script type="text/javascript">// <![CDATA[
-2	      function changeSlideshow(url, title)
-3	      {
-4	            document.getElementById("SlideShow").src=url;
-5	            document.getElementById("Title").innerHTML=title;
-6	            return false;
-7	      }
-8	// ]]></script>;
-```
+<pre data-enlighter-language="csharp">
+<script type="text/javascript">// <![CDATA[
+    function changeSlideshow(url, title)
+    {
+        document.getElementById("SlideShow").src=url;
+        document.getElementById("Title").innerHTML=title;
+        return false;
+    }
+// ]]></script>;
+</pre>
 
 Clicking on any of the photo group links / thumbnails makes a call to the above function passing the URL for the slideshow in the manner stipulated in Paul’s article for populating the slideshow viewer. The title is also passed so that the title of the page can be updated. You can see this at work on my new photopage. By viewing the page source, you can see the exact mechanism I used to make this work. If you’re have any questions, feel free to drop me a line.
