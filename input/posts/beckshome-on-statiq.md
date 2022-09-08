@@ -16,8 +16,41 @@ The Clean Blog site theme documentation [provides an example](https://github.com
 DestinationPath: => $"{Document.GetDateTime("Published").ToString("yyyy/MM")}" + "/" + $"{Document.Destination.FileName}".Replace(".md", "") + ".html"
 </pre>
 
+<h3> Rewrite Rules for Hosting on Azure App Services</h3>
+
+To get the Restful Url routing working and mask the HTML file extension required a custom rewrite rule in a web.config file. Surprisingly, I needed to put in a rule and a custom MIME extension for RSS as well. Very App Service / IIS specific but necessary if you're using these platforms.
+
+<pre data-enlighter-language="xml">
+<configuration>
+  <system.webServer>
+    <staticContent>
+      <mimeMap fileExtension=".rss" mimeType="application/rss+xml" />
+    </staticContent>
+    <rewrite>
+      <rules>
+        <rule name="rss" stopProcessing="true">
+          <match url="^feed.rss$" />
+          <action type="None" />
+        </rule>
+        <rule name="html">
+          <match url="(.*)" />
+          <conditions>
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+          </conditions>
+          <action type="Rewrite" url="{R:1}.html" />
+        </rule>
+      </rules>
+    </rewrite>
+  </system.webServer>
+</configuration>
+</pre>
+
+<h3>Google Analytics</h3>
+
+If you're looking to add Google Analytics, or other web tracking products, 
+
 * Some lessons learned
-    * web.confi for hosting on Azure App Services / IIS
     * google analytics from _head.cshtml
     * enlighterer in _layout.cshtml
     * _post-footer.cshtml for giscus
