@@ -48,10 +48,21 @@ To get the Restful Url routing working and mask the HTML file extension required
 
 <h3>Google Analytics</h3>
 
-If you're looking to add Google Analytics, or other web tracking products, 
+If you're looking to add Google Analytics, or other web tracking products, this is really simple in Statiq. Add the Google Analytics javascrip to the _head.cshtml file, which should be blank, and go to town.
+
+<pre data-enlighter-language="js">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YOUR-CODE-HERE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YOUR-CODE-HERE');
+</script>
+</pre>
 
 * Some lessons learned
-    * google analytics from _head.cshtml
     * enlighterer in _layout.cshtml
     * _post-footer.cshtml for giscus
     * _sidebar.cshmlt and _social_links.cshtml for social links (could do other like Twitter)
