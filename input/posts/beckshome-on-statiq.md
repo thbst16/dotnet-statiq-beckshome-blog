@@ -62,11 +62,11 @@ If you're looking to add [Google Analytics](https://analytics.google.com/), or o
 </script>
 </pre>
 
-<h3>Giscus Commenting<h3>
+<h3>Giscus Commenting</h3>
 
 Adding [giscus commenting](https://giscus.app/) is as easy as dropping some Javascript into the _post-footer.cshtml file. You can generate the specific javascript on the giscus site or replace the fillers below.
 
-<pre data-enlightener-language="js">
+<pre data-enlighter-language="js">
 <script src="https://giscus.app/client.js"
         data-repo="thbst16/dotnet-statiq-beckshome-blog"
         data-repo-id="R_kgDOHz6vCw"
