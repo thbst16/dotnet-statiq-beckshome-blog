@@ -48,7 +48,7 @@ To get the Restful Url routing working and mask the HTML file extension required
 
 <h3>Google Analytics</h3>
 
-If you're looking to add Google Analytics, or other web tracking products, this is really simple in Statiq. Add the Google Analytics javascrip to the _head.cshtml file, which should be blank, and go to town.
+If you're looking to add [Google Analytics](https://analytics.google.com/), or other web tracking products, this is really simple in Statiq. Add the Google Analytics javascrip to the _head.cshtml file, which should be blank, and go to town.
 
 <pre data-enlighter-language="js">
 <!-- Google tag (gtag.js) -->
@@ -62,7 +62,27 @@ If you're looking to add Google Analytics, or other web tracking products, this 
 </script>
 </pre>
 
+<h3>Giscus Commenting<h3>
+
+Adding [giscus commenting](https://giscus.app/) is as easy as dropping some Javascript into the _post-footer.cshtml file. You can generate the specific javascript on the giscus site or replace the fillers below.
+
+<pre data-enlightener-language="js">
+<script src="https://giscus.app/client.js"
+        data-repo="thbst16/dotnet-statiq-beckshome-blog"
+        data-repo-id="R_kgDOHz6vCw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOHz6vC84CQzut"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+</pre>
+
 * Some lessons learned
-    * enlighterer in _layout.cshtml
-    * _post-footer.cshtml for giscus
     * _sidebar.cshmlt and _social_links.cshtml for social links (could do other like Twitter)
