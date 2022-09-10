@@ -4,7 +4,9 @@ Tags:
     - Blog
     - Statiq
 ---
-After 7 years of being dormant, the beckshome.com blog hummed back to life over the past month. What started with [a full .NET hosted blog](/2006/06/das-blog-installation), [moved to Wordpress](/2011/09/web-hosting-provider-cutover) and then was exported from Wordpress to create static content in 2015, which is where things stood for the past 7 years. Once you get beyond the Hello World examples of getting Statiq Web stood up, there's a lot of work to be done to get a blog ported over. Some of this work is brute force conversion of years of blog posts into Markdown format. Some of it lies in the details of Statiq configuration. Rather than reinventing the wheel on this latter topic, I point to a [great blog post on migrating to Statiq](https://www.techwatching.dev/posts/migrating-blog) along with two GitHub repositories containing Open Sourced versions of live Statiq sites -- from [Alexandre Nédélec](https://github.com/techwatching/techwatching.dev) and from [David Glick](https://github.com/daveaglick/daveaglick), the creator of Statiq.
+After 7 years of being dormant, the beckshome.com blog hummed back to life over the past month. It started with [a full .NET hosted blog](/2006/06/das-blog-installation), [moved to Wordpress](/2011/09/web-hosting-provider-cutover) and then was exported from Wordpress to create static content in 2015, which is where things stood for the past 7 years. I decided to go with a static site generator to modernize the site, specifically with [Statiq](https://www.statiq.dev/web), which is a .NET-based static site generator. 
+
+Once you get beyond the Hello World examples of getting Statiq stood up, there's a lot of work to be done to get a blog ported over. Some of this work is brute force conversion of years of blog posts into Markdown format. Some of it lies in the details of Statiq configuration. Rather than reinventing the wheel on this latter topic, I point to a [great blog post on migrating to Statiq](https://www.techwatching.dev/posts/migrating-blog) along with two GitHub repositories containing Open Sourced versions of live Statiq sites -- from [Alexandre Nédélec](https://github.com/techwatching/techwatching.dev) and from [David Glick](https://github.com/daveaglick/daveaglick), the creator of Statiq. I have also made [my blog's repository on GitHub](https://github.com/thbst16/dotnet-statiq-beckshome-blog) public.
 
 There are several lessons I learned beyond what is in the aforementioned blogs. I have highlighted and documented these items below:
 
@@ -68,10 +70,10 @@ Adding [giscus commenting](https://giscus.app/) is as easy as dropping some Java
 
 <pre data-enlighter-language="js">
 <script src="https://giscus.app/client.js"
-        data-repo="thbst16/dotnet-statiq-beckshome-blog"
-        data-repo-id="R_kgDOHz6vCw"
+        data-repo="YOUR-GITHUB-REPO"
+        data-repo-id="YOUR-REPO-ID"
         data-category="Announcements"
-        data-category-id="DIC_kwDOHz6vC84CQzut"
+        data-category-id="YOUR-CATEGORY-ID"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
@@ -87,3 +89,18 @@ Adding [giscus commenting](https://giscus.app/) is as easy as dropping some Java
 <h3>Sidebar Social Links</h3>
 
 Addind the social links below the tags in the sidebar is a two-step process. First, add a reference to the social-links partial in the _sidebar.cshtml file.
+
+<pre data-enlighter-language="csharp">
+@Html.Partial("_social-links")
+</pre>
+
+And then adding the following details into the _social-links.cshtml file with your specific links.
+
+<pre data-enlighter-language="csharp">
+<hr class="dark" />
+<div class="text-center">
+  <a href="https://twitter.com/YOU-ON-TWITTER"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+  <a href="https://www.linkedin.com/in/YOU-ON-LINKEDIN/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/YOU-ON-FACEBOOK"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+</div>
+</pre>
