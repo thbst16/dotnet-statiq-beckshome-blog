@@ -84,5 +84,6 @@ Adding [giscus commenting](https://giscus.app/) is as easy as dropping some Java
 </script>
 </pre>
 
-* Some lessons learned
-    * _sidebar.cshmlt and _social_links.cshtml for social links (could do other like Twitter)
+<h3>Sidebar Social Links</h3>
+
+Addind the social links below the tags in the sidebar is a two-step process. First, add a reference to the social-links partial in the _sidebar.cshtml file.
