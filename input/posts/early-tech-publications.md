@@ -6,4 +6,4 @@ Tags:
     - Java
     - Open Source
 ---
-Try this on for size – the EPAct2005 is the Y2K of Y2K’07. No, this is not an anagram. No sooner is 2006 behind us and folks are already w
+In porting my blog to Statiq, I was forced to revisit a whole lot of content, most of which is more than a decade old. As part of this review, I cleaned up old broken links, of which there were many. I would estimate that 60% of the web links I had from my original blog pages were to sites or content that no longer existed. This...
