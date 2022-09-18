@@ -10,7 +10,7 @@ In porting my blog to Statiq, I was forced to revisit a whole lot of content, mo
 
 While I removed external links that no longer existed, there were some links to content from early publications I had authored for Dr.Dobb's Journal and the Java Developers Journal. I had hesitated posting the original articles since they were historically avaialble online. It looks like somewhere between 2015 and 2022, these sites ceased to exist. I decided to publish the full original articles online since this is the only way they remain avaialble.
 
-<INSERT IMAGE HERE - CREATE AND INSERT IN-FLIGHT>
+<INSERT IMAGE HERE>
 
 * [Continuous Integration and .NET - Part 1 (99 KB)](https://s3.amazonaws.com/s3.beckshome.com/20220911-continuous-integration-and-dotnet-part-1.pdf)
 * [Continuous Integration and .NET - Part 2 (99 KB)](https://s3.amazonaws.com/s3.beckshome.com/20220911-continuous-integration-and-dotnet-part-2.pdf)
