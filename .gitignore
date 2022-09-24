@@ -10,6 +10,9 @@ project.lock.json
 /output/
 /wwwroot/
 
+# Mermaid output
+/input/img/mermaid/*.svg
+
 # Configuration Values
 appsettings.json
 client_secrets.json
