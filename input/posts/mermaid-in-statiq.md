@@ -7,6 +7,10 @@ According to the definition on the [Mermaid site](https://mermaid-js.github.io/m
 
 Adding Mermaid diagrams to a Statiq blog, like the one I use, is a pretty straightforward task. Dpvreony has further simplified this task with some great documentation specific to [using Mermaid diagrams with Statiq](https://www.dpvreony.com/articles/mermaid-with-statiq/). I can confirm that his documented approach works well and he identifies a couple of items where the reader can enhance the approach, including processing diagrams in a loop and working all of this into a CI/CD process.
 
-I've provided a couple of examples below. As with everything on this blog, the source can be found on [my Github repo for this blog](https://github.com/thbst16/dotnet-statiq-beckshome-blog). 
+I've provided a couple of examples below. As with everything on this blog, the source can be found on [my Github repo for this blog](https://github.com/thbst16/dotnet-statiq-beckshome-blog).
+
+**PostSharp**
+
+PostSharp is a 
 
 <img src="/img/mermaid/flowchart.svg"/>

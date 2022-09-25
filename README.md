@@ -21,3 +21,4 @@ There were two specific reference sites that were particularly helpful in my Sta
 
 * [Migrating to Statiq](https://www.techwatching.dev/posts/migrating-blog) - Awesome blog post on getting Statiq set up, using a theme and deploying giscus. The source code for the site is on GitHub and is a very useful datapoint.
 * [Continuous Deployment of Statiq to Azure](https://www.developmomentum.com/blog/continuously_deploy_a_static_website_with_azure_pipelines.html) - Although I rolled back my deployment from Azure Blob hosting to Azure Web Apps, this article helped me get the Blog hosting deployment pipeline setup in Azure DevOps. As a caveat, there's some additional work to get REST urls working on static hosting that made this approach not immediately worth it for me.
+* [Using Mermaid Diagrams with Statiq](https://www.dpvreony.com/articles/mermaid-with-statiq/) - Great post on using dynamically generated diagrams inside a Statiq web site.
