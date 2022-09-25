@@ -9,8 +9,8 @@ Adding Mermaid diagrams to a Statiq blog, like the one I use, is a pretty straig
 
 I've provided a couple of examples below. As with everything on this blog, the source can be found on [my Github repo for this blog](https://github.com/thbst16/dotnet-statiq-beckshome-blog).
 
-**PostSharp**
+**Flowchart**
 
-PostSharp is a 
+Mermaid enables you to use all the major flowchart shapes and to put toghether some pretty complex mappings, including cross-flow dependencies. The example below is a simplified technology selection process.
 
 <img src="/img/mermaid/flowchart.svg"/>

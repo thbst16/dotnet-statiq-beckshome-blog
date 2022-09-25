@@ -1,5 +1,5 @@
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+flowchart LR
+    A[Start] --> B(Collect financial business case details)
+    B --> C{Financial benefits to moving to cloud}
+    C -->|Yes| D[Select cloud service provider]
+    C -->|No| E[Remain on-premise]
