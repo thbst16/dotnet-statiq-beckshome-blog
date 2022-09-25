@@ -13,4 +13,29 @@ I've provided a couple of examples below. As with everything on this blog, the s
 
 Mermaid enables you to use all the major flowchart shapes and to put toghether some pretty complex mappings, including cross-flow dependencies. The example below is a simplified technology selection process.
 
+<pre data-enlighter-language="md">
+flowchart LR
+    A[Start] --> B(Collect financial business case details)
+    B --> C{Financial benefits to moving to cloud}
+    C -->|Yes| D[Select cloud service provider]
+    C -->|No| E[Remain on-premise]
+</pre>
+
 <img src="/img/mermaid/flowchart.svg"/>
+<br/><br/>
+
+**Sequence Diagram**
+
+Mermaid also pulls off sequence diagrams pretty well, as illustrated by the simplified sequence diagram below.
+
+<pre data-enlighter-language="md">
+sequenceDiagram
+    Consumer-->API: Book something
+    API-->BookingService: Start booking process
+    break when the booking process fails
+        API-->Consumer: show failure
+    end
+    API-->BillingService: Start billing process
+</pre>
+
+<img src="/img/mermaid/sequence.svg"/>
