@@ -1,5 +1,5 @@
 Title: Mermaid Diagrams in Statiq
-Published: 9/25/2022
+Published: 9/26/2022
 Tags:
     - Statiq
 ---
@@ -30,12 +30,12 @@ Mermaid also pulls off sequence diagrams pretty well, as illustrated by the simp
 
 <pre data-enlighter-language="md">
 sequenceDiagram
-    Consumer-->API: Book something
-    API-->BookingService: Start booking process
-    break when the booking process fails
-        API-->Consumer: show failure
+    User-->Application: Update My Address
+    Application-->AddressValidationAPI: Validate
+    break if address validation API call fails
+        Application-->User: show failure
     end
-    API-->BillingService: Start billing process
+    Application-->AddressService: Update User Address
 </pre>
 
 <img src="/img/mermaid/sequence.svg"/>
