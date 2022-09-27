@@ -1,5 +1,5 @@
 Title: Mermaid Diagrams in Statiq
-Published: 9/26/2022
+Published: 9/27/2022
 Tags:
     - Statiq
 ---
