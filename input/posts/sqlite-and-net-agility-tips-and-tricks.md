@@ -1,7 +1,7 @@
 Title: "SQLite and .NET - Agility Tips and Tricks"
 Published: 3/30/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 For quick and easy prototypes, you’ve got to admire ASP.NET MVC and WCF RIA Services. These approaches may not be perfect out-of-the-box but they’re structured much better than the old “bind a dataset to a grid and let it fly” approach of 2003. As easy as these approaches are, I’m always looking for ways to make things easier. I get a lot of bang for my buck by using SQLite as an in-memory database whenever I create a new MVC or RIA Services solution. In fact, I create 4 SQLite databases with each new solution: one each for application data, test data, membership/role data, and logging/tracing data. Below I’ve described the techniques I make use of to utilize each of these databases.
 

@@ -1,7 +1,7 @@
 Title: "Book Review: Ultra-Fast ASP.NET"
 Published: 4/1/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
     - Book Reviews
 ---
 I picked up [this gem of a book](https://www.amazon.com/Ultra-Fast-ASP-NET-Build-Ultra-Scalable-Server/dp/1430223839/) when it first came out in eBook format during the PDC. I sent it over to my Kindle and got through the entire book during session downtimes. I planned on being the first to post a review of this book on Amazon but I’ve sat it out too long and will now be the fifth review.

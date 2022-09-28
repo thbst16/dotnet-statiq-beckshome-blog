@@ -1,7 +1,7 @@
 Title: Watch Out! .NET Web Services and the XML Serializer
 Published: 4/5/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 Sometimes you know that something works a certain way but you haven’t really internalized it, you haven’t grok’ed it, until you experience it firsthand. Such was my knowledge of the interaction between .NET web services and the XML Serializer a couple of weeks ago.
 

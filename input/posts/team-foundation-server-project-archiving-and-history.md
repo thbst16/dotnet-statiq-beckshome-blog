@@ -1,7 +1,7 @@
 Title: Team Foundation Server Project Archiving and History
 Published: 5/2/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 One of the things I was really eager to do was help one of our clients manage the archival and history of projects within their TFS repository. Historically, VSS volumes sizes have gotten out of control over time, resulting in commensurately poor performance. Obviously, a SQL Server backing database offers lots of advantages over the Jet database engine but even SQL Server performance will degrade over time as the history volume in long-running projects backs up.
 

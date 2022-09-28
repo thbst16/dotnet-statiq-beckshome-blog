@@ -1,7 +1,7 @@
 Title: Lightweight, Aspect-Oriented Instrumentation with PostSharp, NLog, and SQLite
 Published: 4/7/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 How would you like to achieve detailed exception and trace logging, including method timing and correlation all within a lightweight in-memory database that you can easily manage and query, as exhibited below?
 

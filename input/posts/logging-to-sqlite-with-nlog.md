@@ -1,7 +1,7 @@
 Title: Logging to SQLite with NLog
 Published: 3/13/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 This is one of those seemingly trite blog entries – unless you’re actually trying to integrate System.Data.SQLite with [NLog](https://github.com/nlog/nlog/wiki), in which case it’s invaluable. SQLite and NLog really are the perfect combination for lightweight logging. You avoid the sprawl of file-based logs over time, can execute SQL queries against your logs and have an absolutely minimal database footprint to deal with. If only you can get the configuration correct…
 

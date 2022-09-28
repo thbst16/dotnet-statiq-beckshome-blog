@@ -1,7 +1,7 @@
 Title: System.Security.SecureString
 Published: 9/11/2011
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 I recently had the opportunity to look into and make use of the Microsoft [System.Security.SecureString](https://docs.microsoft.com/en-us/dotnet/api/system.security.securestring?redirectedfrom=MSDN&view=net-6.0) class. This class is one of those dark corners of the .NET Framework that you don’t think about on a day-to-day basis but are really glad that it’s there when your security auditor starts asking questions about how PII data such as social security numbers are protected while resident in memory. The SecureString class takes care of this problem, helping you avoid a situation where unencrypted sensitive String data is left lingering around on the .NET heap. However, since this class does reference unmanaged memory buffers, its use is not entirely intuitive. I’ve attempted to demystify things with the explanation, drawing and code snippets in this post.
 

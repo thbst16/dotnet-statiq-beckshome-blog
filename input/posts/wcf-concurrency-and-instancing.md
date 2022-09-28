@@ -1,7 +1,7 @@
 Title: WCF Concurrency and Instancing
 Published: 3/22/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 I’ve been ranting to some colleagues about a particularly useful table that showed the interactions between WCF’s *InstanceContextMode* and *ConcurrencyMode* behaviors.  I referenced it in a conversation again today and decided that I needed to go hunt down the phantom table so that it haunted me no longer.
 

@@ -1,7 +1,7 @@
 Title: Microsoft's Guide to Claims Based Identity and Access Control
 Published: 3/11/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 Three months after the PDC conference and I’m finally catching up on the reading materials I collected in LA. One of the books I picked up was a copy of the Patterns and Practices Group’s <i>A Guide to Claims Based Identity and Access Control</i>. It turns out that this book just RTM’ed and is now available online in PDF and HTML formats.
 

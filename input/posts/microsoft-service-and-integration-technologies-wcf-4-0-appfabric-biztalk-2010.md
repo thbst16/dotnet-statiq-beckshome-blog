@@ -1,7 +1,7 @@
 Title: "Microsoft Service and Integration Technologies - WCF 4.0, AppFabric, BizTalk 2010"
 Published: 3/28/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 One of the things I’m often asked to do for clients is to create an applicability matrix. That is, which technology applies best to which particular challenges in an enterprise? There would seem to be an acute need for this type of clarification in the realm of Microsoft’s service technologies. With the recent releases of Web Process Activations Services (WAS) on Windows Server 2008, WCF 3.5 and 4.0, Windows Server AppFabric, BizTalk 2009 and 2010, and Windows Azure AppFabric, the waters of Microsoft’s service and integration technologies is muddy indeed. In this post, I’m going to provide some clarification; explaining what new service and integration offerings are on the way from Microsoft, offering a frame of reference on how I see them applying to enterprise customers, and furnishing references to materials you can use to educate yourself in these technologies.
 

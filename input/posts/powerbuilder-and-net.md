@@ -1,7 +1,7 @@
 Title: "PowerBuilder and .NET"
 Published: 3/22/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 I’ve had the opportunity to spend the last week or so investigating a system integration challenge involving PowerBuilder and .NET communicating with web services hosted on a mainframe. It’s been an interesting experience that’s enabled me to dive deep into .NET and to learn a bit about where PowerBuilder is at and where it’s heading. My outtakes follow:
 

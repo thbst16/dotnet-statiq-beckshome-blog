@@ -1,7 +1,7 @@
 Title: Redgate Reflector Pro
 Published: 4/8/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 As many of you likely know, Lutz Roeder turned over control of one of the “must have” .NET developer tools, [.NET Reflector](https://www.red-gate.com/products/dotnet-development/reflector/) to Red Gate software. True to their promise, RedGate has continued to support the free version of Reflector and make continued improvements, including the addition of a Visual Studio plugin to jump into Reflector and the support of .NET 4 assemblies with their most recent release of the tool.
 

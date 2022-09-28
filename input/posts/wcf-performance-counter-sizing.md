@@ -1,7 +1,7 @@
 Title: WCF Performance Counter Sizing - Do the Math
 Published: 4/13/2010
 Tags:
-    - .NET Application Architecture
+    - .NET
 ---
 Performance counters for WCF have been available ever since the first release of WCF with the .NET 3.0 Framework. As long as these counters have been available, [Microsoft has been cautioning](https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-3.5/ms735098(v=vs.90)?redirectedfrom=MSDN) about the memory requirements and potential performance degradation associated with insufficient shared memory allocation. I thought that I had heard at the PDC that WCF 4 would fix some of this but going back to the WCF session video, it looks as if these counters won’t really be addressed by WCF 4 but instead superseded by the ETW instrumentation present in AppFabric. So, until everyone moves to AppFabric, I see a need for a bit more guidance than the “allocate enough memory” that Microsoft offers us.
 
