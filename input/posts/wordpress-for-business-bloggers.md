@@ -1,6 +1,7 @@
 Title: Wordpress for Business Bloggers
 Published: 6/23/2009
 Tags:
+    - Blog
     - Book Reviews
 ---
 After more than a year-long hiatus, this entry marks my return to blogging. One of the things I decided to do to get myself back into the spirit of blogging was to change my blogging engine. I made the move from the [.NET-based DasBlog](/2006/06/das-blog-installation) to the more mainstream WordPress platform. I will be providing more information about the migration process (specifically, WordPress on IIS 7), helpful tools and tutorials, and useful WordPress plugins in an upcoming blog post.
