@@ -1,7 +1,7 @@
 Title: Creating GeoRSS Feeds in C#
 Published: 4/12/2007
 Tags:
-	- .NET
+    - .NET
     - Technology Guides
 ---
 The [recent announcement](http://googlemapsapi.blogspot.com/2007/03/kml-and-georss-support-added-to-google.html) that Google will support GeoRSS in addition to KML as a data format for geographic content in Google Maps is long overdue. This is one of those rare areas where Google trailed both Microsoft and Yahoo and did not seem at all willing to budge. Google’s announcement also seals the deal on GeoRSS as the way to syndicate geo-specific data. However, despite the obvious importance of GeoRSS, there is little written material on producing GeoRSS feeds.
