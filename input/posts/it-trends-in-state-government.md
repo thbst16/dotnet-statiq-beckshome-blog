@@ -1,7 +1,7 @@
 Title: IT Trends in State Government
 Published: 6/22/2007
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 With the [2007 NASCIO IT recognition award](https://www.nascio.org/awards/) submission process closed and the evaluation process in full swing, I’m anxiously awaiting the publication of the nominations from across the country. It’s always interesting to see what new and innovative practices are being applied in different state governments. With Web 2.0, blogging, wikis, multi-media, and social computing firmly established in the Internet at large (see Time Person of the Year 2006), it’s high time that this wave hits the government sector, which usually lags behind in such trends by a couple of years.
 

@@ -1,7 +1,7 @@
 Title: Web 2.0 Bus
 Published: 6/23/2007
 Tags:
-    - Legacy Blog
+    - New Technology
 ---
 I feel as if someone tacked a “show me your enterprise service bus” sign onto my back and I’ve been walking around blissfully unaware of this fact for months now. Client presentations, vendor presentations, casual conversations – everyone wants to show off their visuals of an ESB, SOA, and next generation architectures. Thank goodness there’s no fine print on my sign restricting me from asking tough (and not so tough) questions.
 

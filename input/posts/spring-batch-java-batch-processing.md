@@ -1,6 +1,7 @@
 Title: Spring Batch - Java Batch Processing
 Published: 5/7/2007
 Tags:
+    - Java
     - New Technology
 ---
 Eliminating or reducing enterprise system batch processing is the bane of many architects looking to convert large-scale legacy systems to current platforms. Some believe, rightly or wrongly so, that mainframe-style batch has no place in modern system architectures and attempt to eradicate its existence entirely. Others are a bit more accepting and attempt to understand the role that batch processing fills in enterprise application architectural space. Even for these people, finding people with the skills to engineer batch processing systems with these newer technologies is not an easy proposition since little or nothing has been written about batch on the Java or .NET platforms.

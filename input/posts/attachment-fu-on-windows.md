@@ -1,6 +1,7 @@
 Title: Attachment_Fu on Windows
 Published: 7/19/2007
 Tags:
+    - Rails
     - Technology Guides
 ---
 Continuing my Rails on Windows thread, I’m going to spend a bit of time on something that’s brought me both some substantial gains and some minor woes lately, running the Attachment_Fu plugin on Windows. I’ll start off with some general Attachment_Fu information and then get into some of the quirks, which are, as expected, mostly specific to the Windows environment.

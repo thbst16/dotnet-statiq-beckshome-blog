@@ -2,6 +2,7 @@ Title: Netbeans 6.0 as a Rails IDE
 Published: 10/7/2007
 Tags:
     - New Technology
+    - Rails
 ---
 I’ve posted about how impressed I was with NetBeans as a Java IDE and the incredible progress this product has made in the last couple of years. I knew for a while that Ruby on Rails and JRuby support was coming for the next major Netbeans release (v 6.0), but I hesitated moving from RadRails to NetBeans until the feature set had stabilized. Last week, the Netbeans 6.0 beta was released and, with RadRails stagnating somewhat under the Aptana brand, I caved in and made the switch.
 

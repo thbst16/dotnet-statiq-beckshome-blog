@@ -1,7 +1,7 @@
 Title: "Microsoft Publication: SOA in the Real World"
 Published: 7/27/2007
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 [Tad Anderson posted](https://realworldsa.blogspot.com/2007/07/service-oriented-architecture-soa-in.html) about the release of an SOA-related e-book from Microsoft concerning Service Oriented Architecture (SOA). This is one area in which Microsoft has remained notably quiet compared with competing enterprise software vendors such as IBM and Sun. As Tad points out in his post, Microsoft has made some forays into SOA publications and they have been pretty readable.
 

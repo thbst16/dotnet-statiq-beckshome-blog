@@ -1,7 +1,7 @@
 Title: "Rails on Windows - Part 1 (Capistrano on Windows)"
 Published: 6/25/2007
 Tags:
-    - Legacy Blog
+    - Rails
 ---
 As soon as you’ve spent some time dealing with Rails, you’re bound to hear the fact quoted that the entire Core Rails Team does their work on Macs. There are likely several reasons for this: (1) these folks really like Macs (you can’t fault them for that); (2) they’re getting kickbacks to use Powerbooks (could be; not likely though); or (3) Rails is fun, and using Windows puts a bit of damper on that fun. I think the last answer is the most likely even though I’d like to think that Steve Jobs has some skin in the Rails game.
 

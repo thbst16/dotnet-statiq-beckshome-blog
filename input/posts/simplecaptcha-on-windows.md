@@ -1,7 +1,7 @@
 Title: Simple_Captcha on Windows
 Published: 10/7/2007
 Tags:
-    - Legacy Blog
+    - Rails
 ---
 Another in the installment of Rails on Windows “gotchas”, there are some things to be wary of when working with the Simple_Captcha plugin in the Windows environment. In terms of basic background, the Simple_Captcha plugin facilitates the integration of [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) (Computer Automated Public Turing test to tell Computers and Humans Apart) image recognition tests, like the example below, into a Rails application. Facilitates is perhaps not a strong enough term. The plugin makes CAPTCHA integration dirt simple.
 

@@ -1,7 +1,7 @@
 Title: Life in HD
 Published: 12/19/2007
 Tags:
-    - Legacy Blog
+    - New Technology
 ---
 After a long hiatus, I just got done working my way through a 6 month photo backlog, arranging and backing up photos and picking the best ones out for uploading to Flickr. You can find the new photos in the photo section of my blog. I was working my way through videos as well and preparing to convert some of these to Flash for uploading. If you look at the videos section of my blog, you’ll notice that there are no new videos. So what happened?
 

@@ -1,6 +1,7 @@
 Title: Podcast Creation from Rails
 Published: 7/8/2007
 Tags:
+    - Rails
     - Technology Guides
 ---
 I’ve been putting a good deal of time recently into converting GeoGlue from .NET to Rails. One of the things that I’m looking to get into the alpha release is the dynamic creation of podcasts. This is really nothing special since a podcast is little more than a special case of an RSS feed that points at external media files (i.e. audio or video).

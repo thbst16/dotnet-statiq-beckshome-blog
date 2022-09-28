@@ -1,7 +1,7 @@
 Title: The SOA Chasm
 Published: 9/29/2007
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 During a discussion the other day, I found myself repeatedly asking the question of how many organizations could make the leap from an organization dabbling in services (SOA believers) to an organization living SOA and benefiting from services (SOA achievers). I kept referring to the SOA chasm, this nearly insurmountable gap that needs to be crossed to move from an SOA believer to an SOA achiever. The image below is my visualization of this gap.
 
