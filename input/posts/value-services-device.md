@@ -1,7 +1,7 @@
 Title: "Value == Services + Device"
 Published: 1/16/2007
 Tags:
-    - Legacy Blog
+    - New Technology
 ---
 The [<i>Technology and Venture Capitalism Podcast</i>](http://web.archive.org/web/20130729204959id_/http://itc.conversationsnetwork.org/shows/detail1693.html) on IT Conversations featured some interesting guests who brought a lot of good ideas to the table. Phil Windley, the moderator, got the guests to kick around the concept of patterns for applications that are good prospective candidates for funding in the VC world. The discussion started with the simple advertising-only model (a’la Google) and the group then moved onto the Apple iTunes / iPod model.
 

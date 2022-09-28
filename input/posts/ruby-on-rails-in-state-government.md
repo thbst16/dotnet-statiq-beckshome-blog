@@ -1,7 +1,8 @@
 Title: Ruby on Rails in State Government
 Published: 3/29/2007
 Tags:
-    - Legacy Blog
+    - Government Technology
+    - Rails
 ---
 The more I use [Ruby on Rails](https://rubyonrails.org/), the more I become convinced that it is damn near the perfect framework for state government Web-based applications. Ruby on Rails in State GovernmentThat said, I don’t know of a single state, local, or municipal government that is experimenting with Rails in any meaningful fashion. I have a bunch of stored Google queries that have yielded woefully little information about the penetration of Rails into state government over the past year or so. I fear that is because there really has been little or no penetration.
 

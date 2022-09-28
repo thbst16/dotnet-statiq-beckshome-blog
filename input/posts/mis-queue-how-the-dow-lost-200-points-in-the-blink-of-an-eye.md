@@ -1,7 +1,7 @@
 Title: "Mis-queue - How the Dow lost 200 Points in the Blink of an Eye"
 Published: 3/1/2007
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 In the final installment of this March 1st trilogy, I’ll hit something really topical, the precipitous fall of the Dow Jones Industrial Average (DJIA) two days ago on February 26th. For those of you just diligently minding your stakes in the market, you probably got wind that all the major indexes tanked pretty badly on the 26th. The Dow, however, tanked in a rather unnatural fashion that was quite different from the others.
 

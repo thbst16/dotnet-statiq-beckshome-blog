@@ -1,7 +1,7 @@
 Title: Hosting Flash Video
 Published: 3/4/2007
 Tags:
-    - Legacy Blog
+    - Technology Guides
 ---
 I finally got around to adding videos to the site that I’ve been accumulating over the last couple of years. I’ve blogged about investigating Flash video a number of times before. After putting a number of videos on YouTube and being disappointed with the quality of the end product after their compression and resizing process was completed, I decided to go it on my own.
 

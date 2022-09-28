@@ -1,7 +1,7 @@
 Title: SOA Governance
 Published: 3/1/2007
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 If you work in the IT world today, you have a greater chance of not finding a Starbucks on a randomly selected block in Manhattan than you do of not hearing the term “SOA” during your daily workday. It’s unfortunately not nearly as often that I hear or read something about SOA that sounds reasonable, practicable, and overcomes my otherwise skeptic view of all the hype that so often masquerades as SOA. The [recent ITConverations Podcast](http://web.archive.org/web/20130729204851id_/http://itc.conversationsnetwork.org/shows/detail1730.html) with Todd Biske and Ed Vasquez from MomentumSI is just the sort of real-world advice that avoids the hype and gives a heavy dose of ground truth reality.
 

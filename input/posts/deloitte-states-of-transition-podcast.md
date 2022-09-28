@@ -1,7 +1,7 @@
 Title: Deloitte "States of Transition" Podcast
 Published: 1/2/2007
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 Over the holidays, I had the chance to catch up with some back reading and Podcasts and there was one, in particular, that caught my attention. The book / Podcast combo on transforming state governments by Deloitte & Touche provided some really interesting, innovative, no-holds-barred analysis of the problems that state governments are facing in the early 21st century. Recorded the day after the 2006 elections, Deloitte’s Bob Campbell and Bill Eggers collaborate with Deloitte advisor, former governor of Pennsylvania and first secretary of Homeland Security, Tom Ridge to produce an excellent Podcast. The Podcast serves as a solid introduction to the more extensive analysis in their book, [States of Transition: Tackling government’s toughest policy and management challenges](https://www.amazon.com/States-Transition-Governments-Management-Challenges/dp/0979061105/).
 

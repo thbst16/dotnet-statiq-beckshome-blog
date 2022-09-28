@@ -1,7 +1,7 @@
 Title: Energy Policy Act of 2005
 Published: 1/3/2007
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 Try this on for size – the EPAct2005 is the Y2K of Y2K’07. No, this is not an anagram. No sooner is 2006 behind us and folks are already worried about “the next Y2K”, the Energy Policy Act of 2005. Between January 1st and January 3rd, I’ve received no fewer than 8 emails on this topic. These emails include everything from details about software and hardware that will require some form of remediation to EPAct2005-related business opportunities.
 

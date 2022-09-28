@@ -1,7 +1,7 @@
 Title: Software Process Customization and The Development Case
 Published: 3/9/2007
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 One of the most common misunderstandings or missteps in following a particular software process is to follow that process in a blind, one-size-fits all fashion. This is especially true if you are mandated organizationally to use a particular software process. Just as the founding fathers could not have foreseen the challenges of the modern world when authoring the Constitution, there is no way that the creators of a generic software process could understand the nuances of every particular project where their process would be used.
 

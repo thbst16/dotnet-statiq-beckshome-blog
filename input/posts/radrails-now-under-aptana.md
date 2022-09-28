@@ -2,6 +2,7 @@ Title: RadRails Now Under Aptana
 Published: 3/23/2007
 Tags:
     - New Technology
+    - Rails
 ---
 For those Rails developers using RadRails as your IDE, you might have noticed that, in the last several days, the RadRails site has slipped off of the face of the earth. Due to a very unfortunate run-in with their registrar and DNS provider, the nice folks at RadRails are apparently stuck in DNS purgatory. This little mishap coincided with the announcement of the [Aptana IDE](http://www.aptana.com/) / RadRails merger. Due to the site outage, many folks missed out on the announcement all together… so I’ll repeat Aptana and RadRails are merging. The location of the RadRails download on SourceForge has not changed.
 

@@ -1,7 +1,7 @@
 Title: "The Innovation Engine at Yahoo - Pipes, OmniFind and TagMaps"
 Published: 2/21/2007
 Tags:
-    - Legacy Blog
+    - New Technology
 ---
 The innovation engine at Yahoo is heating up, looking to get Yahoo back in the race with the “Big Boys”, rivals Google and Microsoft. In an environment categorized by copycat service offerings and one-upmanship, Yahoo’s offerings are refreshingly unique. I cover three of the most recent services that I’ve been playing around with and that I think will prove entertaining to my readers as well – Pipes, OmniFind Yahoo! Edition, and TagMaps.
 

@@ -1,7 +1,7 @@
 Title: Software Engineering, Ethics and the FBI Virtual Case File System
 Published: 1/29/2007
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 Technologists who spend their time working on line of business projects are typically exposed to subtle and not-so-subtle messages about business ethics. Most recently, the implementation of the Sarbanes-Oxley Act has touched most of our lives in some way, shape, or form. At a bare minimum, it has heightened our awareness of how terribly wrong things can go when the trust afforded certain practices (accounting and reporting, in the case of SOX) proves to be misplaced.
 

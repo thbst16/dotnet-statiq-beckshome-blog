@@ -1,7 +1,8 @@
 Title: Building Applications in the Cloud
 Published: 3/1/2007
 Tags:
-    - Legacy Blog
+    - Cloud
+    - New Technology
 ---
 In the first of my beginning-of-the-month speed blogs, I’d like to start with the topic that I’ve been putting off longest, building applications on top of Amazon’s Web services. For those of you that think of Amazon.com as just a book store, or an e-commerce platform, or [add your assumption here], think again. In the last year or so, Amazon has released a number of services that have not only established them as a first-class platform, but have pushed the envelope considerably on the idea of virtualization.
 

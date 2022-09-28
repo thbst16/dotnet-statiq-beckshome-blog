@@ -1,6 +1,7 @@
 Title: "Adding Flickr's Flash Photo Viewer to Your Blog"
 Published: 2/27/2007
 Tags:
+    - Blog
     - Technology Guides
 ---
 One of my original intents of registering the beckshome.com domain name was to publish photos of my new baby son or daughter. That was two years and two daughters ago and, until this weekend, photos were nowhere to be found on my blog. I host my blog on the Windows platform and had no <u>desire/time</u> to do any of the following: (a) buy a separate package for image management; (b) cobble together an ASP.NET solution to manage my photos; (c) switch blogging software to a tool like Community Server that has integrated photo management. Furthermore, I already manage my photos on Flickr and I’m more than happy with the service, user experience, and the cost-benefit. What I really needed was a way to integrate my existing Flickr photos into my current .NET-based blog (DasBlog). The pursuit of this goal is what this blog entry is all about.

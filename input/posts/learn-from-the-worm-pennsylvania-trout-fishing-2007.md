@@ -1,7 +1,7 @@
 Title: "Learn from the Worm - Pennsylvania Trout Fishing 2007"
 Published: 2/25/2007
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 I realize that the title of this blog post is something that one would probably not associate with a blog that purports to cover technology. Bear with me please and surf over to YouTube (or view below) to look at the [video posted by the Pennsylvania Fish and Boat Commission](https://www.youtube.com/watch?v=_d1QgjueHbY). I think you will agree that the video is very well done. Much like the partnership between Google and the Pennsylvania Tourism Office that I blogged about a couple of months back, this posting to YouTube represents some signs of forward thinking, Web-based focus, and creativity on the part of state government.
 

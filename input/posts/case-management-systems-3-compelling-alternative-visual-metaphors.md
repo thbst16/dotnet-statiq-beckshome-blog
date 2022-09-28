@@ -1,7 +1,7 @@
 Title: Case Management Systems - 3 Compelling Alternative Visual Metaphors
 Published: 3/18/2007
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 I’ve spent the better part of the last 6 years dealing with state government systems that manage information about citizens receiving government services. As creative as state government can be in some areas, presenting new and interesting visual metaphors for the management of citizen and case (i.e. collections of citizens) information is certainly not a forte. This problem is not solely the fault of state governments. Rather, it’s the product of state government business leaders’ lack of knowledge of the available options, educational obligation complacency on part of government’s IT partners, and the real or perceived difficulty of being visually creative in an environment where accessibility compliance is not an option.
 
