@@ -1,7 +1,7 @@
 Title: State Government Pattlet - Case
 Published: 12/20/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 I’ve added a second state government pattlet to the portfolio. This one is for the case entity. Although a bit more simplistic than our previous pattlet, Case still has some very interesting nuances, such as the use of aspect-oriented techniques to account for associating the writing of case history records with various case-related transactions.
 
