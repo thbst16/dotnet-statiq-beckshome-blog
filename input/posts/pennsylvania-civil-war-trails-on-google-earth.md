@@ -1,7 +1,7 @@
 Title: Pennsylvania Civil War Trails on Google Earth
 Published: 12/14/2006
 Tags:
-    - Legacy Blog
+    - Geoglue
 ---
 The Governor’s office announced an exciting new partnership between Google Earth, Carnegie Mellon University, NASA, the Pennsylvania Tourism Office, and the National Civil War museum that will allow virtual tourists from all over the world to experience Pennsylvania’s Civil War trails first hand. The partnership will be creating Gigapixel Panoramas (Gigapans), enabling users to visualize these destinations with a great degree of detail.
 

@@ -1,7 +1,7 @@
 Title: "IIS and Apache Side-by-Side"
 Published: 11/27/2006
 Tags:
-    - Legacy Blog
+    - Technology Guides
 ---
 This weekend, I set out on the daunting task of trying to add an Apache Web server to my existing Windows 2003 production server installation. “Why would you go about doing such a crazy thing”, you might ask. The answer is that, in short, it’s the only way to host an HTTP-accessible instance of Subversion on a Windows box. I’m looking to consolidate all of my hosted software: .NET, Java, and infrastructure, onto a single platform. Since I use Subversion to enable my location independence with respect to computers I use, this application needed to be ported as well.
 

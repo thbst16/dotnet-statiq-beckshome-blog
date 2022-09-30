@@ -1,7 +1,7 @@
 Title: iTunes Exclusive - Five for Fighting
 Published: 7/17/2007
 Tags:
-    - Music Reviews
+    - Reviews
 ---
 I’ve had some really good experiences with some of the iTunes Original collections, which include a mix of pre-existing songs, original versions of hits and artist narrations. I’ve especially enjoyed the <i>iTunes Originals with Rob Thomas</i>. This weekend, I picked up my first iTunes Exclusive Live Sessions mix. The Live Sessions series at 5 or 6 songs per collection offers only about half the music of your average Original collection but, as the title indicates, it’s all live music.
 

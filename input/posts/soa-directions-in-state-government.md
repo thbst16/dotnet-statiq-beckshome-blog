@@ -1,7 +1,7 @@
 Title: SOA Directions in State Government
 Published: 11/12/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 I’ve been kicking around some ideas in this area for a while, in hope of bringing them together in some coherent fashion. The image below represents the fruits of my labors. I’m not sure that it’s prefect or that I won’t look back on this as a sophomoric effort several months from now. The visual does, however, touch on several major observations I’ve made recently and allow me to illustrate them in a fairly clear and succinct fashion. Some of the terms are heavily overloaded and thus a bit more discussion of each of these trends is provided below for clarification.
 

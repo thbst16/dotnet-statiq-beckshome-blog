@@ -1,7 +1,7 @@
 Title: Confusion over Configuration
 Published: 12/16/2006
 Tags:
-    - Legacy Blog
+    - Java
 ---
 My initial experiences with Oracle’s TopLink object-relational mapping tool have been less than pleasant. TopLink is the default Java Persistence API provider when creating persistence units for EJB3 style beans in NetBeans. When using TopLink out of the box with NetBeans, the tool’s default behavior is to behave in a case-sensitive fashion with respect to table and column names. This results in awful “Table XXXXX does not exist” errors, where XXXXX is, of course, the capitalized table name.
 

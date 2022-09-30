@@ -1,7 +1,7 @@
 Title: "Web 2.0'ish Tools"
 Published: 11/30/2006
 Tags:
-    - Legacy Blog
+    - New Technology
 ---
 Following up on my This Digital Life post last month, a couple of folks have sent me emails asking if I had some recommendations around other Web 2.0 tools. In the sprit of a recent podcast that defined Web 2.0 as “really anything that’s cool online nowadays”, I decided to post some Web 2.0’ish tools that I highly recommend. Some of these tools I’ve been using for a year or more (a mighty long time in the Web 2.0 world) and some I’ve been using for just a couple of weeks. Most are, with the exception of Central Desktop, free services. Enjoy and let me know if you find these useful.
 

@@ -1,7 +1,7 @@
 Title: Reusable Asset Specification (RAS) and the Reuse Process
 Published: 12/18/2006
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 In my efforts to understand what drives software reuse or the lack thereof, I’ve been looking for formal reuse standards, processes, and practices. I’ve been examining technology agnostic materials as well as researching the approaches taken by each of the respective major camps – software factories for Microsoft and Model Driven Development (MDD) from the Java community. This post, in particular, is more concerned with technology agnostic materials.
 
