@@ -1,7 +1,8 @@
 Title: This Digital Life
 Published: 10/15/2006
 Tags:
-    - Legacy Blog
+    - New Technology
+    - List
 ---
 I’m often asked about tools and technologies that I use on a daily basis. Like everyone else out there, I lead a pretty busy life and I’m always trying to find ways to be more efficient or to use tools that better support the way I work and live. Below you can find a list of the tools and technologies that make my life easier in some way or the other. I’ve cataloged these tools using some general categories to help delineate functionality. As much as possible, I tried to avoid the mundane things and concentrate on smaller niche tools or new technologies that you might not have heard of or actively use and which might enable you to tweak a bit more efficiency or productivity out of your day. Enjoy and please feel free to add comments citing tools that you believe might be of interest to others.
 

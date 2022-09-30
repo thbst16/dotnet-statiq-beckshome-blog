@@ -1,7 +1,7 @@
 Title: "State Government Pattlet - Case Transfer"
 Published: 9/13/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 Following up on a long-standing desire to get domain knowledge out of our heads and onto paper, a colleague and I engaged in writing our first state government pattlet. We spent about two weeks of our spare time putting together an abstract approach to case transfer based upon our varied experiences. We finally have a draft version which we feel comfortable sharing online.
 

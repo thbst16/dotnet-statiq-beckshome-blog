@@ -1,7 +1,7 @@
 Title: The Federal Funding Accountability and Transparency Act of 2006
 Published: 10/16/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 On September 26th, President Bush signed into law the Federal Funding Accountability and Transparency Act of 2006. The represents the first piece of legislation sponsored by upstart Illinois senator Barack Obama to make it into law. Being touted as the “Google for Government”, the law directs the Office of Management and Budget (OMB) to oversee the creation of a single comprehensive searchable Web site that would include information on all federal grants, contracts, and other funding awarded to public and private organizations. As the President mentioned at the signing, the federal government issues more than $400 billion in grants, and more than $300 billion in contracts to corporations, associations, and state and local governments. These range from reputable grants to operate state Medicaid systems to questionable allocation of funds such as the hundreds of millions of dollars allocated to build a bridge to a virtually uninhabited island in Alaska, the so called “bridge to nowhere”. Although at way to high a level to be a true comparison, the Death and Taxes graph provides a good representation of what we might end up seeing.
 

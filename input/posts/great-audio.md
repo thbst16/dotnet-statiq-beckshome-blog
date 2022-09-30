@@ -1,7 +1,8 @@
 Title: Great Audio
 Published: 10/24/2006
 Tags:
-    - Legacy Blog
+    - Reviews
+    - List
 ---
 As I’ve mentioned in previous posts, I’m a pretty dedicated listener of both the Wall Street Journal Audio Edition and the [IT Conversations](http://web.archive.org/web/20130729200341id_/http://itc.conversationsnetwork.org/) podcast site. This morning, I caught some great audio from both of them.
 

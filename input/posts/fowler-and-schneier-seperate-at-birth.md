@@ -1,7 +1,7 @@
 Title: "Fowler and Schneier - Seperated at Birth?"
 Published: 10/10/2006
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 It’s been a while since I’ve posted my last entry. To get myself back in the groove of things, I thought that it might be nice to post something lighthearted and entertaining that your average tech weenie would enjoy. Now I don’t know if you follow the gurus of the technology world but my research has turned up a set of long lost brothers amongst the talking (or blogging) heads. Check out the two pictures below. The one on the left is [Bruce Schneier](https://www.schneier.com/), cryptography and computer security wunderkind and designer of several cryptographic algorithms, including Blowfish and Twofish. The one on the right is [Martin Fowler](https://www.martinfowler.com/), refactoring, pattern, and agile god.
 

@@ -2,6 +2,7 @@ Title: Top 5 Technologies in 2015
 Published: 1/6/2015
 Tags:
     - New Technology
+    - List
 ---
 The new year brought with it the chance to reflect on technologies that I see making a splash in the coming year. I’m enthralled by big data and analytics but I’m not a data scientist; likewise, I only see so much value in the wearables themselves, although they’ll certainly feed the big data beast. My list of technologies is strongly influenced by my background in software and devops — without being a list of language or tool features.
 * **Blockchains and Ethereum.** [Marc Andreesen’s piece on Bitcoin](https://archive.nytimes.com/dealbook.nytimes.com/2014/01/21/why-bitcoin-matters/?_r=0) is inspiring. The guy who invented the web browser told Stanford students in a lecture that if he was hacking today, what he’d be working on is applications of blockchains (the cryptographic technology that underpins Bitcoin). [Ethereum has some potential as a platform](https://www.forbes.com/sites/anthonykosner/2014/12/31/tech-2015-block-chain-will-break-free-from-bitcoin-to-power-distributed-apps/), leveraging the decentralized nature of the blockchain and building on it with programmable contracts (limitless possibilities — hence the excitement) expanding the currently narrow cryptocurrency focus of Bitcoin.

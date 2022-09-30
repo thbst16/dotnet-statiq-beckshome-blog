@@ -2,6 +2,7 @@ Title: Programming Atlas
 Published: 9/17/2006
 Tags:
     - Book Reviews
+    - .NET
 ---
 [Programming Atlas](https://www.amazon.com/o/ASIN/0596526725/), by Christopher Wentz, has not yet officially been released but I’ve had the chance to read it and keep up with progress through the O’Reilly Rough Cuts program. With its last update happening over a month ago, I anticipate that its now press ready and that a review of the book would be appropriate at this time.
 

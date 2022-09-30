@@ -1,7 +1,7 @@
 Title: Hierarchy of State Government Reuse
 Published: 10/22/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 I’ve recently been re-reading Scott Ambler’s excellent work on the Enterprise Unified Process and focusing my attention on the strategic reuse discipline, in particular. Dealing with this on a day-in, day-out basis, I’m trying to apply this particularly to the business domain that I work in, state government. I like the way that Scott went about illustrating the enterprise management disciplines with the traditional RUP workflow maps. Above and beyond this, he borrows from an earlier article of his, [A Realistic Look at Object-Oriented Reuse](https://www.drdobbs.com/a-realistic-look-at-object-oriented-reus/184415594), to create a couple of diagrams that really hit home. I’ve taken the opportunity to adopt these diagrams to enterprise work being done in state government. The adopted diagram can be found below.
 

@@ -1,7 +1,7 @@
 Title: "Business Logic Reuse - What Color is Your Box?"
 Published: 9/19/2006
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 I enjoyed [Harry Piereson’s](http://devhawk.net/blog) well thought-out response to [David Chappel’s entry on SOA and the Reality of Reuse](http://www.davidchappell.com/HTML_email/Opinari_No16_8_06.html). I couldn’t have said it better myself, though that won’t stop me from trying. The way I see it, David brings to light the fact that the emperor has no clothes and then Harry tells you why the emperor is naked. The focus on business context in Harry’s entry really caused me to think about why business logic reuse fails.
 

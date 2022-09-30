@@ -1,7 +1,7 @@
 Title: Project Oversight in the State Government
 Published: 10/30/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 I ran across some very unique work from the state of Missouri in the area of project oversight the other day. Missouri’s well documented approach to project oversight is not only a great state government practice; it is by far the best documented practice in the public or private sector that I could find in this area. The project oversight methodology was nominated for a NASCIO recognition award in 2004 under the State IT Management category.
 

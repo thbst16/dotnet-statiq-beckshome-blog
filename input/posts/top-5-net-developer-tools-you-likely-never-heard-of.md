@@ -3,6 +3,7 @@ Published: 4/26/2010
 Tags:
     - .NET
     - New Technology
+    - List
 ---
 Everybody loves lists of tools. [Scott Hanselman’s annual list of Windows tools](https://www.hanselman.com/tools) has been immensely popular over the years and has opened my eyes to a bunch of new tools. The topic of tools has also been the subject of some very popular books, such as [Windows Developer Power Tools](https://www.amazon.com/Windows-Developer-Power-Tools-Turbocharge/dp/0596527543) and [Java Power Tools](https://www.amazon.com/Java-Power-Tools-Ferguson-Smart/dp/0596527934).
 

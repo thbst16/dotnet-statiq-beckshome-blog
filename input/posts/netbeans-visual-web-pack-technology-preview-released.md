@@ -1,7 +1,7 @@
 Title: Netbeans Visual Web Pack Technology Preview Released
 Published: 11/6/2006
 Tags:
-    - New Technology
+    - Java
 ---
 If you completely missed the milestone, NetBeans version 5.5 was released last week. The IDE contains all of the functionality that’s been around in the beta and pre-release versions for months now, including:
 

@@ -1,7 +1,8 @@
 Title: E-Government Practices
 Published: 11/7/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
+    - List
 ---
 I had the extremely good fortune to stumble upon a document on XML.gov that describes the cohesion between the varying areas of state government work that I am involved in. The document, a report on the E-Government Act of 2002, Section 212, was a revelation of previously unknown relationships between many areas of my work. Despite the fact that the document was written for the federal government, it appears to be very applicable to state government as well.
 

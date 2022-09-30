@@ -1,7 +1,7 @@
 Title: SOA Practices
 Published: 10/27/2006
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 Over the last several months, I’ve really been trying to get my arms around SOA and develop a meaningful opinion and knowledge base on this so often used, even more often abused, and ever-more-frequently maligned three letter acronym (TLA). Along the way, I’ve discovered a couple of great resources that have helped shape my thinking and hone my implementation skills on the topic:
 

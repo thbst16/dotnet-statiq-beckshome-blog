@@ -2,6 +2,7 @@ Title: Attenuation and Other Great Ideas
 Published: 11/18/2006
 Tags:
     - Tech Strategy
+    - List
 ---
 IT Conversations pushed out a great series of podcasts again last week. As always, good things seem to come in three. In this case, the three were IP telephony, transportation networks, and collaboration. The diverse range of technologies and topics covered in these three podcasts represent a microcosm of the IT Conversation offering; just reaffirming their commitment to appeal to an intellectual audience (myself excluded) with a broad set of interests.
 
