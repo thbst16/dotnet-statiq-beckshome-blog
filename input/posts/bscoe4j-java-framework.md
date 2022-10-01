@@ -1,7 +1,8 @@
 Title: "BSCoE4J Java Framework"
 Published: 7/6/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
+    - Java
 ---
 The BSCoE4J Java application development framework was released today to the Commonwealth and is now available for download. The framework contains both abstract and concrete components that support the creation, manipulation, and persistence of domain objects. It interfaces well with, and is meant by no means to supplant, well-understood open source frameworks that address presentation layer, persistence layer, or domain object creation and discovery challenges.
 

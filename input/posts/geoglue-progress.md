@@ -1,7 +1,7 @@
 Title: "GeoGlue Progress"
 Published: 7/1/2006
 Tags:
-    - Legacy Blog
+    - Geoglue
 ---
 With Suzanne and the kids away for a week, I’ve been holding up my end of the bargain and working to make some significant progress with GeoGlue. After getting hung up quite a while on the nuances of Google and Yahoo maps – not to mention Flash encoding – I chose to take a more lightweight approach to getting a first-cut working product out to production. I’ve revamped the user interface pretty significantly but still many of the tried and true styles still manage to show through.
 

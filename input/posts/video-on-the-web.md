@@ -1,7 +1,8 @@
 Title: "Video on the Web"
 Published: 6/28/2006
 Tags:
-    - Legacy Blog
+    - Geoglue
+    - Technology Guides
 ---
 I’ve been experimenting quite a bit with Web-based video for GeoGlue as of late. I knew very little about the medium out of the gate but with a bunch of reading and prototyping over the past couple of weeks, I’ve learned quite a bit. The first revelation to me was that the majority of professional-grade video sites such as YouTube and Google video encode their video as Flash. A bit of further research found claims of 98% pervasiveness of the Flash plugin, as opposed to much lower rates for Real, Quicktime, and Windows Media. Scott Persinger’s [post on the video format wars](https://videoontheweb.wordpress.com/2006/02/15/building-the-solution-part-1-the-format-wars/) proved to be quite interesting reading in this respect.
 

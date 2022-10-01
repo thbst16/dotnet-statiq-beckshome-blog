@@ -1,7 +1,7 @@
 Title: "Microsoft .NET Google Map Component"
 Published: 7/5/2006
 Tags:
-    - Legacy Blog
+    - .NET
 ---
 Jacob Reimers’ Google Maps Control has been a genuine blessing for me over the last couple of days. After a lot of prototyping with Google and Yahoo maps, I decided to go with Google maps for GeoGlue and keep Yahoo maps open as an option based upon the development of the APIs as well as any potential licensing or usage constraints. After dealing with the Google APIs directly, and feeling the pain of issues such as the well-known Internet Explorer “Operation Aborted” maps loading issue, I was yearning for an intermediary API that had already thoughtfully addressed some of these issues.
 

@@ -1,7 +1,7 @@
 Title: "Nursemaid's Elbow"
 Published: 6/25/2006
 Tags:
-    - Legacy Blog
+    - Personal
 ---
 We had quite a harrowing experience this weekend with what was previously to us an unknown ailment – nursemaid’s elbow. This partial dislocation of the elbow is caused by lifting the child (Anna, in this case) by her arms. Anna screamed like we’ve never heard her scream before and was inconsolable. This resulted in our first child-related ER visit, putting an early damper on what promised to be a very busy christening weekend (Mia’s, in this case).
 

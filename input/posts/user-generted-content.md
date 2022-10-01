@@ -1,7 +1,7 @@
 Title: "User-Generated Content"
 Published: 7/27/2006
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 For some time I’ve been giving thought to user-generated content on the Internet. In particular, I’ve been interested in audio and video content. A [recent post by Dion Hinchcliffe](https://web2.socialcomputingjournal.com/user-generated-content-and-youtube/) drove me to put a bit more structure around my ideas and put pen to paper, figuratively speaking.
 

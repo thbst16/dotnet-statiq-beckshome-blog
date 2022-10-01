@@ -1,7 +1,7 @@
 Title: "Soundseeing"
 Published: 7/16/2006
 Tags:
-    - Legacy Blog
+    - Geoglue
 ---
 A couple of weeks ago, I was asked to describe what GeoGlue was. Although, we have a far-reaching strategic vision for GeoGlue, I can describe the functionality in the initial release using two words – “Soundseeing Mashup”. Now both of these words are fairly new additions to the English language. The mashup concept has gained a good deal of traction through all of the Web 2.0 writeups. Soundseeing, on the other hand, was a term that even I had not heard until just a couple of weeks ago.
 

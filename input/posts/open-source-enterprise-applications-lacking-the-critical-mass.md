@@ -1,7 +1,7 @@
 Title: "Open Source Enterprise Applications - Lacking the Critical Mass"
 Published: 7/11/2006
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 I was revisiting an article I penned very optimistically several years ago about open source software collaboratives. Most notably, I mentioned the Avalanche Corporate Technology Cooperative and the [Government Open Code Collaborative (GOCC)](https://en.wikipedia.org/wiki/Government_Open_Code_Collaborative). These were (I stress the “were”) seemingly ill-fated initiatives to share the source code to business applications in the commercial and public sectors, respectively.
 

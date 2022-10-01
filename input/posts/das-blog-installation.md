@@ -1,7 +1,7 @@
 Title: "DasBlog Installation"
 Published: 6/23/2006
 Tags:
-    - Legacy Blog
+    - Blog
 ---
 After a while searching for blogging hosts or blogging software for .NET, I finally settled on [Scott Hanselman’s](http://www.hanselman.com/blog/) DasBlog. The installation of DasBlog proved to be extremely easy; involving the simple extraction of a Web project into a folder (virtual or otherwise) under which one intends to host. Furthermore, storage is all file-based so that no database interaction is required whatsoever. All of the expected amenities such as rich HTML editing (see below), a variety of skins, and a plethora of configuration options are offered through Das Blog as well.
 

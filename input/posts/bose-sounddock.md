@@ -1,7 +1,7 @@
 Title: "Bose SoundDock"
 Published: 7/4/2006
 Tags:
-    - Legacy Blog
+    - Reviews
 ---
 I received the Bose SoundDock as a gift for Father’s Day (thank you girls!) and felt compelled to tell everyone about it. For a couple of days, I mulled over trading in the white model I received for a black model to match my IPod. After reading all the glowing [reviews on Amazon.com](https://www.amazon.com/gp/product/B0006VX1G8/), I just couldn’t bear waiting another week to try the SoundDock out. I was not disappointed…
 

@@ -1,7 +1,7 @@
 Title: "GeoGlue Available"
 Published: 7/25/2006
 Tags:
-    - Legacy Blog
+    - Geoglue
 ---
 The first, albeit very rudimentary, version of GeoGlue is now available online. As described in previous posts, this release is really nothing more than a soundseeing mashup with Google maps. The functionality is very basic, allowing the user to browse for soundseeing tours graphically using maps and a menu system or to search for tours using a combination of keywords. All tours are provided via MP3 streaming audio, either from the site that created the tour or from GeoGlue.com directly.
 

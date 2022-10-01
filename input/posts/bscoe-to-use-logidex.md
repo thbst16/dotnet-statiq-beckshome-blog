@@ -1,7 +1,7 @@
 Title: "BSCoE to use Logidex"
 Published: 6/24/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 The official press release just came out announcing that the Commonwealth of Pennsylvania will be using LogicLibrary’s Logidex product as its asset metadata repository. This is quite an exciting development since it will afford BSCoE the opportunity to automate many of the asset cataloging, management, and approval functions that would have otherwise been manual processes.
 

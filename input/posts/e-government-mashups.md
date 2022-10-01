@@ -1,7 +1,7 @@
 Title: "e-Government Mashups"
 Published: 7/20/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 Phil Windley’s recent post on e-Government mashups is a great introduction to the topic of <i>citizen-facing</i> Web services. As refreshing as it is to see that progressives in Rhode Island and the District of Columbia are exposing government data to their citizens and opening themselves to the law of unintended consequences, this only scratches the surface of what is possible. As I’m sure Phil knows as a former state CIO, fully open citizen self-service is likely to only go so far. As cool as it is to mashup public highway, crime, and public entity data on a map for the world to see, enabling truly effective government is going to be, to a greater extent, dependent upon empowering government knowledge workers. Imagine if, as an example, a knowledge worker was able to pull together information from their state’s welfare, criminal justice, and revenue (i.e. tax) systems and mash these up in a way that enabled them to uncover hidden relationships between this data and serve the state’s citizens more effectively.
 
