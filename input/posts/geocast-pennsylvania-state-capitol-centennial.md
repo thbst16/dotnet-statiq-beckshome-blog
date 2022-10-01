@@ -1,7 +1,7 @@
 Title: GeoCast - Pennsylvania State Capitol Centennial
 Published: 9/9/2006
 Tags:
-    - Legacy Blog
+    - Geoglue
 ---
 On October 4, 2006, the Pennsylvania State Capitol Building celebrates the centennial anniversary of its dedication. In honor of this special event, I have created a GeoCast for the Capitol building, its art, and some surrounding points of interest. This GeoCast can be downloaded or streamed in MP3 format by clicking the link below or by going to the Pennsylvania category on GeoGlue.com.
 

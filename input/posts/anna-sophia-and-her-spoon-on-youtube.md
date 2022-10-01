@@ -1,7 +1,7 @@
 Title: Anna Sophia and Her Spoon on YouTube
 Published: 8/2/2006
 Tags:
-    - Legacy Blog
+    - Personal
 ---
 With two little girls running around the house, I have plenty of material to fuel my zeal to experiment with online audio and video. I uploaded a cut of Anna using her own utensils for the first time.
 

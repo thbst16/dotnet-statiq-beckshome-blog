@@ -1,7 +1,7 @@
 Title: Keystone Technology Plan Issued
 Published: 7/28/2006
 Tags:
-    - Legacy Blog
+    - Government Technology
 ---
 Pennsylvania’s Office of Information Technology (OIT) issued the Keystone Technology Plan to serve as the information technology blueprint through the year 2009. The plan’s phased approach is quite interesting, with the following phases taking center stage:
 

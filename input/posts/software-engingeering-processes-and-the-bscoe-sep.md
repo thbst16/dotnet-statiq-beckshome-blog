@@ -1,7 +1,8 @@
 Title: Software Engineering Processes and the BSCoE SEP
 Published: 8/29/2006
 Tags:
-    - Legacy Blog
+    - Technology Guides
+    - Government Technology
 ---
 In addition to the technical assets that I’ve mentioned in previous blog postings, BSCoE also makes a set of software process assets available. These software process assets are arranged into disciplines and collected under the umbrella of BSCoE’s Software Engineering Process (SEP). Information about the BSCoE SEP is available online to the general public.
 

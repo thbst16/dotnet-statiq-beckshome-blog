@@ -1,7 +1,7 @@
 Title: "Microsoft Versus Open Source - Does Anybody Really Care About This?"
 Published: 9/11/2006
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 The article summary [“Microsoft vs. Open Source: Who Will Win?”](https://hbswk.hbs.edu/archive/microsoft-vs-open-source-who-will-win) from the Harvard Business School (HBS) Working Knowledge magazine bubbled up on the del.icio.us most popular list this morning. Being that this is one of the “classic debates”, I felt compelled to give it a read. As one might expect of an economic publication from HBS, the material is relatively academic in nature. Some of the suggestions for folks in Redmond to remain competitive with the open source community sound great in theory but are unlikely to ever cut it outside the ivory towers. Price discrimination on Windows software is one repeated suggestion. At first glance, this appears very logical, since the marginal costs of distributing additional copies of Windows are near nil. However, this would lead to a very rapid deterioration in pricing structure leaving little or no pricing transparency. People are agreeable with paying $300 for an iPod because they know that everyone else is in the same boat. People hate contracting for packaged software and buying cars because they always feel like they are getting screwed by the salesman who uses some secret formula to determine the price of the goods. Is this a perception that would increase Microsoft’s ability to remain competitive? I highly doubt it.
 

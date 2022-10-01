@@ -1,7 +1,7 @@
 Title: Agile Methods and Special Operations Units
 Published: 8/15/2006
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 I tried answering Tad Anderson’s comment within the bounds of my August 8th posting but eventually decided that this topic really warranted a posting of its own. My thoughts around using Extreme Programming and other Agile approaches to software development are pretty well formed. As an ex-soldier, military analogies seem to work particularly well for me:
 

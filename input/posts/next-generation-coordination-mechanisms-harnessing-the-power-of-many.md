@@ -1,7 +1,7 @@
 Title: "Next Generation Coordination Mechnanisms - Harnessing the Power of Many"
 Published: 8/27/2006
 Tags:
-    - Legacy Blog
+    - Tech Strategy
 ---
 Just as I was doing a bit of mindmapping of ideas around Internet and societal convergence, my RSS reader buzzed with a new post from Dion Hinchcliffe on [Social Computing and Internet Singularity](https://web2.socialcomputingjournal.com/thinking-beyond-web-20-social-computing-and-the-internet-singularity/). Dion didn’t go into great details; referring instead to ideas he had articulated in earlier posts. His posting was, however, enough to prompt me to pull together my thoughts, give them a bit more structure and then send them into the great wide world to begin a life of their own.
 

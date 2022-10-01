@@ -1,7 +1,8 @@
 Title: "Java Versus .NET - The Race"
 Published: 8/21/2006
 Tags:
-    - Legacy Blog
+    - .NET
+    - Java
 ---
 I’m not well-versed in the nuances of NASCAR racing and don’t understand the spectacle very well so when I say this, please take it with a grain of salt. The whole Java versus .NET thing seems to me like a NASCAR race, one car edging ahead of the other and then again giving up ground to the competitor… on and on again for countless monotonous laps. I am in the process of re-immersing myself in the newer releases of Java. It has been years since I dealt with Java on a regular basis – the 1.1 through 1.4 days. This week, I had the chance to see a lightweight EJB 3 container in action, working through Oracle’s slick new IDE with integrated Java Server Faces (JSF) and Object Relational Mapping tool (Toplink, in this case) support. Suffice it to say that I was floored with the progress the Java community had made away from the monolithic J2EE / EJB 2.1 towards the lightweight model espoused by frameworks such as Spring.  Just when it appeared that the Java car was pulling ahead ready to steal the race, along comes the announcement of the Community Technology Preview of ADO.NET vNext. NASCAR fans, we’ve got ourselves a race again. Below I offer a preview of some of the aforementioned technologies:
 

@@ -2,6 +2,7 @@ Title: "Applying Domain-Driven Design and Patterns: With Examples in C# and .NET
 Published: 8/8/2006
 Tags:
     - Book Reviews
+    - .NET
 ---
 When I purchased this book almost 3 weeks ago, I was surprised to find that it had been on the shelves for 3 months already. Books that unify advanced architectural concepts such as Domain-Driven Design and design patterns are few and far between. This is especially true in the .NET world since many of the source materials originated in the Java realm.
 

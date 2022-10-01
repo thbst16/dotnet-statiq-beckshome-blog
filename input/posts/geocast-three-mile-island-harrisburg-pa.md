@@ -1,7 +1,7 @@
 Title: "Geocast - Three Mile Island, Harrisburg, PA"
 Published: 8/7/2006
 Tags:
-    - Legacy Blog
+    - Geoglue
 ---
 Three Mile Island, the nuclear power plant which, at least figuratively speaking, is located right in my back yard, was the site of the nation’s worst nuclear disaster in March of 1979. What better site to select for my first custom Geocast then something so near and dear to the locals’ hearts.
 

@@ -1,7 +1,7 @@
 Title: "Continuous Integration and .NET: An Update"
 Published: 8/1/2006
 Tags:
-    - Legacy Blog
+    - .NET
 ---
 I received an email from one of my clients a couple of days back referring to a quote of mine on Cenqua’s website under their Clover.NET product. This brought me back to an article I wrote for Dr.Dobb’s Journal when build tools, unit testing products, and continuous integration were making their way from the Java world over to .NET. I decided to meander over to Dr.Dobb’s site (I still call it a site although a barrage of emails from CMP Media constantly reminds me that it’s a new and improved portal) and see if the article is still available.
 
