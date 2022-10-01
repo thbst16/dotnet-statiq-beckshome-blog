@@ -1,7 +1,7 @@
 Title: Already Dead
 Published: 3/16/2008
 Tags:
-    - Legacy Blog
+    - Reviews
 ---
 I had to really lay into this movie in my Amazon.com review. I tend to write reviews for products that I’m impressed with and just keep quite on products that don’t really impress. This movie, however, was the exception. It got such good reviews on Amazon that I felt compelled to give it a look. The Internet Movie Database (IMDB) [had some of the best information](https://www.imdb.com/title/tt0937347/) on this flick outside of Amazon. It didn’t make the mainstream movie reviews sites like [Rottentomatoes.com](https://www.rottentomatoes.com/) since it never made it to the box office. 2 stars was probably a bit harsh, 2.5 would have been more appropriate. I felt the genuine need to remove this movie from the 5 star plateau though as this is genuinely deceitful. [My Amazon review](https://www.amazon.com/Already-Dead-Til-Schweiger/dp/B000YDOOGE/) follows:
 

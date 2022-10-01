@@ -1,7 +1,7 @@
 Title: VisualSVN
 Published: 3/10/2008
 Tags:
-    - Legacy Blog
+    - Technology Guides
 ---
 I’ve been contemplating the move towards a self-hosted Subversion repository for quite a while. My earlier attempts worked but left me with a lot of inconvenient and sometimes quirky side effects. These experiences always led me back to hosting Subversion on Linux, which is really where it works most naturally. Recently, however, I decided to retry my luck with Subversion hosting on Windows and I made the call to go with a “package” instead of doing the Apache / Subversion integration myself.
 

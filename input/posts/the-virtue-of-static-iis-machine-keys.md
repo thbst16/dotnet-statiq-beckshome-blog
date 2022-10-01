@@ -1,7 +1,7 @@
 Title: The Virtue of Static IIS Machine Keys
 Published: 3/16/2008
 Tags:
-    - Legacy Blog
+    - Technology Guides
 ---
 Having non-static machine keys when hosting on IIS is just one of those things that’s just bound to cause trouble eventually. This holds true equally for single server hosting environments and load balanced web farm environments. Especially if your goal is to shield your users from any knowledge of IIS lifecycle activities (e.g. application pool recycles), the use of static machine keys is to be strongly recommended. The implications of static versus dynamic keys are enumerated for several different hosting situations below:
 
