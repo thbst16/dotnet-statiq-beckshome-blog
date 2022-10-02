@@ -1,8 +1,8 @@
 Title: About Me
 ---
-This is a no technology zone. I have enough of that in my blog. It also won’t be a boring diatribe about my life or what I do. Instead, a couple of fun facts and third-person narratives:
+This is a no technology zone. I have enough of that in my blog. It also won’t be a boring diatribe about my life or what I do. Instead, a couple of fun facts and pictures:
 
-* Spent nearly 8 years of his life in Germany. Went to university there, worked there, drove very, very fast there. The image is of his German drivers license and, no, he was not associated with any right-wing German radical movements during his stay.
+* Spent nearly 8 years of his life in Germany. Went to university there, worked there, drove very, very fast there. The image is of his German drivers license - scary, eh?
 
     ![German Drivers License](https://s3.amazonaws.com/s3.beckshome.com/20100411-German-License-thumb.png)
     
@@ -14,11 +14,10 @@ This is a no technology zone. I have enough of that in my blog. It also won’t 
 
     [[Full Size Image](https://s3.amazonaws.com/s3.beckshome.com/20100411-Anna-Thomas-Portrait-Medium.png)]
 
-* Served proudly for 4 years as a member of the U.S. Military Intelligence community. Spent lots of time in a building with no windows and [AN/FLR-9 antenna](https://en.wikipedia.org/wiki/AN/FLR-9) outside. Draw your own conclusions about what he did based upon the similarities of the [known installations of AN/FLR-9’s](https://en.wikipedia.org/wiki/AN/FLR-9#Description) and the likely [ground stations in the ECHELON network](https://en.wikipedia.org/wiki/ECHELON#Ground_stations).
+* Served proudly for 4 years as a member of the U.S. Military Intelligence community. Spent lots of time in a building with no windows and an [AN/FLR-9 antenna](https://en.wikipedia.org/wiki/AN/FLR-9) outside. Draw your own conclusions about what he did based upon the similarities of the [known installations of AN/FLR-9’s](https://en.wikipedia.org/wiki/AN/FLR-9#Description) and the likely [ground stations in the ECHELON network](https://en.wikipedia.org/wiki/ECHELON#Ground_stations).
 
     ![Intel Corps](https://s3.amazonaws.com/s3.beckshome.com/20100411-Army-Intelligence%20-Thumb.JPG)
 
     [[Full Size Image](https://s3.amazonaws.com/s3.beckshome.com/20100411-Army-Intelligence-Medium.JPG)]
 
 That’s me for now. I’m working on collecting some other photographic gems from my past and will share them as soon as I can.
-
