@@ -1,4 +1,4 @@
-Title: Dotnet In Memory Databases
+Title: Dotnet Lightweight Databases
 Published: 10/10/2022
 Tags:
     - .NET
@@ -11,10 +11,12 @@ Since SQLite is a file-based database and BlazorCrud is a Docker-based solution,
 With that decision out of the way, the steps to swap the EF Core InMemory provider for SQLite (or vice-versa) are pretty simple:
 
 1. <b>Update DB Package References.</b> This is a simple swap of the Microsoft.EntityFrameworkCore.Sqlite provider for the Microsoft.EntityFrameworkCore.InMemory provider. Alternately, you could leave both there and switch between in memory and SQLite using configuration switches.
+    ![Update DB Package References](https://s3.amazonaws.com/s3.beckshome.com/20221010-db-package-reference.jpg)
+
 2. <b>Update AppDbContext Options.</b> This simply involves swapping in the UseSqlLite method (with a pointer to a physical file) for the UseInMemoryDatabase method.
 
-![Title](https://s3.amazonaws.com/s3.beckshome.com/20221010-db-context.jpg)
+    ![Update AppDBContext Options](https://s3.amazonaws.com/s3.beckshome.com/20221010-db-context.jpg)
 
-![Title](https://s3.amazonaws.com/s3.beckshome.com/20221010-db-delete-create.jpg)
+3. <b>Ensure Database Deleted / Created.</b> The EnsureCreated() method is necessary to ensure that the database for the context exists. The method ensures the database exists but provides no assuranges around schema compatability with the EF model. For testing and prototyping such as with BlazorCrud, I've added the EnsureDeleted() method as well to make sure a new database is created (and then populated with Bogus data) on every app start.
 
-![Title](https://s3.amazonaws.com/s3.beckshome.com/20221010-db-package-reference.jpg)
+    ![Ensure Database Created Deleted](https://s3.amazonaws.com/s3.beckshome.com/20221010-db-delete-create.jpg)
