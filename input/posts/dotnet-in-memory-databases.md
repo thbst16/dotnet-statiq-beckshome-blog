@@ -12,3 +12,9 @@ With that decision out of the way, the steps to swap the EF Core InMemory provid
 
 1. <b>Update DB Package References.</b> This is a simple swap of the Microsoft.EntityFrameworkCore.Sqlite provider for the Microsoft.EntityFrameworkCore.InMemory provider. Alternately, you could leave both there and switch between in memory and SQLite using configuration switches.
 2. <b>Update AppDbContext Options.</b> This simply involves swapping in the UseSqlLite method (with a pointer to a physical file) for the UseInMemoryDatabase method.
+
+![Title](https://s3.amazonaws.com/s3.beckshome.com/20221010-db-context.jpg)
+
+![Title](https://s3.amazonaws.com/s3.beckshome.com/20221010-db-delete-create.jpg)
+
+![Title](https://s3.amazonaws.com/s3.beckshome.com/20221010-db-package-reference.jpg)
