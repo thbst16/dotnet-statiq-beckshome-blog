@@ -11,3 +11,8 @@ Specific to this installment around Auto Complete, I employed two specific libra
 1) [Lucene.Net Suggest](https://lucenenet.apache.org/docs/4.8.0-beta00007/api/Lucene.Net.Suggest/overview.html) - The auto complete / auto suggest library includes the methods to index the data for autosuggest and then a number of suggester algorithms to query the index.
 2) [Blazored.Typeahead](https://github.com/Blazored/Typeahead) - A drop-in Blazor control for type-ahead that accomodates things like debouncing time before executing searches.
 
+**Sample App**
+
+The sample application let's you search over 3,000 waffle text entries, returning paginated search results. Auto-complete functionality provides suggestion for the most relavent search terms in the waffle text index.
+
+![Auto Complete](https://s3.amazonaws.com/s3.beckshome.com/20221111-dotnet-lucene-auto-complete.jpeg)
