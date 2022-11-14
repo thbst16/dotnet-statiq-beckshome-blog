@@ -10,13 +10,13 @@ The code and code narrative below reflects the changes that have been made since
 
 **Sample App**
 
-The sample application generates 3,000 waffle text records with the exact count being configurable and stored in the appsettings.json file. These waffle items can be searched and return in paginated form with a default page size of 5 records (not configurable). Additional character escaping / nulling has been added to remove characters from searches prior to passing them to the search engine. The site is avaialble online at https://dotnet-lucene-search.azurewebsites.net/
+The sample application generates 3,000 waffle text records with the exact count being configurable and stored in the appsettings.json file. These waffle items can be searched and return in paginated form with a default page size of 5 records (not configurable). Additional character escaping / nulling has been added to remove characters from searches prior to passing them to the search engine. The site is available online at https://dotnet-lucene-search.azurewebsites.net/
 
 ![Results Paging](https://s3.amazonaws.com/s3.beckshome.com/20221104-dotnet-lucene-search-pagination.jpeg)
 
 **Dynamic Configuration - Settings**
 
-The dynamic configuration settings, specifically the size of the waffle text corpus to be geneated and the random seed initializer used for genration, are stored in the appsettings.json file and read at runtime.
+The dynamic configuration settings, specifically the size of the waffle text corpus to be generated and the random seed initializer used for generation, are stored in the appsettings.json file and read at runtime.
 
 <pre data-enlighter-language="json">
 {
@@ -131,7 +131,7 @@ namespace search.Shared
 
 **Pagination - Implementation**
 
-Pagination is implemented on the back end in the SearchEngine.cs class. The Search method signature and method have been changed significantly from the original post to enable paginated searches. Also, an EscapeSearchTerm function has been added to remove specific charachters from the search text. This function is applied to search input within the Search method.
+Pagination is implemented on the back end in the SearchEngine.cs class. The Search method signature and method have been changed significantly from the original post to enable paginated searches. Also, an EscapeSearchTerm function has been added to remove specific characters from the search text. This function is applied to search input within the Search method.
 
 <pre data-enlighter-language="csharp">
 using Bogus;
@@ -245,7 +245,7 @@ namespace search.Shared
             return returnModel;
         }
 
-        // Lucene supports escapting the following chars: + - && || ! ( ) { } [ ] ^ " ~ * ? : \
+        // Lucene supports escaping the following chars: + - && || ! ( ) { } [ ] ^ " ~ * ? : \
         // To make it easier, I remove / replace
         private static string EscapeSearchTerm(string input)
         {

@@ -89,7 +89,7 @@ The magic of the app is handled in the SearchEngine.cs class. This class interac
 2. <b>Index.</b> Uses the Lucene.NET search engine library to index the generated waffle text items for search.
 3. <b>Search.</b> Provides the search function that searches over the indexed waffle text using a scored search.
 
-Both the GetData and Index methods are called during program startup (from the Progra.cs file). The Search method is invoked from the Blazor UI with the search text passed in from the user's input.
+Both the GetData and Index methods are called during program startup (from the Program.cs file). The Search method is invoked from the Blazor UI with the search text passed in from the user's input.
 
 <pre data-enlighter-language="csharp">
 using Bogus;

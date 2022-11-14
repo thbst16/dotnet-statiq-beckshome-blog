@@ -50,7 +50,7 @@ To get the Restful Url routing working and mask the HTML file extension required
 
 <h3>Google Analytics</h3>
 
-If you're looking to add [Google Analytics](https://analytics.google.com/), or other web tracking products, this is really simple in Statiq. Add the Google Analytics javascrip to the _head.cshtml file, which should be blank, and go to town.
+If you're looking to add [Google Analytics](https://analytics.google.com/), or other web tracking products, this is really simple in Statiq. Add the Google Analytics javascript to the _head.cshtml file, which should be blank, and go to town.
 
 <pre data-enlighter-language="js">
 <!-- Google tag (gtag.js) -->
@@ -88,7 +88,7 @@ Adding [giscus commenting](https://giscus.app/) is as easy as dropping some Java
 
 <h3>Sidebar Social Links</h3>
 
-Addind the social links below the tags in the sidebar is a two-step process. First, add a reference to the social-links partial in the _sidebar.cshtml file.
+Adding the social links below the tags in the sidebar is a two-step process. First, add a reference to the social-links partial in the _sidebar.cshtml file.
 
 <pre data-enlighter-language="csharp">
 @Html.Partial("_social-links")

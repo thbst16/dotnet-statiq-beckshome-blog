@@ -11,7 +11,7 @@ I've provided a couple of examples below. As with everything on this blog, the s
 
 **Flowchart**
 
-Mermaid enables you to use all the major flowchart shapes and to put toghether some pretty complex mappings, including cross-flow dependencies. The example below is a simplified technology selection process.
+Mermaid enables you to use all the major flowchart shapes and to put together some pretty complex mappings, including cross-flow dependencies. The example below is a simplified technology selection process.
 
 <pre data-enlighter-language="md">
 flowchart LR
@@ -43,7 +43,7 @@ sequenceDiagram
 
 **Gantt Chart**
 
-Gantt charts for project management can be created via Mermaid as well. Although not suited for large, complex Gantt views, the simplifieid Mermaid charts are great for overall project status and an overview of activities and key dependencies.
+Gantt charts for project management can be created via Mermaid as well. Although not suited for large, complex Gantt views, the simplified Mermaid charts are great for overall project status and an overview of activities and key dependencies.
 
 <pre data-enlighter-language="md">
 gantt

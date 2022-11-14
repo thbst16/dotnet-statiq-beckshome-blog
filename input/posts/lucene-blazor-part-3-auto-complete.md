@@ -9,19 +9,19 @@ In this third installment of my Blazor + Lucene.Net series, I'll start tackling 
 Specific to this installment around Auto Complete, I employed two specific libraries:
 
 1) [Lucene.Net Suggest](https://lucenenet.apache.org/docs/4.8.0-beta00007/api/Lucene.Net.Suggest/overview.html) - The auto complete / auto suggest library includes the methods to index the data for autosuggest and then a number of suggester algorithms to query the index.
-2) [Blazored.Typeahead](https://github.com/Blazored/Typeahead) - A drop-in Blazor control for type-ahead that accomodates things like debouncing time before executing searches.
+2) [Blazored.Typeahead](https://github.com/Blazored/Typeahead) - A drop-in Blazor control for type-ahead that accommodates things like debouncing time before executing searches.
 
 The code and code narrative below reflects the changes that have been made on top of posts 1 and 2. All [source code is available online](https://github.com/thbst16/dotnet-lucene-search/tree/main/3-AutoComplete) for this auto-complete post.
 
 **Sample App**
 
-The sample application let's you search over 3,000 waffle text entries, returning paginated search results. Auto-complete functionality provides suggestion for the most relavent search terms in the waffle text index. The site is avaialble online at https://dotnet-lucene-search.azurewebsites.net/
+The sample application let's you search over 3,000 waffle text entries, returning paginated search results. Auto-complete functionality provides suggestion for the most relevant search terms in the waffle text index. The site is available online at https://dotnet-lucene-search.azurewebsites.net/
 
 ![Auto Complete](https://s3.amazonaws.com/s3.beckshome.com/20221111-dotnet-lucene-auto-complete.jpeg)
 
 **Auto Complete Function**
 
-The heart of the search ahead function is included in a new method (SearchAhead) in the SearchEngine.cs file. The function creates a dictionary of terms on top of the search index and then searhces that for the input text, returning an ordered set of results of words starting with the typed letters. To get this to work, I had to add a new field to the index (HeadBody) because there doesn't seem to be a way to apply a MultiFieldQueryParser over the LuceneDictionary of terms. 
+The heart of the search ahead function is included in a new method (SearchAhead) in the SearchEngine.cs file. The function creates a dictionary of terms on top of the search index and then searches that for the input text, returning an ordered set of results of words starting with the typed letters. To get this to work, I had to add a new field to the index (HeadBody) because there doesn't seem to be a way to apply a MultiFieldQueryParser over the LuceneDictionary of terms. 
 
 <pre data-enlighter-language="csharp">
 using Bogus;
@@ -198,7 +198,7 @@ namespace search.Shared
 
 **Auto Complete User Interface**
 
-The auto complete user interface is the other place where meaningful changes were required to accomodate auto-complete functionality. These changes include the addition of the Blazored.TypeAhead control to the page and the new HandleTypeAhead method that invokes the search function.
+The auto complete user interface is the other place where meaningful changes were required to accommodate auto-complete functionality. These changes include the addition of the Blazored.TypeAhead control to the page and the new HandleTypeAhead method that invokes the search function.
 
 <pre data-enlighter-language="csharp">
 @page "/"
