@@ -4,4 +4,4 @@ Tags:
     - Lucene.NET
     - .NET
 ---
-In this fourth installment of my Blazor + Lucene.Net series, we'll make the most significant updates to the classes, search function and UI to date. Facets enrich the query responses, enabling users to further tune the search results along specific, pre-defined vectors. The implementation of facets uses the Lucene.Net.Facet library to implement an additional
+In this final installment of my Blazor + Lucene.Net series, we'll be adding highlights for the search terms found in the header and body text of each of our results.
