@@ -6,7 +6,7 @@ Tags:
 ---
 In this final installment of my Blazor + Lucene.Net series, we'll be adding highlights for the search terms found in the header and body text of each of our results. The implementation of highlighting makes use of the Lucene.Net.Highlighter library, plugging this library into a simple method that can be used as a filter for search results to highlight key terms. 
 
-The code and code narrative below reflects the changes that have been made on top of the first 4 posts. All [source code is available online](https://github.com/thbst16/dotnet-lucene-search/tree/main/5-Highlighting) for this results paging post.
+The code and code narrative below reflects the changes that have been made on top of the first 4 posts. All [source code is available online](https://github.com/thbst16/dotnet-lucene-search/tree/main/5-Highlighting) for this highlighting post.
 
 **Sample App**
 
@@ -19,7 +19,7 @@ The sample application let's you search over 3,000 waffle text entries, returnin
 There are two modifications to the search engine (SearchEngine.cs) to enable search highlighting:
 
 1) A new static method is added (GenerateHighlightedText()), which takes in the components needed by the Lucene.Net.Highlighter library's GetBestFragments() method to surround keywords with the HTML Mark and Strong tags for highlighting.
-2) The existing FacetedSearch method is modified to pass the WaffleHead and WaffleBody text through the GenerateHighlightedText() method to highlight text in these two fields.
+2) The existing FacetedSearch method is modified to pass the WaffleHead and WaffleBody text through the GenerateHighlightedText() method to highlight text in these two fields. Lines 135 and 137 below.
 
 <pre data-enlighter-language="csharp">
 using Bogus;
@@ -253,8 +253,304 @@ namespace search.Shared
 
 **Highlighting in the UI**
 
-The changes to Index.razor to support a faceted UI have been the most significant changes to the UI to date. Try it out and see how the search results, pagination and search result summary are all dynamically updated based upon the selection / un-selection of individual facets.
+The changes to Index.razor to support highlighted text are very minimal. Since the Waffle Head and Waffle Body are being displayed in the search results already, the highlighting comes through in the HTML tags added by the GenerateHighlightedText() method. The only thing that needs to be done is to cast the text to markup using(MarkupString) so that the HTML tags aren't rendered literally. You can find this in lines 131 and 137 of the Index.razor code below.
 
-The following changes were necessary:
+<pre data-enlighter-language="csharp">
+@page "/"
+@inject NavigationManager NavManager
 
-* Changes to the search result wording, showing the number of results returned and displayed out of t
+<PageTitle>Prose Search</PageTitle>
+
+<BSRow>
+    <BSCol Column="12" Padding="Padding.Small">    
+    </BSCol>
+</BSRow>
+
+<EditForm Model="@searchModel" OnValidSubmit="@HandleSearch">
+    <DataAnnotationsValidator />
+    <BSRow Padding="Padding.None">
+        <BSCol Column="4" PaddingStart="Padding.Small">
+            <BlazoredTypeahead SearchMethod="HandleTypeAhead"
+                @bind-Value="searchModel.SearchText"
+                Placeholder="Enter Prose Text...">
+                <SelectedTemplate Context="searchText">
+                    @((MarkupString)@searchText)
+                </SelectedTemplate>
+                <ResultTemplate Context="searchText">
+                    @((MarkupString)@searchText)
+                </ResultTemplate>
+            </BlazoredTypeahead>
+        </BSCol>
+        <BSCol Column="1" Padding="Padding.None">
+            <BSButton type="Submit" Color="BSColor.Primary" PaddingTopAndBottom="Padding.Small">Search</BSButton>
+        </BSCol>
+    </BSRow>
+</EditForm>
+
+@if(@SearchText!=String.Empty)
+{
+    <BSRow>
+        <BSCol Column="12" PaddingTop="Padding.Medium">
+            <div class="mb-12">
+                <div>Showing <b>@((Page*5)-4) - @(Math.Min(Page*5, SearchResultsCount))</b> out of <b>@SearchResultsCount</b>  for: <i>@SearchText</i> </div>
+            </div>
+        </BSCol>
+    </BSRow>
+    <BSRow>
+        <BSCol Column="12" Padding="Padding.Small">    
+        </BSCol>
+    </BSRow>
+}
+
+<BSRow>
+
+    <BSCol Column="3"  PaddingLeftAndRight="Padding.Medium">
+
+        @if(@SearchResultsCount>0)
+        {
+
+            <BSRow class="h-100 border rounded">
+                <BSCol Column="12" PaddingLeftAndRight="Padding.Medium">
+                    <div class="mb-12">
+                        <BSRow Padding="Padding.ExtraSmall"></BSRow>
+                        <BSRow class="text-muted"><b>Scholars</b></BSRow>
+                        <BSRow Padding="Padding.ExtraSmall"></BSRow>
+
+                        @if (@ScholarFacet.Count == 0)
+                        {
+                            @foreach (var _scholarFacet in @searchModel.FacetResults[0].LabelValues)
+                            {
+                                <BSRow Padding="Padding.ExtraSmall">
+                                    <BSCol Column="10" Align="Align.Start">
+                                        <BSLink href="javascript:void(0)" class="link-dark" style="text-decoration: none" OnClick="() => ScholarFilter(_scholarFacet)">@_scholarFacet.Label</BSLink>
+                                    </BSCol>
+                                    <BSCol Column="2" Align="Align.End">@_scholarFacet.Value</BSCol>
+                                </BSRow>
+                            }
+                        }
+                        else
+                        {
+                            <BSRow Padding="Padding.ExtraSmall">
+                                <BSCol Column="12" Align="Align.Start">
+                                    <b>@ScholarFacet[0]</b>
+                                    (
+                                        <BSLink href="javascript:void(0)" class="link-primary" style="text-decoration: none" OnClick="ScholarRemove">Remove</BSLink>
+                                    )
+                                </BSCol>
+                            </BSRow>
+                        }
+
+                        <BSRow Padding="Padding.Small"></BSRow>
+                        <BSRow class="text-muted"><b>Universities</b></BSRow>
+                        <BSRow Padding="Padding.ExtraSmall"></BSRow>
+
+                         @if (@UniversityFacet.Count == 0)
+                        {
+                            @foreach (var _universityFacet in @searchModel.FacetResults[1].LabelValues)
+                            {
+                                <BSRow Padding="Padding.ExtraSmall">
+                                    <BSCol Column="10" Align="Align.Start">
+                                        <BSLink href="javascript:void(0)" class="link-dark" style="text-decoration: none" OnClick="() => UniversityFilter(_universityFacet)">@_universityFacet.Label</BSLink>
+                                    </BSCol>
+                                    <BSCol Column="2" Align="Align.End">@_universityFacet.Value</BSCol>
+                                </BSRow>
+                            }
+                        }
+                        else
+                        {
+                            <BSRow Padding="Padding.ExtraSmall">
+                                <BSCol Column="12" Align="Align.Start">
+                                    <b>@UniversityFacet[0]</b>
+                                    (
+                                        <BSLink href="javascript:void(0)" class="link-primary" style="text-decoration: none" OnClick="UniversityRemove">Remove</BSLink>
+                                    )
+                                </BSCol>
+                            </BSRow>
+                        }
+
+                    </div>
+                </BSCol>
+            </BSRow>
+
+        }
+
+    </BSCol>
+
+    <BSCol Column="9">
+
+        @if(@SearchResultsCount>0)
+        {
+            <BSRow>
+                <BSCol Column="12">
+                    <div class="mb-12">
+                        <BSListGroup>
+                            @foreach (var result in @searchModel.CurrentPageSearchResults)
+                            {
+                                <BSListGroupItem>
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">@((MarkupString)@result.WaffleHead)</h5>
+                                    </div>
+                                    <div>
+                                        <BSBadge Color="BSColor.Primary">@result.WaffleScholar</BSBadge>
+                                        <BSBadge Color="BSColor.Secondary">@result.WaffleUniversity</BSBadge>
+                                    </div>
+                                    <p class="mb-1">@((MarkupString)@result.WaffleBody)</p>
+                                </BSListGroupItem>
+                            }
+                        </BSListGroup>
+                    </div>
+                </BSCol>
+            </BSRow>
+        }
+    </BSCol>
+
+</BSRow>
+
+<BSRow>
+
+    
+        <BSCol Column="12">
+
+            <BSRow>
+                <BSCol Column="12" Padding="Padding.Small">  
+                </BSCol>
+            </BSRow>
+
+            <BSRow>
+
+                <BSCol Column="3">
+                </BSCol>
+
+                <BSCol Column="9">
+                    
+                    <BSRow @onclick="UpdatePage">
+                        <BSCol Column="12">
+                            <div class="mb-12">
+                                @if(@PageCount>1)
+                                {
+                                    <BSPagination Pages=@PageCount @bind-Value="Page"/>
+                                }
+                            </div>
+                        </BSCol>
+                    </BSRow>
+
+                </BSCol>
+
+            </BSRow>
+
+        </BSCol>
+
+</BSRow>
+
+<BSRow>
+    <BSCol Column="12" Padding="Padding.Large">     
+    </BSCol>
+</BSRow>
+
+@code {
+    private SearchModel searchModel = new SearchModel();
+    
+    [Parameter]
+    public int Page {get; set;} = 1;
+    [Parameter]
+    public int PageCount {get; set;} = 0;
+    [Parameter]
+    public string SearchText {get; set;} = string.Empty; 
+    [Parameter]
+    public int SearchResultsCount {get; set;} = 0;
+    [Parameter]
+    public List<string> ScholarFacet {get; set;} = new List<string>();
+    [Parameter]
+    public List<string> UniversityFacet {get; set;} = new List<string>();
+
+    private void HandleSearch()
+    {
+        ScholarFacet.Clear();
+        UniversityFacet.Clear();
+        Page = 1;
+        UpdatePage();
+    }
+
+    private async Task<IEnumerable<String>> HandleTypeAhead(string searchText)
+    {
+        List<String> SResult = SearchEngine.SearchAhead(searchText);
+        return await Task.FromResult(SResult.Where(x => x.ToLower().Contains(searchText.ToLower())).ToList());
+    }
+
+    private void ScholarFilter(Lucene.Net.Facet.LabelAndValue _scholarFacet)
+    {
+        ScholarFacet.Clear();
+        ScholarFacet.Add(_scholarFacet.Label);
+        Page = 1;
+        UpdatePage();
+    }
+
+    private void ScholarRemove()
+    {
+        ScholarFacet.Clear();
+        Page = 1;
+        UpdatePage();
+    }
+
+    private void UniversityFilter(Lucene.Net.Facet.LabelAndValue _universityFacet)
+    {
+        UniversityFacet.Clear();
+        UniversityFacet.Add(_universityFacet.Label);
+        Page = 1;
+        UpdatePage();
+    }
+
+    private void UniversityRemove()
+    {
+        UniversityFacet.Clear();
+        Page = 1;
+        UpdatePage();
+    }
+    
+    private void UpdatePage()
+    {
+        if (searchModel.SearchText is not null && searchModel.SearchText.Length > 0)
+        {
+            searchModel = SearchEngine.FacetedSearch(searchModel.SearchText, Page, ScholarFacet, UniversityFacet);
+            SearchResultsCount = searchModel.ResultsCount;
+            PageCount = searchModel.PageCount;
+            SearchText = searchModel.SearchText;
+        }
+        else
+        {
+            NavManager.NavigateTo("/");
+        }
+    }
+}
+</pre>
+
+**Highlighting - Enablement**
+
+Finally, the Lucene.Net.Hihglighter library is added to the project in the .csproj file.
+
+<pre data-enlighter-language="xml">
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazored.Typeahead" Version="4.7.0" />
+    <PackageReference Include="BlazorStrap" Version="5.0.106" />
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="Lucene.Net" Version="4.8.0-beta00016" />
+    <PackageReference Include="Lucene.Net.Analysis.Common" Version="4.8.0-beta00016" />
+    <PackageReference Include="Lucene.Net.Facet" Version="4.8.0-beta00016" />
+    <PackageReference Include="Lucene.Net.Highlighter" Version="4.8.0-beta00016" />
+    <PackageReference Include="Lucene.Net.QueryParser" Version="4.8.0-beta00016" />
+    <PackageReference Include="Lucene.Net.Suggest" Version="4.8.0-beta00016" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="WaffleGenerator.Bogus" Version="4.2.1" />
+  </ItemGroup>
+
+</Project>
+</pre>

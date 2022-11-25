@@ -6,7 +6,7 @@ Tags:
 ---
 In this fourth installment of my Blazor + Lucene.Net series, we'll make the most significant updates to the classes, search function and UI to date. Facets enrich the query responses, enabling users to further tune the search results along specific, pre-defined vectors. The implementation of facets uses the Lucene.Net.Facet library to implement an additional faceted index over two attributes -- Scholars and Universities -- which are applied on top of the WaffleText class and data. 
 
-The code and code narrative below reflects the changes that have been made on top of the first 3 posts. All [source code is available online](https://github.com/thbst16/dotnet-lucene-search/tree/main/4-Faceting) for this results paging post.
+The code and code narrative below reflects the changes that have been made on top of the first 3 posts. All [source code is available online](https://github.com/thbst16/dotnet-lucene-search/tree/main/4-Faceting) for this faceting post.
 
 **Sample App**
 
